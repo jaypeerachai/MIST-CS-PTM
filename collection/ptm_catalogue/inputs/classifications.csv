@@ -1,0 +1,798 @@
+model_id,classification,classification_source,detail_url,has_model_weights_link,weights_links,hf_exact_url,hf_exact_found
+01-ai/yi-1.5-34b-chat,open_weight,live_detail,https://openrouter.ai/01-ai/yi-1.5-34b-chat,True,"[{""href"": ""https://huggingface.co/01-ai/Yi-1.5-34B-Chat"", ""text"": ""Model weights""}]",,False
+01-ai/yi-34b,open_weight,live_detail,https://openrouter.ai/01-ai/yi-34b,True,"[{""href"": ""https://huggingface.co/01-ai/Yi-34B"", ""text"": ""Model weights""}]",,False
+01-ai/yi-34b-200k,open_weight,live_detail,https://openrouter.ai/01-ai/yi-34b-200k,True,"[{""href"": ""https://huggingface.co/01-ai/Yi-34B-200K"", ""text"": ""Model weights""}]",,False
+01-ai/yi-34b-chat,open_weight,live_detail,https://openrouter.ai/01-ai/yi-34b-chat,True,"[{""href"": ""https://huggingface.co/01-ai/Yi-34B-Chat"", ""text"": ""Model weights""}]",,False
+01-ai/yi-6b,open_weight,live_detail,https://openrouter.ai/01-ai/yi-6b,True,"[{""href"": ""https://huggingface.co/01-ai/Yi-6B"", ""text"": ""Model weights""}]",,False
+01-ai/yi-large,closed,live_detail,https://openrouter.ai/01-ai/yi-large,False,[],,False
+01-ai/yi-large-fc,unknown,,https://openrouter.ai/01-ai/yi-large-fc,False,,https://huggingface.co/api/models/01-ai/yi-large-fc,False
+01-ai/yi-large-turbo,closed,live_detail,https://openrouter.ai/01-ai/yi-large-turbo,False,[],,False
+01-ai/yi-vision,closed,live_detail,https://openrouter.ai/01-ai/yi-vision,False,[],,False
+aetherwiing/mn-starcannon-12b,open_weight,live_detail,https://openrouter.ai/aetherwiing/mn-starcannon-12b,True,"[{""href"": ""https://huggingface.co/intervitens/mini-magnum-12b-v1.1"", ""text"": ""intervitens/mini-magnum-12b-v1.1 (opens in new tab)""}, {""href"": ""https://huggingface.co/aetherwiing/MN-12B-Starcannon-v2"", ""text"": ""Model weights""}]",,False
+agentica-org/deepcoder-14b-preview,open_weight,live_detail,https://openrouter.ai/agentica-org/deepcoder-14b-preview,True,"[{""href"": ""https://huggingface.co/agentica-org/DeepCoder-14B-Preview"", ""text"": ""Model weights""}]",,False
+ai21/jamba-1-5-large,closed,live_detail,https://openrouter.ai/ai21/jamba-1-5-large,False,[],,False
+ai21/jamba-1-5-mini,closed,live_detail,https://openrouter.ai/ai21/jamba-1-5-mini,False,[],,False
+ai21/jamba-1.6-large,open_weight,live_detail,https://openrouter.ai/ai21/jamba-1.6-large,True,"[{""href"": ""https://huggingface.co/ai21labs/AI21-Jamba-Large-1.6"", ""text"": ""Model weights""}]",,False
+ai21/jamba-1.6-mini,open_weight,live_detail,https://openrouter.ai/ai21/jamba-1.6-mini,True,"[{""href"": ""https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.6"", ""text"": ""Model weights""}]",,False
+ai21/jamba-instruct,closed,live_detail,https://openrouter.ai/ai21/jamba-instruct,False,[],,False
+ai21/jamba-large-1.7,open_weight,live_detail,https://openrouter.ai/ai21/jamba-large-1.7,True,"[{""href"": ""https://huggingface.co/ai21labs/AI21-Jamba-Large-1.7"", ""text"": ""Model weights""}]",,False
+ai21/jamba-mini-1.7,open_weight,live_detail,https://openrouter.ai/ai21/jamba-mini-1.7,True,"[{""href"": ""https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.7"", ""text"": ""Model weights""}]",,False
+aion-labs/aion-1.0,closed,live_detail,https://openrouter.ai/aion-labs/aion-1.0,False,[],,False
+aion-labs/aion-1.0-mini,open_weight,live_detail,https://openrouter.ai/aion-labs/aion-1.0-mini,True,"[{""href"": ""https://huggingface.co/FuseAI/FuseO1-DeepSeekR1-QwQ-SkyT1-32B-Preview"", ""text"": ""Hugging Face page (opens in new tab)""}, {""href"": ""https://huggingface.co/FuseAI/FuseO1-DeepSeekR1-QwQ-SkyT1-32B-Preview"", ""text"": ""Model weights""}]",,False
+aion-labs/aion-2.0,closed,live_detail,https://openrouter.ai/aion-labs/aion-2.0,False,[],,False
+aion-labs/aion-rp-llama-3.1-8b,closed,live_detail,https://openrouter.ai/aion-labs/aion-rp-llama-3.1-8b,False,[],,False
+alfredpros/codellama-7b-instruct-solidity,open_weight,live_detail,https://openrouter.ai/alfredpros/codellama-7b-instruct-solidity,True,"[{""href"": ""https://huggingface.co/AlfredPros/CodeLlama-7b-Instruct-Solidity"", ""text"": ""Model weights""}]",,False
+alibaba/tongyi-deepresearch-30b-a3b,open_weight,live_detail,https://openrouter.ai/alibaba/tongyi-deepresearch-30b-a3b,True,"[{""href"": ""https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B"", ""text"": ""Model weights""}]",,False
+alibaba/tongyi-deepresearch-30b-a3b:free,open_weight,live_detail,https://openrouter.ai/alibaba/tongyi-deepresearch-30b-a3b:free,True,"[{""href"": ""https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B"", ""text"": ""Model weights""}]",,False
+alibaba/wan-2.6,closed,live_detail,https://openrouter.ai/alibaba/wan-2.6,False,[],,False
+alibaba/wan-2.7,closed,live_detail,https://openrouter.ai/alibaba/wan-2.7,False,[],,False
+all-hands/openhands-lm-32b-v0.1,open_weight,live_detail,https://openrouter.ai/all-hands/openhands-lm-32b-v0.1,True,"[{""href"": ""https://huggingface.co/all-hands/openhands-lm-32b-v0.1"", ""text"": ""Model weights""}]",,False
+allenai/llama-3.1-tulu-3-405b,open_weight,live_detail,https://openrouter.ai/allenai/llama-3.1-tulu-3-405b,True,"[{""href"": ""https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B"", ""text"": ""Model weights""}, {""href"": ""https://openrouter.ai/allenai/olmo-3.1-32b-think"", ""text"": ""Olmo 3.1 32B Think Olmo 3.1 32B Think is a large-scale, 32-billion-parameter model designed for deep reasoning, complex multi-step logic, and advanced instruction following. Building on the Olmo 3 series, version 3.1 delivers refined reasoning behavior and stronger performance across demanding evaluations and nuanced conversational tasks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Think continues the Olmo initiative’s commitment to openness, providing full transparency across model weights, code, and training methodology.""}]",,False
+allenai/molmo-2-8b,open_weight,live_detail,https://openrouter.ai/allenai/molmo-2-8b,True,"[{""href"": ""https://huggingface.co/allenai/Molmo2-8B"", ""text"": ""Model weights""}, {""href"": ""https://openrouter.ai/allenai/olmo-3.1-32b-think"", ""text"": ""Olmo 3.1 32B Think Olmo 3.1 32B Think is a large-scale, 32-billion-parameter model designed for deep reasoning, complex multi-step logic, and advanced instruction following. Building on the Olmo 3 series, version 3.1 delivers refined reasoning behavior and stronger performance across demanding evaluations and nuanced conversational tasks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Think continues the Olmo initiative’s commitment to openness, providing full transparency across model weights, code, and training methodology.""}]",,False
+allenai/molmo-2-8b:free,open_weight,live_detail,https://openrouter.ai/allenai/molmo-2-8b:free,True,"[{""href"": ""https://huggingface.co/allenai/Molmo2-8B"", ""text"": ""Model weights""}, {""href"": ""https://openrouter.ai/allenai/olmo-3.1-32b-think"", ""text"": ""Olmo 3.1 32B Think Olmo 3.1 32B Think is a large-scale, 32-billion-parameter model designed for deep reasoning, complex multi-step logic, and advanced instruction following. Building on the Olmo 3 series, version 3.1 delivers refined reasoning behavior and stronger performance across demanding evaluations and nuanced conversational tasks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Think continues the Olmo initiative’s commitment to openness, providing full transparency across model weights, code, and training methodology.""}]",,False
+allenai/olmo-2-0325-32b-instruct,open_weight,live_detail,https://openrouter.ai/allenai/olmo-2-0325-32b-instruct,True,"[{""href"": ""https://huggingface.co/allenai/OLMo-2-0325-32B-Instruct"", ""text"": ""Model weights""}, {""href"": ""https://openrouter.ai/allenai/olmo-3.1-32b-think"", ""text"": ""Olmo 3.1 32B Think Olmo 3.1 32B Think is a large-scale, 32-billion-parameter model designed for deep reasoning, complex multi-step logic, and advanced instruction following. Building on the Olmo 3 series, version 3.1 delivers refined reasoning behavior and stronger performance across demanding evaluations and nuanced conversational tasks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Think continues the Olmo initiative’s commitment to openness, providing full transparency across model weights, code, and training methodology.""}]",,False
+allenai/olmo-3-32b-think,open_weight,live_detail,https://openrouter.ai/allenai/olmo-3-32b-think,True,"[{""href"": ""https://huggingface.co/allenai/Olmo-3.1-32B-Think"", ""text"": ""Model weights""}]",,False
+allenai/olmo-3-32b-think:free,open_weight,live_detail,https://openrouter.ai/allenai/olmo-3-32b-think:free,True,"[{""href"": ""https://huggingface.co/allenai/Olmo-3.1-32B-Think"", ""text"": ""Model weights""}, {""href"": ""https://openrouter.ai/allenai/olmo-3.1-32b-think"", ""text"": ""Olmo 3.1 32B Think Olmo 3.1 32B Think is a large-scale, 32-billion-parameter model designed for deep reasoning, complex multi-step logic, and advanced instruction following. Building on the Olmo 3 series, version 3.1 delivers refined reasoning behavior and stronger performance across demanding evaluations and nuanced conversational tasks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Think continues the Olmo initiative’s commitment to openness, providing full transparency across model weights, code, and training methodology.""}]",,False
+allenai/olmo-3-7b-instruct,open_weight,live_detail,https://openrouter.ai/allenai/olmo-3-7b-instruct,True,"[{""href"": ""https://huggingface.co/allenai/Olmo-3-7B-Instruct"", ""text"": ""Model weights""}, {""href"": ""https://openrouter.ai/allenai/olmo-3.1-32b-think"", ""text"": ""Olmo 3.1 32B Think Olmo 3.1 32B Think is a large-scale, 32-billion-parameter model designed for deep reasoning, complex multi-step logic, and advanced instruction following. Building on the Olmo 3 series, version 3.1 delivers refined reasoning behavior and stronger performance across demanding evaluations and nuanced conversational tasks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Think continues the Olmo initiative’s commitment to openness, providing full transparency across model weights, code, and training methodology.""}]",,False
+allenai/olmo-3-7b-think,open_weight,live_detail,https://openrouter.ai/allenai/olmo-3-7b-think,True,"[{""href"": ""https://huggingface.co/allenai/Olmo-3-7B-Think"", ""text"": ""Model weights""}, {""href"": ""https://openrouter.ai/allenai/olmo-3.1-32b-think"", ""text"": ""Olmo 3.1 32B Think Olmo 3.1 32B Think is a large-scale, 32-billion-parameter model designed for deep reasoning, complex multi-step logic, and advanced instruction following. Building on the Olmo 3 series, version 3.1 delivers refined reasoning behavior and stronger performance across demanding evaluations and nuanced conversational tasks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Think continues the Olmo initiative’s commitment to openness, providing full transparency across model weights, code, and training methodology.""}]",,False
+allenai/olmo-3.1-32b-instruct,open_weight,live_detail,https://openrouter.ai/allenai/olmo-3.1-32b-instruct,True,"[{""href"": ""https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"", ""text"": ""Model weights""}, {""href"": ""https://openrouter.ai/allenai/olmo-3.1-32b-think"", ""text"": ""Olmo 3.1 32B Think Olmo 3.1 32B Think is a large-scale, 32-billion-parameter model designed for deep reasoning, complex multi-step logic, and advanced instruction following. Building on the Olmo 3 series, version 3.1 delivers refined reasoning behavior and stronger performance across demanding evaluations and nuanced conversational tasks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Think continues the Olmo initiative’s commitment to openness, providing full transparency across model weights, code, and training methodology.""}]",,False
+allenai/olmo-3.1-32b-think,open_weight,live_detail,https://openrouter.ai/allenai/olmo-3.1-32b-think,True,"[{""href"": ""https://huggingface.co/allenai/Olmo-3.1-32B-Think"", ""text"": ""Model weights""}]",,False
+allenai/olmo-3.1-32b-think:free,open_weight,live_detail,https://openrouter.ai/allenai/olmo-3.1-32b-think:free,True,"[{""href"": ""https://huggingface.co/allenai/Olmo-3.1-32B-Think"", ""text"": ""Model weights""}, {""href"": ""https://openrouter.ai/allenai/olmo-3.1-32b-think"", ""text"": ""Olmo 3.1 32B Think Olmo 3.1 32B Think is a large-scale, 32-billion-parameter model designed for deep reasoning, complex multi-step logic, and advanced instruction following. Building on the Olmo 3 series, version 3.1 delivers refined reasoning behavior and stronger performance across demanding evaluations and nuanced conversational tasks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Think continues the Olmo initiative’s commitment to openness, providing full transparency across model weights, code, and training methodology.""}]",,False
+allenai/olmo-7b-instruct,open_weight,live_detail,https://openrouter.ai/allenai/olmo-7b-instruct,True,"[{""href"": ""https://huggingface.co/allenai/OLMo-7B-Instruct"", ""text"": ""Model weights""}, {""href"": ""https://openrouter.ai/allenai/olmo-3.1-32b-think"", ""text"": ""Olmo 3.1 32B Think Olmo 3.1 32B Think is a large-scale, 32-billion-parameter model designed for deep reasoning, complex multi-step logic, and advanced instruction following. Building on the Olmo 3 series, version 3.1 delivers refined reasoning behavior and stronger performance across demanding evaluations and nuanced conversational tasks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Think continues the Olmo initiative’s commitment to openness, providing full transparency across model weights, code, and training methodology.""}]",,False
+alpindale/goliath-120b,open_weight,live_detail,https://openrouter.ai/alpindale/goliath-120b,True,"[{""href"": ""https://huggingface.co/chargoddard"", ""text"": ""@chargoddard (opens in new tab)""}, {""href"": ""https://huggingface.co/Undi95"", ""text"": ""@Undi95 (opens in new tab)""}, {""href"": ""https://huggingface.co/alpindale/goliath-120b"", ""text"": ""Model weights""}]",,False
+alpindale/magnum-72b,open_weight,live_detail,https://openrouter.ai/alpindale/magnum-72b,True,"[{""href"": ""https://huggingface.co/alpindale/magnum-72b-v1"", ""text"": ""Model weights""}]",,False
+amazon/nova-2-lite-v1,closed,live_detail,https://openrouter.ai/amazon/nova-2-lite-v1,False,[],,False
+amazon/nova-2-lite-v1:free,closed,live_detail,https://openrouter.ai/amazon/nova-2-lite-v1:free,False,[],,False
+amazon/nova-lite-v1,closed,live_detail,https://openrouter.ai/amazon/nova-lite-v1,False,[],,False
+amazon/nova-micro-v1,closed,live_detail,https://openrouter.ai/amazon/nova-micro-v1,False,[],,False
+amazon/nova-premier-v1,closed,live_detail,https://openrouter.ai/amazon/nova-premier-v1,False,[],,False
+amazon/nova-pro-v1,closed,live_detail,https://openrouter.ai/amazon/nova-pro-v1,False,[],,False
+anthracite-org/magnum-v2-72b,open_weight,live_detail,https://openrouter.ai/anthracite-org/magnum-v2-72b,True,"[{""href"": ""https://huggingface.co/anthracite-org/magnum-v2-72b"", ""text"": ""Model weights""}]",,False
+anthracite-org/magnum-v4-72b,open_weight,live_detail,https://openrouter.ai/anthracite-org/magnum-v4-72b,True,"[{""href"": ""https://huggingface.co/anthracite-org/magnum-v4-72b"", ""text"": ""Model weights""}]",,False
+anthropic/claude-1,closed,live_detail,https://openrouter.ai/anthropic/claude-1,False,[],,False
+anthropic/claude-1.2,closed,live_detail,https://openrouter.ai/anthropic/claude-1.2,False,[],,False
+anthropic/claude-2,closed,live_detail,https://openrouter.ai/anthropic/claude-2,False,[],,False
+anthropic/claude-2.0,closed,live_detail,https://openrouter.ai/anthropic/claude-2.0,False,[],,False
+anthropic/claude-2.1,closed,live_detail,https://openrouter.ai/anthropic/claude-2.1,False,[],,False
+anthropic/claude-3-haiku,closed,live_detail,https://openrouter.ai/anthropic/claude-3-haiku,False,[],,False
+anthropic/claude-3-opus,closed,live_detail,https://openrouter.ai/anthropic/claude-3-opus,False,[],,False
+anthropic/claude-3-sonnet,closed,live_detail,https://openrouter.ai/anthropic/claude-3-sonnet,False,[],,False
+anthropic/claude-3.5-haiku,closed,live_detail,https://openrouter.ai/anthropic/claude-3.5-haiku,False,[],,False
+anthropic/claude-3.5-haiku-20241022,closed,live_detail,https://openrouter.ai/anthropic/claude-3.5-haiku-20241022,False,[],,False
+anthropic/claude-3.5-sonnet,closed,live_detail,https://openrouter.ai/anthropic/claude-3.5-sonnet,False,[],,False
+anthropic/claude-3.5-sonnet-20240620,closed,live_detail,https://openrouter.ai/anthropic/claude-3.5-sonnet-20240620,False,[],,False
+anthropic/claude-3.7-sonnet,closed,live_detail,https://openrouter.ai/anthropic/claude-3.7-sonnet,False,[],,False
+anthropic/claude-3.7-sonnet:thinking,closed,live_detail,https://openrouter.ai/anthropic/claude-3.7-sonnet:thinking,False,[],,False
+anthropic/claude-haiku-4.5,closed,live_detail,https://openrouter.ai/anthropic/claude-haiku-4.5,False,[],,False
+anthropic/claude-instant-1,closed,live_detail,https://openrouter.ai/anthropic/claude-instant-1,False,[],,False
+anthropic/claude-instant-1.0,closed,live_detail,https://openrouter.ai/anthropic/claude-instant-1.0,False,[],,False
+anthropic/claude-instant-1.1,closed,live_detail,https://openrouter.ai/anthropic/claude-instant-1.1,False,[],,False
+anthropic/claude-opus-4,closed,live_detail,https://openrouter.ai/anthropic/claude-opus-4,False,[],,False
+anthropic/claude-opus-4.1,closed,live_detail,https://openrouter.ai/anthropic/claude-opus-4.1,False,[],,False
+anthropic/claude-opus-4.5,closed,live_detail,https://openrouter.ai/anthropic/claude-opus-4.5,False,[],,False
+anthropic/claude-opus-4.6,closed,live_detail,https://openrouter.ai/anthropic/claude-opus-4.6,False,[],,False
+anthropic/claude-opus-4.6-fast,closed,live_detail,https://openrouter.ai/anthropic/claude-opus-4.6-fast,False,[],,False
+anthropic/claude-opus-4.7,closed,live_detail,https://openrouter.ai/anthropic/claude-opus-4.7,False,[],,False
+anthropic/claude-sonnet-4,closed,live_detail,https://openrouter.ai/anthropic/claude-sonnet-4,False,[],,False
+anthropic/claude-sonnet-4.5,closed,live_detail,https://openrouter.ai/anthropic/claude-sonnet-4.5,False,[],,False
+anthropic/claude-sonnet-4.6,closed,live_detail,https://openrouter.ai/anthropic/claude-sonnet-4.6,False,[],,False
+arcee-ai/afm-4.5b,open_weight,live_detail,https://openrouter.ai/arcee-ai/afm-4.5b,True,"[{""href"": ""https://huggingface.co/arcee-ai/AFM-4.5B"", ""text"": ""Model weights""}]",,False
+arcee-ai/arcee-blitz,open_weight,live_detail,https://openrouter.ai/arcee-ai/arcee-blitz,True,"[{""href"": ""https://huggingface.co/arcee-ai/arcee-blitz"", ""text"": ""Model weights""}]",,False
+arcee-ai/caller-large,closed,live_detail,https://openrouter.ai/arcee-ai/caller-large,False,[],,False
+arcee-ai/coder-large,closed,live_detail,https://openrouter.ai/arcee-ai/coder-large,False,[],,False
+arcee-ai/maestro-reasoning,closed,live_detail,https://openrouter.ai/arcee-ai/maestro-reasoning,False,[],,False
+arcee-ai/spotlight,closed,live_detail,https://openrouter.ai/arcee-ai/spotlight,False,[],,False
+arcee-ai/trinity-large-preview,open_weight,live_detail,https://openrouter.ai/arcee-ai/trinity-large-preview,True,"[{""href"": ""https://huggingface.co/arcee-ai/Trinity-Large-Preview"", ""text"": ""Model weights""}]",,False
+arcee-ai/trinity-large-preview:free,open_weight,live_detail,https://openrouter.ai/arcee-ai/trinity-large-preview:free,True,"[{""href"": ""https://huggingface.co/arcee-ai/Trinity-Large-Preview"", ""text"": ""Model weights""}]",,False
+arcee-ai/trinity-large-thinking,open_weight,live_detail,https://openrouter.ai/arcee-ai/trinity-large-thinking,True,"[{""href"": ""https://huggingface.co/arcee-ai/Trinity-Large-Thinking"", ""text"": ""Model weights""}]",,False
+arcee-ai/trinity-mini,open_weight,live_detail,https://openrouter.ai/arcee-ai/trinity-mini,True,"[{""href"": ""https://huggingface.co/arcee-ai/Trinity-Mini"", ""text"": ""Model weights""}]",,False
+arcee-ai/trinity-mini:free,open_weight,live_detail,https://openrouter.ai/arcee-ai/trinity-mini:free,True,"[{""href"": ""https://huggingface.co/arcee-ai/Trinity-Mini"", ""text"": ""Model weights""}]",,False
+arcee-ai/virtuoso-large,closed,live_detail,https://openrouter.ai/arcee-ai/virtuoso-large,False,[],,False
+arcee-ai/virtuoso-medium-v2,open_weight,live_detail,https://openrouter.ai/arcee-ai/virtuoso-medium-v2,True,"[{""href"": ""https://huggingface.co/arcee-ai/Virtuoso-Medium-v2"", ""text"": ""Model weights""}]",,False
+arliai/qwq-32b-arliai-rpr-v1,open_weight,live_detail,https://openrouter.ai/arliai/qwq-32b-arliai-rpr-v1,True,"[{""href"": ""https://huggingface.co/ArliAI/QwQ-32B-ArliAI-RpR-v1"", ""text"": ""Model weights""}]",,False
+arliai/qwq-32b-arliai-rpr-v1:free,open_weight,live_detail,https://openrouter.ai/arliai/qwq-32b-arliai-rpr-v1:free,True,"[{""href"": ""https://huggingface.co/ArliAI/QwQ-32B-ArliAI-RpR-v1"", ""text"": ""Model weights""}]",,False
+baai/bge-base-en-v1.5,open_weight,live_detail,https://openrouter.ai/baai/bge-base-en-v1.5,True,"[{""href"": ""https://huggingface.co/BAAI/bge-base-en-v1.5"", ""text"": ""Model weights""}]",,False
+baai/bge-large-en-v1.5,open_weight,live_detail,https://openrouter.ai/baai/bge-large-en-v1.5,True,"[{""href"": ""https://huggingface.co/BAAI/bge-large-en-v1.5"", ""text"": ""Model weights""}]",,False
+baai/bge-m3,open_weight,live_detail,https://openrouter.ai/baai/bge-m3,True,"[{""href"": ""https://huggingface.co/BAAI/bge-m3"", ""text"": ""Model weights""}]",,False
+baidu/ernie-4.5-21b-a3b,open_weight,live_detail,https://openrouter.ai/baidu/ernie-4.5-21b-a3b,True,"[{""href"": ""https://huggingface.co/baidu/ERNIE-4.5-21B-A3B-PT"", ""text"": ""Model weights""}]",,False
+baidu/ernie-4.5-21b-a3b-thinking,open_weight,live_detail,https://openrouter.ai/baidu/ernie-4.5-21b-a3b-thinking,True,"[{""href"": ""https://huggingface.co/baidu/ERNIE-4.5-21B-A3B-Thinking"", ""text"": ""Model weights""}]",,False
+baidu/ernie-4.5-300b-a47b,open_weight,live_detail,https://openrouter.ai/baidu/ernie-4.5-300b-a47b,True,"[{""href"": ""https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT"", ""text"": ""Model weights""}]",,False
+baidu/ernie-4.5-vl-28b-a3b,open_weight,live_detail,https://openrouter.ai/baidu/ernie-4.5-vl-28b-a3b,True,"[{""href"": ""https://huggingface.co/baidu/ERNIE-4.5-VL-28B-A3B-PT"", ""text"": ""Model weights""}]",,False
+baidu/ernie-4.5-vl-424b-a47b,open_weight,live_detail,https://openrouter.ai/baidu/ernie-4.5-vl-424b-a47b,True,"[{""href"": ""https://huggingface.co/baidu/ERNIE-4.5-VL-424B-A47B-PT"", ""text"": ""Model weights""}]",,False
+baidu/qianfan-ocr-fast:free,closed,live_detail,https://openrouter.ai/baidu/qianfan-ocr-fast:free,False,[],,False
+bigcode/starcoder2-15b-instruct,open_weight,live_detail,https://openrouter.ai/bigcode/starcoder2-15b-instruct,True,"[{""href"": ""https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1"", ""text"": ""Model weights""}]",,False
+black-forest-labs/flux.2-flex,closed,live_detail,https://openrouter.ai/black-forest-labs/flux.2-flex,False,[],,False
+black-forest-labs/flux.2-klein-4b,open_weight,live_detail,https://openrouter.ai/black-forest-labs/flux.2-klein-4b,True,"[{""href"": ""https://huggingface.co/black-forest-labs/FLUX.2-klein-4B"", ""text"": ""Model weights""}]",,False
+black-forest-labs/flux.2-max,closed,live_detail,https://openrouter.ai/black-forest-labs/flux.2-max,False,[],,False
+black-forest-labs/flux.2-pro,closed,live_detail,https://openrouter.ai/black-forest-labs/flux.2-pro,False,[],,False
+bytedance-research/ui-tars-72b,open_weight,live_detail,https://openrouter.ai/bytedance-research/ui-tars-72b,True,"[{""href"": ""https://huggingface.co/bytedance-research/UI-TARS-72B-DPO"", ""text"": ""Model weights""}]",,False
+bytedance-seed/seed-1.6,closed,live_detail,https://openrouter.ai/bytedance-seed/seed-1.6,False,[],,False
+bytedance-seed/seed-1.6-flash,closed,live_detail,https://openrouter.ai/bytedance-seed/seed-1.6-flash,False,[],,False
+bytedance-seed/seed-2.0-lite,closed,live_detail,https://openrouter.ai/bytedance-seed/seed-2.0-lite,False,[],,False
+bytedance-seed/seed-2.0-mini,closed,live_detail,https://openrouter.ai/bytedance-seed/seed-2.0-mini,False,[],,False
+bytedance-seed/seedream-4.5,closed,live_detail,https://openrouter.ai/bytedance-seed/seedream-4.5,False,[],,False
+bytedance/seed-oss-36b-instruct,open_weight,live_detail,https://openrouter.ai/bytedance/seed-oss-36b-instruct,True,"[{""href"": ""https://huggingface.co/ByteDance-Seed/Seed-OSS-36B-Instruct"", ""text"": ""Model weights""}]",,False
+bytedance/seedance-1-5-pro,closed,live_detail,https://openrouter.ai/bytedance/seedance-1-5-pro,False,[],,False
+bytedance/seedance-2.0,closed,live_detail,https://openrouter.ai/bytedance/seedance-2.0,False,[],,False
+bytedance/seedance-2.0-fast,closed,live_detail,https://openrouter.ai/bytedance/seedance-2.0-fast,False,[],,False
+bytedance/ui-tars-1.5-7b,open_weight,live_detail,https://openrouter.ai/bytedance/ui-tars-1.5-7b,True,"[{""href"": ""https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B"", ""text"": ""Model weights""}]",,False
+canopylabs/orpheus-3b-0.1-ft,closed,live_detail,https://openrouter.ai/canopylabs/orpheus-3b-0.1-ft,False,[],,False
+cognitivecomputations/dolphin-llama-3-70b,open_weight,live_detail,https://openrouter.ai/cognitivecomputations/dolphin-llama-3-70b,True,"[{""href"": ""https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-70b"", ""text"": ""Model weights""}]",,False
+cognitivecomputations/dolphin-mistral-24b-venice-edition:free,open_weight,live_detail,https://openrouter.ai/cognitivecomputations/dolphin-mistral-24b-venice-edition:free,True,"[{""href"": ""https://huggingface.co/cognitivecomputations/Dolphin-Mistral-24B-Venice-Edition"", ""text"": ""Model weights""}]",,False
+cognitivecomputations/dolphin-mixtral-8x22b,open_weight,live_detail,https://openrouter.ai/cognitivecomputations/dolphin-mixtral-8x22b,True,"[{""href"": ""https://huggingface.co/cognitivecomputations/dolphin-2.9.2-mixtral-8x22b"", ""text"": ""Model weights""}]",,False
+cognitivecomputations/dolphin-mixtral-8x7b,open_weight,live_detail,https://openrouter.ai/cognitivecomputations/dolphin-mixtral-8x7b,True,"[{""href"": ""https://huggingface.co/cognitivecomputations/dolphin-2.6-mixtral-8x7b"", ""text"": ""Model weights""}]",,False
+cognitivecomputations/dolphin3.0-mistral-24b,open_weight,live_detail,https://openrouter.ai/cognitivecomputations/dolphin3.0-mistral-24b,True,"[{""href"": ""https://huggingface.co/collections/QuixiAI/dolphin-30"", ""text"": ""Dolphin 3.0 Collection (opens in new tab)""}, {""href"": ""https://huggingface.co/ehartford"", ""text"": ""Eric Hartford (opens in new tab)""}, {""href"": ""https://huggingface.co/bigstorm"", ""text"": ""Ben Gitter (opens in new tab)""}, {""href"": ""https://huggingface.co/BlouseJury"", ""text"": ""BlouseJury (opens in new tab)""}, {""href"": ""https://huggingface.co/dphn"", ""text"": ""DphnAI (opens in new tab)""}, {""href"": ""https://huggingface.co/cognitivecomputations/Dolphin3.0-Mistral-24B"", ""text"": ""Model weights""}]",,False
+cognitivecomputations/dolphin3.0-r1-mistral-24b,open_weight,live_detail,https://openrouter.ai/cognitivecomputations/dolphin3.0-r1-mistral-24b,True,"[{""href"": ""https://huggingface.co/collections/QuixiAI/dolphin-30"", ""text"": ""Dolphin 3.0 Collection (opens in new tab)""}, {""href"": ""https://huggingface.co/ehartford"", ""text"": ""Eric Hartford (opens in new tab)""}, {""href"": ""https://huggingface.co/bigstorm"", ""text"": ""Ben Gitter (opens in new tab)""}, {""href"": ""https://huggingface.co/BlouseJury"", ""text"": ""BlouseJury (opens in new tab)""}, {""href"": ""https://huggingface.co/dphn"", ""text"": ""DphnAI (opens in new tab)""}, {""href"": ""https://huggingface.co/cognitivecomputations/Dolphin3.0-R1-Mistral-24B"", ""text"": ""Model weights""}]",,False
+cohere/command,closed,live_detail,https://openrouter.ai/cohere/command,False,[],,False
+cohere/command-a,open_weight,live_detail,https://openrouter.ai/cohere/command-a,True,"[{""href"": ""https://huggingface.co/CohereForAI/c4ai-command-a-03-2025"", ""text"": ""Model weights""}]",,False
+cohere/command-r,closed,live_detail,https://openrouter.ai/cohere/command-r,False,[],,False
+cohere/command-r-03-2024,closed,live_detail,https://openrouter.ai/cohere/command-r-03-2024,False,[],,False
+cohere/command-r-08-2024,closed,live_detail,https://openrouter.ai/cohere/command-r-08-2024,False,[],,False
+cohere/command-r-plus,closed,live_detail,https://openrouter.ai/cohere/command-r-plus,False,[],,False
+cohere/command-r-plus-04-2024,closed,live_detail,https://openrouter.ai/cohere/command-r-plus-04-2024,False,[],,False
+cohere/command-r-plus-08-2024,closed,live_detail,https://openrouter.ai/cohere/command-r-plus-08-2024,False,[],,False
+cohere/command-r7b-12-2024,closed,live_detail,https://openrouter.ai/cohere/command-r7b-12-2024,False,[],,False
+cohere/rerank-4-fast,closed,live_detail,https://openrouter.ai/cohere/rerank-4-fast,False,[],,False
+cohere/rerank-4-pro,closed,live_detail,https://openrouter.ai/cohere/rerank-4-pro,False,[],,False
+cohere/rerank-v3.5,closed,live_detail,https://openrouter.ai/cohere/rerank-v3.5,False,[],,False
+databricks/dbrx-instruct,open_weight,live_detail,https://openrouter.ai/databricks/dbrx-instruct,True,"[{""href"": ""https://huggingface.co/databricks/dbrx-instruct"", ""text"": ""Model weights""}]",,False
+deepcogito/cogito-v2-preview-deepseek-671b,open_weight,live_detail,https://openrouter.ai/deepcogito/cogito-v2-preview-deepseek-671b,True,"[{""href"": ""https://huggingface.co/deepcogito/cogito-v2-preview-deepseek-671B-MoE"", ""text"": ""Model weights""}]",,False
+deepcogito/cogito-v2-preview-llama-109b-moe,open_weight,live_detail,https://openrouter.ai/deepcogito/cogito-v2-preview-llama-109b-moe,True,"[{""href"": ""https://huggingface.co/deepcogito/cogito-v2-preview-llama-109B-MoE"", ""text"": ""Model weights""}]",,False
+deepcogito/cogito-v2-preview-llama-405b,open_weight,live_detail,https://openrouter.ai/deepcogito/cogito-v2-preview-llama-405b,True,"[{""href"": ""https://huggingface.co/deepcogito/cogito-v2-preview-llama-405B"", ""text"": ""Model weights""}]",,False
+deepcogito/cogito-v2-preview-llama-70b,open_weight,live_detail,https://openrouter.ai/deepcogito/cogito-v2-preview-llama-70b,True,"[{""href"": ""https://huggingface.co/deepcogito/cogito-v2-preview-llama-70B"", ""text"": ""Model weights""}]",,False
+deepcogito/cogito-v2.1-671b,closed,live_detail,https://openrouter.ai/deepcogito/cogito-v2.1-671b,False,[],,False
+deepseek/deepseek-chat,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-chat,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V3"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-chat-v2.5,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-chat-v2.5,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V2.5"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-chat-v3-0324,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-chat-v3-0324,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-chat-v3-0324:free,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-chat-v3-0324:free,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-chat-v3.1,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-chat-v3.1,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V3.1"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-chat-v3.1:free,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-chat-v3.1:free,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V3.1"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-prover-v2,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-prover-v2,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-RL"", ""text"": ""DeepSeek-Prover-V1.5 (opens in new tab)""}, {""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-Prover-V2-671B"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1-0528,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1-0528,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1-0528-qwen3-8b,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1-0528-qwen3-8b,True,"[{""href"": ""https://huggingface.co/deepseek-ai/deepseek-r1-0528-qwen3-8b"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1-0528-qwen3-8b:free,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1-0528-qwen3-8b:free,True,"[{""href"": ""https://huggingface.co/deepseek-ai/deepseek-r1-0528-qwen3-8b"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1-0528:free,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1-0528:free,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1-distill-llama-70b,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1-distill-llama-70b,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1-distill-llama-70b:free,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1-distill-llama-70b:free,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1-distill-llama-8b,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1-distill-llama-8b,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-3.1-8B"", ""text"": ""Llama-3.1-8B (opens in new tab)""}, {""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B"", ""text"": ""DeepSeek-R1-Distill-Llama-8B (opens in new tab)""}, {""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1-distill-qwen-1.5b,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1-distill-qwen-1.5b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen2.5-Math-1.5B"", ""text"": ""Qwen 2.5 Math 1.5B (opens in new tab)""}, {""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1-distill-qwen-14b,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1-distill-qwen-14b,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"", ""text"": ""Qwen 2.5 14B (opens in new tab)""}, {""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1-distill-qwen-32b,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1-distill-qwen-32b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen2.5-32B"", ""text"": ""Qwen 2.5 32B (opens in new tab)""}, {""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1-distill-qwen-7b,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1-distill-qwen-7b,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1-zero,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1-zero,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-r1:free,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-r1:free,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-R1"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-v3-base,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-v3-base,True,"[{""href"": ""https://huggingface.co/deepseek-ai/Deepseek-v3-base"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-v3.1-base,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-v3.1-base,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Base"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-v3.1-terminus,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-v3.1-terminus,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-v3.1-terminus:exacto,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-v3.1-terminus:exacto,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-v3.2,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-v3.2,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V3.2"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-v3.2-exp,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-v3.2-exp,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-v3.2-speciale,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-v3.2-speciale,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-v4-flash,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-v4-flash,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"", ""text"": ""Model weights""}]",,False
+deepseek/deepseek-v4-pro,open_weight,live_detail,https://openrouter.ai/deepseek/deepseek-v4-pro,True,"[{""href"": ""https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"", ""text"": ""Model weights""}]",,False
+eleutherai/llemma_7b,closed,live_detail,https://openrouter.ai/eleutherai/llemma_7b,False,[],,False
+essentialai/rnj-1-instruct,open_weight,live_detail,https://openrouter.ai/essentialai/rnj-1-instruct,True,"[{""href"": ""https://huggingface.co/EssentialAI/rnj-1-instruct"", ""text"": ""Model weights""}]",,False
+eva-unit-01/eva-llama-3.33-70b,open_weight,live_detail,https://openrouter.ai/eva-unit-01/eva-llama-3.33-70b,True,"[{""href"": ""https://huggingface.co/EVA-UNIT-01/EVA-LLaMA-3.33-70B-v0.1"", ""text"": ""Model weights""}]",,False
+eva-unit-01/eva-qwen-2.5-14b,open_weight,live_detail,https://openrouter.ai/eva-unit-01/eva-qwen-2.5-14b,True,"[{""href"": ""https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-14B-v0.0"", ""text"": ""Model weights""}]",,False
+eva-unit-01/eva-qwen-2.5-32b,open_weight,live_detail,https://openrouter.ai/eva-unit-01/eva-qwen-2.5-32b,True,"[{""href"": ""https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-32B-v0.2"", ""text"": ""Model weights""}]",,False
+eva-unit-01/eva-qwen-2.5-72b,open_weight,live_detail,https://openrouter.ai/eva-unit-01/eva-qwen-2.5-72b,True,"[{""href"": ""https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-72B-v0.1"", ""text"": ""Model weights""}]",,False
+featherless/qwerky-72b,open_weight,live_detail,https://openrouter.ai/featherless/qwerky-72b,True,"[{""href"": ""https://huggingface.co/featherless-ai/QRWKV-72B"", ""text"": ""Model weights""}]",,False
+fireworks/firellava-13b,open_weight,live_detail,https://openrouter.ai/fireworks/firellava-13b,True,"[{""href"": ""https://huggingface.co/fireworks-ai/FireLLaVA-13b"", ""text"": ""Model weights""}]",,False
+google/gemini-2.0-flash-001,closed,live_detail,https://openrouter.ai/google/gemini-2.0-flash-001,False,[],,False
+google/gemini-2.0-flash-exp,closed,live_detail,https://openrouter.ai/google/gemini-2.0-flash-exp,False,[],,False
+google/gemini-2.0-flash-exp:free,closed,live_detail,https://openrouter.ai/google/gemini-2.0-flash-exp:free,False,[],,False
+google/gemini-2.0-flash-lite-001,closed,live_detail,https://openrouter.ai/google/gemini-2.0-flash-lite-001,False,[],,False
+google/gemini-2.5-flash,closed,live_detail,https://openrouter.ai/google/gemini-2.5-flash,False,[],,False
+google/gemini-2.5-flash-image,closed,live_detail,https://openrouter.ai/google/gemini-2.5-flash-image,False,[],,False
+google/gemini-2.5-flash-image-preview,closed,live_detail,https://openrouter.ai/google/gemini-2.5-flash-image-preview,False,[],,False
+google/gemini-2.5-flash-lite,closed,live_detail,https://openrouter.ai/google/gemini-2.5-flash-lite,False,[],,False
+google/gemini-2.5-flash-lite-preview-06-17,closed,live_detail,https://openrouter.ai/google/gemini-2.5-flash-lite-preview-06-17,False,[],,False
+google/gemini-2.5-flash-lite-preview-09-2025,closed,live_detail,https://openrouter.ai/google/gemini-2.5-flash-lite-preview-09-2025,False,[],,False
+google/gemini-2.5-flash-preview-09-2025,closed,live_detail,https://openrouter.ai/google/gemini-2.5-flash-preview-09-2025,False,[],,False
+google/gemini-2.5-pro,closed,live_detail,https://openrouter.ai/google/gemini-2.5-pro,False,[],,False
+google/gemini-2.5-pro-exp-03-25,closed,live_detail,https://openrouter.ai/google/gemini-2.5-pro-exp-03-25,False,[],,False
+google/gemini-2.5-pro-preview,closed,live_detail,https://openrouter.ai/google/gemini-2.5-pro-preview,False,[],,False
+google/gemini-2.5-pro-preview-05-06,closed,live_detail,https://openrouter.ai/google/gemini-2.5-pro-preview-05-06,False,[],,False
+google/gemini-3-flash-preview,closed,live_detail,https://openrouter.ai/google/gemini-3-flash-preview,False,[],,False
+google/gemini-3-pro-image-preview,closed,live_detail,https://openrouter.ai/google/gemini-3-pro-image-preview,False,[],,False
+google/gemini-3-pro-preview,closed,live_detail,https://openrouter.ai/google/gemini-3-pro-preview,False,[],,False
+google/gemini-3.1-flash-image-preview,closed,live_detail,https://openrouter.ai/google/gemini-3.1-flash-image-preview,False,[],,False
+google/gemini-3.1-flash-lite-preview,closed,live_detail,https://openrouter.ai/google/gemini-3.1-flash-lite-preview,False,[],,False
+google/gemini-3.1-flash-tts-preview,closed,live_detail,https://openrouter.ai/google/gemini-3.1-flash-tts-preview,False,[],,False
+google/gemini-3.1-pro-preview,closed,live_detail,https://openrouter.ai/google/gemini-3.1-pro-preview,False,[],,False
+google/gemini-3.1-pro-preview-customtools,closed,live_detail,https://openrouter.ai/google/gemini-3.1-pro-preview-customtools,False,[],,False
+google/gemini-embedding-001,closed,live_detail,https://openrouter.ai/google/gemini-embedding-001,False,[],,False
+google/gemini-embedding-2-preview,closed,live_detail,https://openrouter.ai/google/gemini-embedding-2-preview,False,[],,False
+google/gemini-exp-1114,closed,live_detail,https://openrouter.ai/google/gemini-exp-1114,False,[],,False
+google/gemini-exp-1121,closed,live_detail,https://openrouter.ai/google/gemini-exp-1121,False,[],,False
+google/gemini-flash-1.5,closed,live_detail,https://openrouter.ai/google/gemini-flash-1.5,False,[],,False
+google/gemini-flash-1.5-8b,closed,live_detail,https://openrouter.ai/google/gemini-flash-1.5-8b,False,[],,False
+google/gemini-flash-1.5-exp,closed,live_detail,https://openrouter.ai/google/gemini-flash-1.5-exp,False,[],,False
+google/gemini-pro-1.5,closed,live_detail,https://openrouter.ai/google/gemini-pro-1.5,False,[],,False
+google/gemini-pro-1.5-exp,closed,live_detail,https://openrouter.ai/google/gemini-pro-1.5-exp,False,[],,False
+google/gemma-2-27b-it,open_weight,live_detail,https://openrouter.ai/google/gemma-2-27b-it,True,"[{""href"": ""https://huggingface.co/google/gemma-2-27b-it"", ""text"": ""Model weights""}]",,False
+google/gemma-2-9b-it,open_weight,live_detail,https://openrouter.ai/google/gemma-2-9b-it,True,"[{""href"": ""https://huggingface.co/google/gemma-2-9b-it"", ""text"": ""Model weights""}]",,False
+google/gemma-2b-it,open_weight,live_detail,https://openrouter.ai/google/gemma-2b-it,True,"[{""href"": ""https://huggingface.co/google/gemma-2b-it"", ""text"": ""Model weights""}]",,False
+google/gemma-3-12b-it,open_weight,live_detail,https://openrouter.ai/google/gemma-3-12b-it,True,"[{""href"": ""https://huggingface.co/google/gemma-3-12b-it"", ""text"": ""Model weights""}]",,False
+google/gemma-3-12b-it:free,open_weight,live_detail,https://openrouter.ai/google/gemma-3-12b-it:free,True,"[{""href"": ""https://huggingface.co/google/gemma-3-12b-it"", ""text"": ""Model weights""}]",,False
+google/gemma-3-1b-it,open_weight,live_detail,https://openrouter.ai/google/gemma-3-1b-it,True,"[{""href"": ""https://huggingface.co/google/gemma-3-1b-it"", ""text"": ""Model weights""}]",,False
+google/gemma-3-27b-it,open_weight,live_detail,https://openrouter.ai/google/gemma-3-27b-it,True,"[{""href"": ""https://huggingface.co/google/gemma-3-27b-it"", ""text"": ""Model weights""}]",,False
+google/gemma-3-27b-it:free,open_weight,live_detail,https://openrouter.ai/google/gemma-3-27b-it:free,True,"[{""href"": ""https://huggingface.co/google/gemma-3-27b-it"", ""text"": ""Model weights""}]",,False
+google/gemma-3-4b-it,open_weight,live_detail,https://openrouter.ai/google/gemma-3-4b-it,True,"[{""href"": ""https://huggingface.co/google/gemma-3-4b-it"", ""text"": ""Model weights""}]",,False
+google/gemma-3-4b-it:free,open_weight,live_detail,https://openrouter.ai/google/gemma-3-4b-it:free,True,"[{""href"": ""https://huggingface.co/google/gemma-3-4b-it"", ""text"": ""Model weights""}]",,False
+google/gemma-3n-e2b-it,open_weight,live_detail,https://openrouter.ai/google/gemma-3n-e2b-it,True,"[{""href"": ""https://huggingface.co/google/gemma-3n-E2B-it"", ""text"": ""Model weights""}]",,False
+google/gemma-3n-e2b-it:free,open_weight,live_detail,https://openrouter.ai/google/gemma-3n-e2b-it:free,True,"[{""href"": ""https://huggingface.co/google/gemma-3n-E2B-it"", ""text"": ""Model weights""}]",,False
+google/gemma-3n-e4b-it,open_weight,live_detail,https://openrouter.ai/google/gemma-3n-e4b-it,True,"[{""href"": ""https://huggingface.co/google/gemma-3n-E4B-it"", ""text"": ""Model weights""}]",,False
+google/gemma-3n-e4b-it:free,open_weight,live_detail,https://openrouter.ai/google/gemma-3n-e4b-it:free,True,"[{""href"": ""https://huggingface.co/google/gemma-3n-E4B-it"", ""text"": ""Model weights""}]",,False
+google/gemma-4-26b-a4b-it,open_weight,live_detail,https://openrouter.ai/google/gemma-4-26b-a4b-it,True,"[{""href"": ""https://huggingface.co/google/gemma-4-26B-A4B-it"", ""text"": ""Model weights""}]",,False
+google/gemma-4-26b-a4b-it:free,open_weight,live_detail,https://openrouter.ai/google/gemma-4-26b-a4b-it:free,True,"[{""href"": ""https://huggingface.co/google/gemma-4-26B-A4B-it"", ""text"": ""Model weights""}]",,False
+google/gemma-4-31b-it,open_weight,live_detail,https://openrouter.ai/google/gemma-4-31b-it,True,"[{""href"": ""https://huggingface.co/google/gemma-4-31B-it"", ""text"": ""Model weights""}]",,False
+google/gemma-4-31b-it:free,open_weight,live_detail,https://openrouter.ai/google/gemma-4-31b-it:free,True,"[{""href"": ""https://huggingface.co/google/gemma-4-31B-it"", ""text"": ""Model weights""}]",,False
+google/gemma-7b-it,open_weight,live_detail,https://openrouter.ai/google/gemma-7b-it,True,"[{""href"": ""https://huggingface.co/google/gemma-1.1-7b-it"", ""text"": ""Model weights""}]",,False
+google/lyria-3-clip-preview,closed,live_detail,https://openrouter.ai/google/lyria-3-clip-preview,False,[],,False
+google/lyria-3-pro-preview,closed,live_detail,https://openrouter.ai/google/lyria-3-pro-preview,False,[],,False
+google/palm-2-chat-bison,closed,live_detail,https://openrouter.ai/google/palm-2-chat-bison,False,[],,False
+google/palm-2-chat-bison-32k,closed,live_detail,https://openrouter.ai/google/palm-2-chat-bison-32k,False,[],,False
+google/palm-2-codechat-bison,closed,live_detail,https://openrouter.ai/google/palm-2-codechat-bison,False,[],,False
+google/palm-2-codechat-bison-32k,closed,live_detail,https://openrouter.ai/google/palm-2-codechat-bison-32k,False,[],,False
+google/veo-3.1,closed,live_detail,https://openrouter.ai/google/veo-3.1,False,[],,False
+google/veo-3.1-fast,closed,live_detail,https://openrouter.ai/google/veo-3.1-fast,False,[],,False
+google/veo-3.1-lite,closed,live_detail,https://openrouter.ai/google/veo-3.1-lite,False,[],,False
+gryphe/mythomax-l2-13b,open_weight,live_detail,https://openrouter.ai/gryphe/mythomax-l2-13b,True,"[{""href"": ""https://huggingface.co/Gryphe/MythoMax-L2-13b"", ""text"": ""Model weights""}]",,False
+gryphe/mythomist-7b,open_weight,live_detail,https://openrouter.ai/gryphe/mythomist-7b,True,"[{""href"": ""https://huggingface.co/Gryphe/MythoMist-7b"", ""text"": ""Model weights""}]",,False
+hexgrad/kokoro-82m,closed,live_detail,https://openrouter.ai/hexgrad/kokoro-82m,False,[],,False
+huggingfaceh4/zephyr-7b-beta,open_weight,live_detail,https://openrouter.ai/huggingfaceh4/zephyr-7b-beta,True,"[{""href"": ""https://huggingface.co/HuggingFaceH4/zephyr-7b-beta"", ""text"": ""Model weights""}]",,False
+huggingfaceh4/zephyr-orpo-141b-a35b,open_weight,live_detail,https://openrouter.ai/huggingfaceh4/zephyr-orpo-141b-a35b,True,"[{""href"": ""https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"", ""text"": ""Model weights""}]",,False
+ibm-granite/granite-4.0-h-micro,open_weight,live_detail,https://openrouter.ai/ibm-granite/granite-4.0-h-micro,True,"[{""href"": ""https://huggingface.co/ibm-granite/granite-4.0-h-micro"", ""text"": ""Model weights""}]",,False
+ibm-granite/granite-4.1-8b,open_weight,live_detail,https://openrouter.ai/ibm-granite/granite-4.1-8b,True,"[{""href"": ""https://huggingface.co/ibm-granite/granite-4.1-8b"", ""text"": ""Model weights""}]",,False
+inception/mercury,closed,live_detail,https://openrouter.ai/inception/mercury,False,[],,False
+inception/mercury-2,closed,live_detail,https://openrouter.ai/inception/mercury-2,False,[],,False
+inception/mercury-coder,closed,live_detail,https://openrouter.ai/inception/mercury-coder,False,[],,False
+inclusionai/ling-1t,closed,live_detail,https://openrouter.ai/inclusionai/ling-1t,False,[],,False
+inclusionai/ling-2.6-1t:free,closed,live_detail,https://openrouter.ai/inclusionai/ling-2.6-1t:free,False,[],,False
+inclusionai/ling-2.6-flash,closed,live_detail,https://openrouter.ai/inclusionai/ling-2.6-flash,False,[],,False
+inclusionai/ling-2.6-flash:free,closed,live_detail,https://openrouter.ai/inclusionai/ling-2.6-flash:free,False,[],,False
+inclusionai/ring-1t,closed,live_detail,https://openrouter.ai/inclusionai/ring-1t,False,[],,False
+infermatic/mn-inferor-12b,open_weight,live_detail,https://openrouter.ai/infermatic/mn-inferor-12b,True,"[{""href"": ""https://huggingface.co/Infermatic/MN-12B-Inferor-v0.0"", ""text"": ""Model weights""}]",,False
+inflatebot/mn-mag-mell-r1,open_weight,live_detail,https://openrouter.ai/inflatebot/mn-mag-mell-r1,True,"[{""href"": ""https://huggingface.co/inflatebot/MN-12B-Mag-Mell-R1"", ""text"": ""Model weights""}]",,False
+inflection/inflection-3-pi,closed,live_detail,https://openrouter.ai/inflection/inflection-3-pi,False,[],,False
+inflection/inflection-3-productivity,closed,live_detail,https://openrouter.ai/inflection/inflection-3-productivity,False,[],,False
+intel/neural-chat-7b,open_weight,live_detail,https://openrouter.ai/intel/neural-chat-7b,True,"[{""href"": ""https://huggingface.co/datasets/Open-Orca/SlimOrca"", ""text"": ""Open-Orca/SlimOrca (opens in new tab)""}, {""href"": ""https://huggingface.co/Intel/neural-chat-7b-v3-1"", ""text"": ""Model weights""}]",,False
+intfloat/e5-base-v2,open_weight,live_detail,https://openrouter.ai/intfloat/e5-base-v2,True,"[{""href"": ""https://huggingface.co/intfloat/e5-base-v2"", ""text"": ""Model weights""}]",,False
+intfloat/e5-large-v2,open_weight,live_detail,https://openrouter.ai/intfloat/e5-large-v2,True,"[{""href"": ""https://huggingface.co/intfloat/e5-large-v2"", ""text"": ""Model weights""}]",,False
+intfloat/multilingual-e5-large,open_weight,live_detail,https://openrouter.ai/intfloat/multilingual-e5-large,True,"[{""href"": ""https://huggingface.co/intfloat/multilingual-e5-large"", ""text"": ""Model weights""}]",,False
+jebcarter/psyfighter-13b,open_weight,live_detail,https://openrouter.ai/jebcarter/psyfighter-13b,True,"[{""href"": ""https://huggingface.co/KoboldAI/LLaMA2-13B-Tiefighter"", ""text"": ""KoboldAI/LLaMA2-13B-Tiefighter (opens in new tab)""}, {""href"": ""https://huggingface.co/chaoyi-wu/MedLLaMA_13B"", ""text"": ""chaoyi-wu/MedLLaMA_13B (opens in new tab)""}, {""href"": ""https://huggingface.co/Doctor-Shotgun/llama-2-13b-chat-limarp-v2-merged"", ""text"": ""Doctor-Shotgun/llama-2-13b-chat-limarp-v2-merged (opens in new tab)""}, {""href"": ""https://huggingface.co/jebcarter/Psyfighter-13B"", ""text"": ""Model weights""}]",,False
+jondurbin/airoboros-l2-70b,open_weight,live_detail,https://openrouter.ai/jondurbin/airoboros-l2-70b,True,"[{""href"": ""https://huggingface.co/jondurbin/airoboros-l2-70b-2.2.1"", ""text"": ""jondurbin/airoboros-l2-70b (opens in new tab)""}, {""href"": ""https://huggingface.co/jondurbin/airoboros-l2-70b-2.2.1"", ""text"": ""Model weights""}]",,False
+jondurbin/bagel-34b,open_weight,live_detail,https://openrouter.ai/jondurbin/bagel-34b,True,"[{""href"": ""https://huggingface.co/jondurbin/bagel-34b-v0.2"", ""text"": ""Model weights""}]",,False
+koboldai/psyfighter-13b-2,open_weight,live_detail,https://openrouter.ai/koboldai/psyfighter-13b-2,True,"[{""href"": ""https://huggingface.co/KoboldAI/LLaMA2-13B-Tiefighter"", ""text"": ""KoboldAI/LLaMA2-13B-Tiefighter (opens in new tab)""}, {""href"": ""https://huggingface.co/Doctor-Shotgun/cat-v1.0-13b"", ""text"": ""Doctor-Shotgun/cat-v1.0-13b (opens in new tab)""}, {""href"": ""https://huggingface.co/Doctor-Shotgun/llama-2-13b-chat-limarp-v2-merged"", ""text"": ""Doctor-Shotgun/llama-2-13b-chat-limarp-v2-merged (opens in new tab)""}, {""href"": ""https://huggingface.co/KoboldAI/LLaMA2-13B-Psyfighter2"", ""text"": ""Model weights""}]",,False
+kwaipilot/kat-coder-pro,closed,live_detail,https://openrouter.ai/kwaipilot/kat-coder-pro,False,[],,False
+kwaipilot/kat-coder-pro-v2,closed,live_detail,https://openrouter.ai/kwaipilot/kat-coder-pro-v2,False,[],,False
+kwaipilot/kat-coder-pro:free,closed,live_detail,https://openrouter.ai/kwaipilot/kat-coder-pro:free,False,[],,False
+kwaivgi/kling-v3.0-pro,closed,live_detail,https://openrouter.ai/kwaivgi/kling-v3.0-pro,False,[],,False
+kwaivgi/kling-v3.0-std,closed,live_detail,https://openrouter.ai/kwaivgi/kling-v3.0-std,False,[],,False
+kwaivgi/kling-video-o1,closed,live_detail,https://openrouter.ai/kwaivgi/kling-video-o1,False,[],,False
+latitudegames/wayfarer-large-70b-llama-3.3,open_weight,live_detail,https://openrouter.ai/latitudegames/wayfarer-large-70b-llama-3.3,True,"[{""href"": ""https://huggingface.co/LatitudeGames/Wayfarer-Large-70B-Llama-3.3"", ""text"": ""Model weights""}]",,False
+liquid/lfm-2-24b-a2b,open_weight,live_detail,https://openrouter.ai/liquid/lfm-2-24b-a2b,True,"[{""href"": ""https://huggingface.co/LiquidAI/LFM2-24B-A2B"", ""text"": ""Model weights""}]",,False
+liquid/lfm-2.2-6b,open_weight,live_detail,https://openrouter.ai/liquid/lfm-2.2-6b,True,"[{""href"": ""https://huggingface.co/LiquidAI/LFM2-2.6B"", ""text"": ""Model weights""}]",,False
+liquid/lfm-2.5-1.2b-instruct:free,open_weight,live_detail,https://openrouter.ai/liquid/lfm-2.5-1.2b-instruct:free,True,"[{""href"": ""https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct"", ""text"": ""Model weights""}]",,False
+liquid/lfm-2.5-1.2b-thinking:free,open_weight,live_detail,https://openrouter.ai/liquid/lfm-2.5-1.2b-thinking:free,True,"[{""href"": ""https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking"", ""text"": ""Model weights""}]",,False
+liquid/lfm-3b,closed,live_detail,https://openrouter.ai/liquid/lfm-3b,False,[],,False
+liquid/lfm-40b,closed,live_detail,https://openrouter.ai/liquid/lfm-40b,False,[],,False
+liquid/lfm-7b,closed,live_detail,https://openrouter.ai/liquid/lfm-7b,False,[],,False
+liquid/lfm2-8b-a1b,open_weight,live_detail,https://openrouter.ai/liquid/lfm2-8b-a1b,True,"[{""href"": ""https://huggingface.co/LiquidAI/LFM2-8B-A1B"", ""text"": ""Model weights""}]",,False
+liuhaotian/llava-13b,open_weight,live_detail,https://openrouter.ai/liuhaotian/llava-13b,True,"[{""href"": ""https://huggingface.co/liuhaotian/llava-v1.6-vicuna-13b"", ""text"": ""Model weights""}]",,False
+liuhaotian/llava-yi-34b,open_weight,live_detail,https://openrouter.ai/liuhaotian/llava-yi-34b,True,"[{""href"": ""https://huggingface.co/liuhaotian/llava-v1.6-34b"", ""text"": ""Model weights""}]",,False
+lizpreciatior/lzlv-70b-fp16-hf,open_weight,live_detail,https://openrouter.ai/lizpreciatior/lzlv-70b-fp16-hf,True,"[{""href"": ""https://huggingface.co/lizpreciatior/lzlv_70b_fp16_hf"", ""text"": ""Model weights""}]",,False
+lynn/soliloquy-l3,open_weight,live_detail,https://openrouter.ai/lynn/soliloquy-l3,True,"[{""href"": ""https://huggingface.co/openlynn/Llama-3-Soliloquy-8B-v2"", ""text"": ""Model weights""}]",,False
+lynn/soliloquy-v3,open_weight,live_detail,https://openrouter.ai/lynn/soliloquy-v3,True,"[{""href"": ""https://huggingface.co/openlynn/Soliloquy-7B-v3"", ""text"": ""Model weights""}]",,False
+mancer/weaver,closed,live_detail,https://openrouter.ai/mancer/weaver,False,[],,False
+mattshumer/reflection-70b,open_weight,live_detail,https://openrouter.ai/mattshumer/reflection-70b,True,"[{""href"": ""https://huggingface.co/mattshumer/Reflection-70B"", ""text"": ""Model weights""}]",,False
+meituan/longcat-flash-chat,open_weight,live_detail,https://openrouter.ai/meituan/longcat-flash-chat,True,"[{""href"": ""https://huggingface.co/meituan-longcat/LongCat-Flash-Chat"", ""text"": ""Model weights""}]",,False
+meituan/longcat-flash-chat:free,open_weight,live_detail,https://openrouter.ai/meituan/longcat-flash-chat:free,True,"[{""href"": ""https://huggingface.co/meituan-longcat/LongCat-Flash-Chat"", ""text"": ""Model weights""}]",,False
+meta-llama/codellama-34b-instruct,open_weight,live_detail,https://openrouter.ai/meta-llama/codellama-34b-instruct,True,"[{""href"": ""https://huggingface.co/meta-llama/CodeLlama-34b-Instruct-hf"", ""text"": ""Model weights""}]",,False
+meta-llama/codellama-70b-instruct,open_weight,live_detail,https://openrouter.ai/meta-llama/codellama-70b-instruct,True,"[{""href"": ""https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-2-13b-chat,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-2-13b-chat,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-2-13b-chat-hf"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-2-70b-chat,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-2-70b-chat,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-2-70b-chat-hf"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3-70b,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3-70b,True,"[{""href"": ""https://huggingface.co/meta-llama/Meta-Llama-3-70b"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3-70b-instruct,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3-70b-instruct,True,"[{""href"": ""https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3-8b,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3-8b,True,"[{""href"": ""https://huggingface.co/meta-llama/Meta-Llama-3-8b"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3-8b-instruct,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3-8b-instruct,True,"[{""href"": ""https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.1-405b,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3.1-405b,True,"[{""href"": ""https://huggingface.co/meta-llama/llama-3.1-405B"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.1-405b-instruct,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3.1-405b-instruct,True,"[{""href"": ""https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.1-405b-instruct:free,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3.1-405b-instruct:free,True,"[{""href"": ""https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.1-70b-instruct,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3.1-70b-instruct,True,"[{""href"": ""https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.1-8b-instruct,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3.1-8b-instruct,True,"[{""href"": ""https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.2-11b-vision-instruct,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3.2-11b-vision-instruct,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.2-1b-instruct,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3.2-1b-instruct,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.2-3b-instruct,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3.2-3b-instruct,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.2-3b-instruct:free,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3.2-3b-instruct:free,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.2-90b-vision-instruct,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3.2-90b-vision-instruct,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.3-70b-instruct,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3.3-70b-instruct,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.3-70b-instruct:free,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-3.3-70b-instruct:free,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-3.3-8b-instruct,closed,live_detail,https://openrouter.ai/meta-llama/llama-3.3-8b-instruct,False,[],,False
+meta-llama/llama-3.3-8b-instruct:free,closed,live_detail,https://openrouter.ai/meta-llama/llama-3.3-8b-instruct:free,False,[],,False
+meta-llama/llama-4-maverick,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-4-maverick,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-4-maverick:free,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-4-maverick:free,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-4-scout,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-4-scout,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-4-scout:free,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-4-scout:free,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-guard-2-8b,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-guard-2-8b,True,"[{""href"": ""https://huggingface.co/meta-llama/LlamaGuard-7b"", ""text"": ""LlamaGuard 1 (opens in new tab)""}, {""href"": ""https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-guard-3-8b,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-guard-3-8b,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-Guard-3-8B"", ""text"": ""Model weights""}]",,False
+meta-llama/llama-guard-4-12b,open_weight,live_detail,https://openrouter.ai/meta-llama/llama-guard-4-12b,True,"[{""href"": ""https://huggingface.co/meta-llama/Llama-Guard-4-12B"", ""text"": ""Model weights""}]",,False
+microsoft/mai-ds-r1,open_weight,live_detail,https://openrouter.ai/microsoft/mai-ds-r1,True,"[{""href"": ""https://huggingface.co/microsoft/MAI-DS-R1"", ""text"": ""Model weights""}]",,False
+microsoft/mai-ds-r1:free,open_weight,live_detail,https://openrouter.ai/microsoft/mai-ds-r1:free,True,"[{""href"": ""https://huggingface.co/microsoft/MAI-DS-R1"", ""text"": ""Model weights""}]",,False
+microsoft/phi-3-medium-128k-instruct,open_weight,live_detail,https://openrouter.ai/microsoft/phi-3-medium-128k-instruct,True,"[{""href"": ""https://huggingface.co/microsoft/Phi-3-medium-128k-instruct"", ""text"": ""Model weights""}]",,False
+microsoft/phi-3-medium-4k-instruct,open_weight,live_detail,https://openrouter.ai/microsoft/phi-3-medium-4k-instruct,True,"[{""href"": ""https://huggingface.co/microsoft/Phi-3-medium-4k-instruct"", ""text"": ""Model weights""}]",,False
+microsoft/phi-3-mini-128k-instruct,open_weight,live_detail,https://openrouter.ai/microsoft/phi-3-mini-128k-instruct,True,"[{""href"": ""https://huggingface.co/microsoft/Phi-3-mini-128k-instruct"", ""text"": ""Model weights""}]",,False
+microsoft/phi-3.5-mini-128k-instruct,open_weight,live_detail,https://openrouter.ai/microsoft/phi-3.5-mini-128k-instruct,True,"[{""href"": ""https://huggingface.co/microsoft/Phi-3.5-mini-instruct"", ""text"": ""Model weights""}]",,False
+microsoft/phi-4,open_weight,live_detail,https://openrouter.ai/microsoft/phi-4,True,"[{""href"": ""https://huggingface.co/microsoft/phi-4"", ""text"": ""Model weights""}]",,False
+microsoft/phi-4-mini-instruct,open_weight,live_detail,https://openrouter.ai/microsoft/phi-4-mini-instruct,True,"[{""href"": ""https://huggingface.co/microsoft/Phi-4-mini-instruct"", ""text"": ""Model weights""}]",,False
+microsoft/phi-4-multimodal-instruct,open_weight,live_detail,https://openrouter.ai/microsoft/phi-4-multimodal-instruct,True,"[{""href"": ""https://huggingface.co/microsoft/Phi-4-multimodal-instruct"", ""text"": ""Model weights""}]",,False
+microsoft/phi-4-reasoning,open_weight,live_detail,https://openrouter.ai/microsoft/phi-4-reasoning,True,"[{""href"": ""https://huggingface.co/microsoft/Phi-4-reasoning"", ""text"": ""Model weights""}]",,False
+microsoft/phi-4-reasoning-plus,open_weight,live_detail,https://openrouter.ai/microsoft/phi-4-reasoning-plus,True,"[{""href"": ""https://huggingface.co/microsoft/Phi-4-reasoning-plus"", ""text"": ""Model weights""}]",,False
+microsoft/wizardlm-2-7b,open_weight,live_detail,https://openrouter.ai/microsoft/wizardlm-2-7b,True,"[{""href"": ""https://huggingface.co/microsoft/WizardLM-2-7B"", ""text"": ""Model weights""}]",,False
+microsoft/wizardlm-2-8x22b,open_weight,live_detail,https://openrouter.ai/microsoft/wizardlm-2-8x22b,True,"[{""href"": ""https://huggingface.co/microsoft/WizardLM-2-8x22B"", ""text"": ""Model weights""}]",,False
+migtissera/synthia-70b,open_weight,live_detail,https://openrouter.ai/migtissera/synthia-70b,True,"[{""href"": ""https://huggingface.co/migtissera/Synthia-70B-v1.2b"", ""text"": ""Model weights""}]",,False
+minimax/hailuo-2.3,closed,live_detail,https://openrouter.ai/minimax/hailuo-2.3,False,[],,False
+minimax/minimax-01,open_weight,live_detail,https://openrouter.ai/minimax/minimax-01,True,"[{""href"": ""https://huggingface.co/MiniMaxAI/MiniMax-Text-01"", ""text"": ""Model weights""}]",,False
+minimax/minimax-m1,closed,live_detail,https://openrouter.ai/minimax/minimax-m1,False,[],,False
+minimax/minimax-m2,open_weight,live_detail,https://openrouter.ai/minimax/minimax-m2,True,"[{""href"": ""https://huggingface.co/MiniMaxAI/MiniMax-M2"", ""text"": ""Model weights""}]",,False
+minimax/minimax-m2-her,closed,live_detail,https://openrouter.ai/minimax/minimax-m2-her,False,[],,False
+minimax/minimax-m2.1,open_weight,live_detail,https://openrouter.ai/minimax/minimax-m2.1,True,"[{""href"": ""https://huggingface.co/MiniMaxAI/MiniMax-M2.1"", ""text"": ""Model weights""}]",,False
+minimax/minimax-m2.5,open_weight,live_detail,https://openrouter.ai/minimax/minimax-m2.5,True,"[{""href"": ""https://huggingface.co/MiniMaxAI/MiniMax-M2.5"", ""text"": ""Model weights""}]",,False
+minimax/minimax-m2.5:free,open_weight,live_detail,https://openrouter.ai/minimax/minimax-m2.5:free,True,"[{""href"": ""https://huggingface.co/MiniMaxAI/MiniMax-M2.5"", ""text"": ""Model weights""}]",,False
+minimax/minimax-m2.7,open_weight,live_detail,https://openrouter.ai/minimax/minimax-m2.7,True,"[{""href"": ""https://huggingface.co/MiniMaxAI/MiniMax-M2.7"", ""text"": ""Model weights""}]",,False
+minimax/minimax-m2:free,open_weight,live_detail,https://openrouter.ai/minimax/minimax-m2:free,True,"[{""href"": ""https://huggingface.co/MiniMaxAI/MiniMax-M2"", ""text"": ""Model weights""}]",,False
+mistralai/codestral-2501,closed,live_detail,https://openrouter.ai/mistralai/codestral-2501,False,[],,False
+mistralai/codestral-2508,closed,live_detail,https://openrouter.ai/mistralai/codestral-2508,False,[],,False
+mistralai/codestral-embed-2505,closed,live_detail,https://openrouter.ai/mistralai/codestral-embed-2505,False,[],,False
+mistralai/codestral-mamba,open_weight,live_detail,https://openrouter.ai/mistralai/codestral-mamba,True,"[{""href"": ""https://huggingface.co/mistralai/mamba-codestral-7B-v0.1"", ""text"": ""Model weights""}]",,False
+mistralai/devstral-2512,open_weight,live_detail,https://openrouter.ai/mistralai/devstral-2512,True,"[{""href"": ""https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512"", ""text"": ""Model weights""}]",,False
+mistralai/devstral-2512:free,open_weight,live_detail,https://openrouter.ai/mistralai/devstral-2512:free,True,"[{""href"": ""https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512"", ""text"": ""Model weights""}]",,False
+mistralai/devstral-medium,closed,live_detail,https://openrouter.ai/mistralai/devstral-medium,False,[],,False
+mistralai/devstral-small,open_weight,live_detail,https://openrouter.ai/mistralai/devstral-small,True,"[{""href"": ""https://huggingface.co/mistralai/Devstral-Small-2507"", ""text"": ""Model weights""}]",,False
+mistralai/devstral-small-2505,open_weight,live_detail,https://openrouter.ai/mistralai/devstral-small-2505,True,"[{""href"": ""https://huggingface.co/mistralai/Devstral-Small-2505"", ""text"": ""Model weights""}]",,False
+mistralai/magistral-medium-2506,closed,live_detail,https://openrouter.ai/mistralai/magistral-medium-2506,False,[],,False
+mistralai/magistral-medium-2506:thinking,closed,live_detail,https://openrouter.ai/mistralai/magistral-medium-2506:thinking,False,[],,False
+mistralai/magistral-small-2506,open_weight,live_detail,https://openrouter.ai/mistralai/magistral-small-2506,True,"[{""href"": ""https://huggingface.co/mistralai/Magistral-Small-2506"", ""text"": ""Model weights""}]",,False
+mistralai/ministral-14b-2512,open_weight,live_detail,https://openrouter.ai/mistralai/ministral-14b-2512,True,"[{""href"": ""https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512"", ""text"": ""Model weights""}]",,False
+mistralai/ministral-3b,closed,live_detail,https://openrouter.ai/mistralai/ministral-3b,False,[],,False
+mistralai/ministral-3b-2512,open_weight,live_detail,https://openrouter.ai/mistralai/ministral-3b-2512,True,"[{""href"": ""https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512"", ""text"": ""Model weights""}]",,False
+mistralai/ministral-8b,closed,live_detail,https://openrouter.ai/mistralai/ministral-8b,False,[],,False
+mistralai/ministral-8b-2512,open_weight,live_detail,https://openrouter.ai/mistralai/ministral-8b-2512,True,"[{""href"": ""https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-7b-instruct,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-7b-instruct,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-7b-instruct-v0.1,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-7b-instruct-v0.1,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-7b-instruct-v0.2,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-7b-instruct-v0.2,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-7b-instruct-v0.3,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-7b-instruct-v0.3,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-7b-instruct:free,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-7b-instruct:free,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-embed-2312,closed,live_detail,https://openrouter.ai/mistralai/mistral-embed-2312,False,[],,False
+mistralai/mistral-large,closed,live_detail,https://openrouter.ai/mistralai/mistral-large,False,[],,False
+mistralai/mistral-large-2407,closed,live_detail,https://openrouter.ai/mistralai/mistral-large-2407,False,[],,False
+mistralai/mistral-large-2411,closed,live_detail,https://openrouter.ai/mistralai/mistral-large-2411,False,[],,False
+mistralai/mistral-large-2512,closed,live_detail,https://openrouter.ai/mistralai/mistral-large-2512,False,[],,False
+mistralai/mistral-medium,closed,live_detail,https://openrouter.ai/mistralai/mistral-medium,False,[],,False
+mistralai/mistral-medium-3,closed,live_detail,https://openrouter.ai/mistralai/mistral-medium-3,False,[],,False
+mistralai/mistral-medium-3-5,closed,live_detail,https://openrouter.ai/mistralai/mistral-medium-3-5,False,[],,False
+mistralai/mistral-medium-3.1,closed,live_detail,https://openrouter.ai/mistralai/mistral-medium-3.1,False,[],,False
+mistralai/mistral-nemo,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-nemo,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-nemo:free,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-nemo:free,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-saba,closed,live_detail,https://openrouter.ai/mistralai/mistral-saba,False,[],,False
+mistralai/mistral-small,closed,live_detail,https://openrouter.ai/mistralai/mistral-small,False,[],,False
+mistralai/mistral-small-24b-instruct-2501,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-small-24b-instruct-2501,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-small-24b-instruct-2501:free,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-small-24b-instruct-2501:free,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-small-2603,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-small-2603,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-small-3.1-24b-instruct,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-small-3.1-24b-instruct,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-small-3.1-24b-instruct:free,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-small-3.1-24b-instruct:free,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-small-3.2-24b-instruct,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-small-3.2-24b-instruct,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-small-3.2-24b-instruct:free,open_weight,live_detail,https://openrouter.ai/mistralai/mistral-small-3.2-24b-instruct:free,True,"[{""href"": ""https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"", ""text"": ""Model weights""}]",,False
+mistralai/mistral-small-creative,closed,live_detail,https://openrouter.ai/mistralai/mistral-small-creative,False,[],,False
+mistralai/mistral-tiny,closed,live_detail,https://openrouter.ai/mistralai/mistral-tiny,False,[],,False
+mistralai/mixtral-8x22b,open_weight,live_detail,https://openrouter.ai/mistralai/mixtral-8x22b,True,"[{""href"": ""https://huggingface.co/mistralai/Mixtral-8x22B-v0.1"", ""text"": ""Model weights""}]",,False
+mistralai/mixtral-8x22b-instruct,open_weight,live_detail,https://openrouter.ai/mistralai/mixtral-8x22b-instruct,True,"[{""href"": ""https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1"", ""text"": ""Model weights""}]",,False
+mistralai/mixtral-8x7b-instruct,open_weight,live_detail,https://openrouter.ai/mistralai/mixtral-8x7b-instruct,True,"[{""href"": ""https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1"", ""text"": ""Model weights""}]",,False
+mistralai/pixtral-12b,open_weight,live_detail,https://openrouter.ai/mistralai/pixtral-12b,True,"[{""href"": ""https://huggingface.co/mistralai/Pixtral-12B-2409"", ""text"": ""Model weights""}]",,False
+mistralai/pixtral-large-2411,closed,live_detail,https://openrouter.ai/mistralai/pixtral-large-2411,False,[],,False
+mistralai/voxtral-mini-tts-2603,closed,live_detail,https://openrouter.ai/mistralai/voxtral-mini-tts-2603,False,[],,False
+mistralai/voxtral-small-24b-2507,open_weight,live_detail,https://openrouter.ai/mistralai/voxtral-small-24b-2507,True,"[{""href"": ""https://huggingface.co/mistralai/Voxtral-Small-24B-2507"", ""text"": ""Model weights""}]",,False
+moonshotai/kimi-dev-72b,open_weight,live_detail,https://openrouter.ai/moonshotai/kimi-dev-72b,True,"[{""href"": ""https://huggingface.co/moonshotai/Kimi-Dev-72B"", ""text"": ""Model weights""}]",,False
+moonshotai/kimi-k2,open_weight,live_detail,https://openrouter.ai/moonshotai/kimi-k2,True,"[{""href"": ""https://huggingface.co/moonshotai/Kimi-K2-Instruct"", ""text"": ""Model weights""}]",,False
+moonshotai/kimi-k2-0905,open_weight,live_detail,https://openrouter.ai/moonshotai/kimi-k2-0905,True,"[{""href"": ""https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"", ""text"": ""Model weights""}]",,False
+moonshotai/kimi-k2-0905:exacto,open_weight,live_detail,https://openrouter.ai/moonshotai/kimi-k2-0905:exacto,True,"[{""href"": ""https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"", ""text"": ""Model weights""}]",,False
+moonshotai/kimi-k2-thinking,open_weight,live_detail,https://openrouter.ai/moonshotai/kimi-k2-thinking,True,"[{""href"": ""https://huggingface.co/moonshotai/Kimi-K2-Thinking"", ""text"": ""Model weights""}]",,False
+moonshotai/kimi-k2.5,open_weight,live_detail,https://openrouter.ai/moonshotai/kimi-k2.5,True,"[{""href"": ""https://huggingface.co/moonshotai/Kimi-K2.5"", ""text"": ""Model weights""}]",,False
+moonshotai/kimi-k2.6,open_weight,live_detail,https://openrouter.ai/moonshotai/kimi-k2.6,True,"[{""href"": ""https://huggingface.co/moonshotai/Kimi-K2.6"", ""text"": ""Model weights""}]",,False
+moonshotai/kimi-k2:free,open_weight,live_detail,https://openrouter.ai/moonshotai/kimi-k2:free,True,"[{""href"": ""https://huggingface.co/moonshotai/Kimi-K2-Instruct"", ""text"": ""Model weights""}]",,False
+moonshotai/kimi-linear-48b-a3b-instruct,closed,live_detail,https://openrouter.ai/moonshotai/kimi-linear-48b-a3b-instruct,False,[],,False
+moonshotai/kimi-vl-a3b-thinking,open_weight,live_detail,https://openrouter.ai/moonshotai/kimi-vl-a3b-thinking,True,"[{""href"": ""https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking"", ""text"": ""Model weights""}]",,False
+moonshotai/moonlight-16b-a3b-instruct,open_weight,live_detail,https://openrouter.ai/moonshotai/moonlight-16b-a3b-instruct,True,"[{""href"": ""https://huggingface.co/moonshotai/Moonlight-16B-A3B-Instruct"", ""text"": ""Model weights""}]",,False
+morph/morph-v2,closed,live_detail,https://openrouter.ai/morph/morph-v2,False,[],,False
+morph/morph-v3-fast,closed,live_detail,https://openrouter.ai/morph/morph-v3-fast,False,[],,False
+morph/morph-v3-large,closed,live_detail,https://openrouter.ai/morph/morph-v3-large,False,[],,False
+neversleep/llama-3-lumimaid-70b,open_weight,live_detail,https://openrouter.ai/neversleep/llama-3-lumimaid-70b,True,"[{""href"": ""https://huggingface.co/NeverSleep/Llama-3-Lumimaid-70B-v0.1"", ""text"": ""Model weights""}]",,False
+neversleep/llama-3-lumimaid-8b,open_weight,live_detail,https://openrouter.ai/neversleep/llama-3-lumimaid-8b,True,"[{""href"": ""https://huggingface.co/NeverSleep/Llama-3-Lumimaid-8B-v0.1"", ""text"": ""Model weights""}]",,False
+neversleep/llama-3.1-lumimaid-70b,open_weight,live_detail,https://openrouter.ai/neversleep/llama-3.1-lumimaid-70b,True,"[{""href"": ""https://huggingface.co/NeverSleep/Lumimaid-v0.2-70B"", ""text"": ""Model weights""}]",,False
+neversleep/llama-3.1-lumimaid-8b,open_weight,live_detail,https://openrouter.ai/neversleep/llama-3.1-lumimaid-8b,True,"[{""href"": ""https://huggingface.co/NeverSleep/Lumimaid-v0.2-8B"", ""text"": ""Model weights""}]",,False
+neversleep/noromaid-20b,open_weight,live_detail,https://openrouter.ai/neversleep/noromaid-20b,True,"[{""href"": ""https://huggingface.co/NeverSleep/Noromaid-20b-v0.1.1"", ""text"": ""Model weights""}]",,False
+neversleep/noromaid-mixtral-8x7b-instruct,open_weight,live_detail,https://openrouter.ai/neversleep/noromaid-mixtral-8x7b-instruct,True,"[{""href"": ""https://huggingface.co/NeverSleep/Noromaid-v0.1-mixtral-8x7b-Instruct-v3"", ""text"": ""Model weights""}]",,False
+nex-agi/deepseek-v3.1-nex-n1,open_weight,live_detail,https://openrouter.ai/nex-agi/deepseek-v3.1-nex-n1,True,"[{""href"": ""https://huggingface.co/nex-agi/DeepSeek-V3.1-Nex-N1"", ""text"": ""Model weights""}]",,False
+nex-agi/deepseek-v3.1-nex-n1:free,open_weight,live_detail,https://openrouter.ai/nex-agi/deepseek-v3.1-nex-n1:free,True,"[{""href"": ""https://huggingface.co/nex-agi/DeepSeek-V3.1-Nex-N1"", ""text"": ""Model weights""}]",,False
+nothingiisreal/mn-celeste-12b,open_weight,live_detail,https://openrouter.ai/nothingiisreal/mn-celeste-12b,True,"[{""href"": ""https://huggingface.co/nothingiisreal/MN-12B-Celeste-V1.9"", ""text"": ""HuggingFace page (opens in new tab)""}, {""href"": ""https://huggingface.co/nothingiisreal/MN-12B-Celeste-V1.9"", ""text"": ""Model weights""}]",,False
+nousresearch/deephermes-3-llama-3-8b-preview,open_weight,live_detail,https://openrouter.ai/nousresearch/deephermes-3-llama-3-8b-preview,True,"[{""href"": ""https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview"", ""text"": ""Model weights""}]",,False
+nousresearch/deephermes-3-mistral-24b-preview,open_weight,live_detail,https://openrouter.ai/nousresearch/deephermes-3-mistral-24b-preview,True,"[{""href"": ""https://huggingface.co/NousResearch/DeepHermes-3-Mistral-24B-Preview"", ""text"": ""Model weights""}]",,False
+nousresearch/hermes-2-pro-llama-3-8b,open_weight,live_detail,https://openrouter.ai/nousresearch/hermes-2-pro-llama-3-8b,True,"[{""href"": ""https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B"", ""text"": ""Model weights""}]",,False
+nousresearch/hermes-2-theta-llama-3-8b,open_weight,live_detail,https://openrouter.ai/nousresearch/hermes-2-theta-llama-3-8b,True,"[{""href"": ""https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B"", ""text"": ""Model weights""}]",,False
+nousresearch/hermes-3-llama-3.1-405b,open_weight,live_detail,https://openrouter.ai/nousresearch/hermes-3-llama-3.1-405b,True,"[{""href"": ""https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B"", ""text"": ""Model weights""}]",,False
+nousresearch/hermes-3-llama-3.1-405b:free,open_weight,live_detail,https://openrouter.ai/nousresearch/hermes-3-llama-3.1-405b:free,True,"[{""href"": ""https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B"", ""text"": ""Model weights""}]",,False
+nousresearch/hermes-3-llama-3.1-70b,open_weight,live_detail,https://openrouter.ai/nousresearch/hermes-3-llama-3.1-70b,True,"[{""href"": ""https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-70B"", ""text"": ""Model weights""}]",,False
+nousresearch/hermes-4-405b,open_weight,live_detail,https://openrouter.ai/nousresearch/hermes-4-405b,True,"[{""href"": ""https://huggingface.co/NousResearch/Hermes-4-405B"", ""text"": ""Model weights""}]",,False
+nousresearch/hermes-4-70b,open_weight,live_detail,https://openrouter.ai/nousresearch/hermes-4-70b,True,"[{""href"": ""https://huggingface.co/NousResearch/Hermes-4-70B"", ""text"": ""Model weights""}]",,False
+nousresearch/nous-capybara-34b,open_weight,live_detail,https://openrouter.ai/nousresearch/nous-capybara-34b,True,"[{""href"": ""https://huggingface.co/NousResearch/Nous-Capybara-34B"", ""text"": ""Model weights""}]",,False
+nousresearch/nous-capybara-7b,open_weight,live_detail,https://openrouter.ai/nousresearch/nous-capybara-7b,True,"[{""href"": ""https://huggingface.co/NousResearch/Nous-Capybara-7B-V1.9"", ""text"": ""Model weights""}]",,False
+nousresearch/nous-hermes-2-mistral-7b-dpo,open_weight,live_detail,https://openrouter.ai/nousresearch/nous-hermes-2-mistral-7b-dpo,True,"[{""href"": ""https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO"", ""text"": ""Model weights""}]",,False
+nousresearch/nous-hermes-2-mixtral-8x7b-dpo,open_weight,live_detail,https://openrouter.ai/nousresearch/nous-hermes-2-mixtral-8x7b-dpo,True,"[{""href"": ""https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"", ""text"": ""Model weights""}]",,False
+nousresearch/nous-hermes-2-mixtral-8x7b-sft,open_weight,live_detail,https://openrouter.ai/nousresearch/nous-hermes-2-mixtral-8x7b-sft,True,"[{""href"": ""https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-SFT"", ""text"": ""Model weights""}]",,False
+nousresearch/nous-hermes-2-vision-7b,open_weight,live_detail,https://openrouter.ai/nousresearch/nous-hermes-2-vision-7b,True,"[{""href"": ""https://huggingface.co/NousResearch/Nous-Hermes-2-Vision-Alpha"", ""text"": ""Model weights""}]",,False
+nousresearch/nous-hermes-llama2-13b,open_weight,live_detail,https://openrouter.ai/nousresearch/nous-hermes-llama2-13b,True,"[{""href"": ""https://huggingface.co/NousResearch/Nous-Hermes-Llama2-13b"", ""text"": ""Model weights""}]",,False
+nousresearch/nous-hermes-llama2-70b,open_weight,live_detail,https://openrouter.ai/nousresearch/nous-hermes-llama2-70b,True,"[{""href"": ""https://huggingface.co/NousResearch/Nous-Hermes-Llama2-70b"", ""text"": ""Model weights""}]",,False
+nousresearch/nous-hermes-yi-34b,open_weight,live_detail,https://openrouter.ai/nousresearch/nous-hermes-yi-34b,True,"[{""href"": ""https://huggingface.co/NousResearch/Nous-Hermes-2-Yi-34B"", ""text"": ""Model weights""}]",,False
+nvidia/llama-3.1-nemotron-70b-instruct,open_weight,live_detail,https://openrouter.ai/nvidia/llama-3.1-nemotron-70b-instruct,True,"[{""href"": ""https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF"", ""text"": ""Model weights""}]",,False
+nvidia/llama-3.1-nemotron-nano-8b-v1,open_weight,live_detail,https://openrouter.ai/nvidia/llama-3.1-nemotron-nano-8b-v1,True,"[{""href"": ""https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1#quick-start-and-usage-recommendations"", ""text"": ""Usage Recommendations (opens in new tab)""}, {""href"": ""https://huggingface.co/nvidia/Llama-3.1-Nemotron-Nano-8B-v1"", ""text"": ""Model weights""}]",,False
+nvidia/llama-3.1-nemotron-ultra-253b-v1,open_weight,live_detail,https://openrouter.ai/nvidia/llama-3.1-nemotron-ultra-253b-v1,True,"[{""href"": ""https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1#quick-start-and-usage-recommendations"", ""text"": ""Usage Recommendations (opens in new tab)""}, {""href"": ""https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1"", ""text"": ""Model weights""}]",,False
+nvidia/llama-3.3-nemotron-super-49b-v1,open_weight,live_detail,https://openrouter.ai/nvidia/llama-3.3-nemotron-super-49b-v1,True,"[{""href"": ""https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1#quick-start-and-usage-recommendations"", ""text"": ""Usage Recommendations (opens in new tab)""}, {""href"": ""https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1"", ""text"": ""Model weights""}]",,False
+nvidia/llama-3.3-nemotron-super-49b-v1.5,open_weight,live_detail,https://openrouter.ai/nvidia/llama-3.3-nemotron-super-49b-v1.5,True,"[{""href"": ""https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5"", ""text"": ""Model weights""}]",,False
+nvidia/llama-nemotron-embed-vl-1b-v2:free,open_weight,live_detail,https://openrouter.ai/nvidia/llama-nemotron-embed-vl-1b-v2:free,True,"[{""href"": ""https://huggingface.co/nvidia/llama-nemotron-embed-vl-1b-v2"", ""text"": ""Model weights""}]",,False
+nvidia/nemotron-3-nano-30b-a3b,open_weight,live_detail,https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b,True,"[{""href"": ""https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"", ""text"": ""Model weights""}]",,False
+nvidia/nemotron-3-nano-30b-a3b:free,open_weight,live_detail,https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free,True,"[{""href"": ""https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"", ""text"": ""Model weights""}]",,False
+nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free,closed,live_detail,https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free,False,[],,False
+nvidia/nemotron-3-super-120b-a12b,open_weight,live_detail,https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b,True,"[{""href"": ""https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"", ""text"": ""Model weights""}]",,False
+nvidia/nemotron-3-super-120b-a12b:free,open_weight,live_detail,https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free,True,"[{""href"": ""https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"", ""text"": ""Model weights""}]",,False
+nvidia/nemotron-4-340b-instruct,open_weight,live_detail,https://openrouter.ai/nvidia/nemotron-4-340b-instruct,True,"[{""href"": ""https://huggingface.co/nvidia/Nemotron-4-340B-Instruct"", ""text"": ""Model weights""}]",,False
+nvidia/nemotron-nano-12b-v2-vl,open_weight,live_detail,https://openrouter.ai/nvidia/nemotron-nano-12b-v2-vl,True,"[{""href"": ""https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"", ""text"": ""Model weights""}]",,False
+nvidia/nemotron-nano-12b-v2-vl:free,open_weight,live_detail,https://openrouter.ai/nvidia/nemotron-nano-12b-v2-vl:free,True,"[{""href"": ""https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"", ""text"": ""Model weights""}]",,False
+nvidia/nemotron-nano-9b-v2,open_weight,live_detail,https://openrouter.ai/nvidia/nemotron-nano-9b-v2,True,"[{""href"": ""https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2"", ""text"": ""Model weights""}]",,False
+nvidia/nemotron-nano-9b-v2:free,open_weight,live_detail,https://openrouter.ai/nvidia/nemotron-nano-9b-v2:free,True,"[{""href"": ""https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2"", ""text"": ""Model weights""}]",,False
+open-orca/mistral-7b-openorca,open_weight,live_detail,https://openrouter.ai/open-orca/mistral-7b-openorca,True,"[{""href"": ""https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca"", ""text"": ""Model weights""}]",,False
+open-r1/olympiccoder-32b,open_weight,live_detail,https://openrouter.ai/open-r1/olympiccoder-32b,True,"[{""href"": ""https://huggingface.co/open-r1/OlympicCoder-32B"", ""text"": ""Model weights""}]",,False
+openai/chatgpt-4o-latest,closed,live_detail,https://openrouter.ai/openai/chatgpt-4o-latest,False,[],,False
+openai/codex-mini,closed,live_detail,https://openrouter.ai/openai/codex-mini,False,[],,False
+openai/gpt-3.5-turbo,closed,live_detail,https://openrouter.ai/openai/gpt-3.5-turbo,False,[],,False
+openai/gpt-3.5-turbo-0125,closed,live_detail,https://openrouter.ai/openai/gpt-3.5-turbo-0125,False,[],,False
+openai/gpt-3.5-turbo-0301,closed,live_detail,https://openrouter.ai/openai/gpt-3.5-turbo-0301,False,[],,False
+openai/gpt-3.5-turbo-0613,closed,live_detail,https://openrouter.ai/openai/gpt-3.5-turbo-0613,False,[],,False
+openai/gpt-3.5-turbo-1106,closed,live_detail,https://openrouter.ai/openai/gpt-3.5-turbo-1106,False,[],,False
+openai/gpt-3.5-turbo-16k,closed,live_detail,https://openrouter.ai/openai/gpt-3.5-turbo-16k,False,[],,False
+openai/gpt-3.5-turbo-instruct,closed,live_detail,https://openrouter.ai/openai/gpt-3.5-turbo-instruct,False,[],,False
+openai/gpt-4,closed,live_detail,https://openrouter.ai/openai/gpt-4,False,[],,False
+openai/gpt-4-0314,closed,live_detail,https://openrouter.ai/openai/gpt-4-0314,False,[],,False
+openai/gpt-4-1106-preview,closed,live_detail,https://openrouter.ai/openai/gpt-4-1106-preview,False,[],,False
+openai/gpt-4-32k,closed,live_detail,https://openrouter.ai/openai/gpt-4-32k,False,[],,False
+openai/gpt-4-32k-0314,closed,live_detail,https://openrouter.ai/openai/gpt-4-32k-0314,False,[],,False
+openai/gpt-4-turbo,closed,live_detail,https://openrouter.ai/openai/gpt-4-turbo,False,[],,False
+openai/gpt-4-turbo-preview,closed,live_detail,https://openrouter.ai/openai/gpt-4-turbo-preview,False,[],,False
+openai/gpt-4-vision-preview,closed,live_detail,https://openrouter.ai/openai/gpt-4-vision-preview,False,[],,False
+openai/gpt-4.1,closed,live_detail,https://openrouter.ai/openai/gpt-4.1,False,[],,False
+openai/gpt-4.1-mini,closed,live_detail,https://openrouter.ai/openai/gpt-4.1-mini,False,[],,False
+openai/gpt-4.1-nano,closed,live_detail,https://openrouter.ai/openai/gpt-4.1-nano,False,[],,False
+openai/gpt-4.5-preview,closed,live_detail,https://openrouter.ai/openai/gpt-4.5-preview,False,[],,False
+openai/gpt-4o,closed,live_detail,https://openrouter.ai/openai/gpt-4o,False,[],,False
+openai/gpt-4o-2024-05-13,closed,live_detail,https://openrouter.ai/openai/gpt-4o-2024-05-13,False,[],,False
+openai/gpt-4o-2024-08-06,closed,live_detail,https://openrouter.ai/openai/gpt-4o-2024-08-06,False,[],,False
+openai/gpt-4o-2024-11-20,closed,live_detail,https://openrouter.ai/openai/gpt-4o-2024-11-20,False,[],,False
+openai/gpt-4o-audio-preview,closed,live_detail,https://openrouter.ai/openai/gpt-4o-audio-preview,False,[],,False
+openai/gpt-4o-mini,closed,live_detail,https://openrouter.ai/openai/gpt-4o-mini,False,[],,False
+openai/gpt-4o-mini-2024-07-18,closed,live_detail,https://openrouter.ai/openai/gpt-4o-mini-2024-07-18,False,[],,False
+openai/gpt-4o-mini-search-preview,closed,live_detail,https://openrouter.ai/openai/gpt-4o-mini-search-preview,False,[],,False
+openai/gpt-4o-mini-transcribe,closed,live_detail,https://openrouter.ai/openai/gpt-4o-mini-transcribe,False,[],,False
+openai/gpt-4o-mini-tts-2025-12-15,closed,live_detail,https://openrouter.ai/openai/gpt-4o-mini-tts-2025-12-15,False,[],,False
+openai/gpt-4o-search-preview,closed,live_detail,https://openrouter.ai/openai/gpt-4o-search-preview,False,[],,False
+openai/gpt-4o-transcribe,closed,live_detail,https://openrouter.ai/openai/gpt-4o-transcribe,False,[],,False
+openai/gpt-4o:extended,closed,live_detail,https://openrouter.ai/openai/gpt-4o:extended,False,[],,False
+openai/gpt-5,closed,live_detail,https://openrouter.ai/openai/gpt-5,False,[],,False
+openai/gpt-5-chat,closed,live_detail,https://openrouter.ai/openai/gpt-5-chat,False,[],,False
+openai/gpt-5-codex,closed,live_detail,https://openrouter.ai/openai/gpt-5-codex,False,[],,False
+openai/gpt-5-image,closed,live_detail,https://openrouter.ai/openai/gpt-5-image,False,[],,False
+openai/gpt-5-image-mini,closed,live_detail,https://openrouter.ai/openai/gpt-5-image-mini,False,[],,False
+openai/gpt-5-mini,closed,live_detail,https://openrouter.ai/openai/gpt-5-mini,False,[],,False
+openai/gpt-5-nano,closed,live_detail,https://openrouter.ai/openai/gpt-5-nano,False,[],,False
+openai/gpt-5-pro,closed,live_detail,https://openrouter.ai/openai/gpt-5-pro,False,[],,False
+openai/gpt-5.1,closed,live_detail,https://openrouter.ai/openai/gpt-5.1,False,[],,False
+openai/gpt-5.1-chat,closed,live_detail,https://openrouter.ai/openai/gpt-5.1-chat,False,[],,False
+openai/gpt-5.1-codex,closed,live_detail,https://openrouter.ai/openai/gpt-5.1-codex,False,[],,False
+openai/gpt-5.1-codex-max,closed,live_detail,https://openrouter.ai/openai/gpt-5.1-codex-max,False,[],,False
+openai/gpt-5.1-codex-mini,closed,live_detail,https://openrouter.ai/openai/gpt-5.1-codex-mini,False,[],,False
+openai/gpt-5.2,closed,live_detail,https://openrouter.ai/openai/gpt-5.2,False,[],,False
+openai/gpt-5.2-chat,closed,live_detail,https://openrouter.ai/openai/gpt-5.2-chat,False,[],,False
+openai/gpt-5.2-codex,closed,live_detail,https://openrouter.ai/openai/gpt-5.2-codex,False,[],,False
+openai/gpt-5.2-pro,closed,live_detail,https://openrouter.ai/openai/gpt-5.2-pro,False,[],,False
+openai/gpt-5.3-chat,closed,live_detail,https://openrouter.ai/openai/gpt-5.3-chat,False,[],,False
+openai/gpt-5.3-codex,closed,live_detail,https://openrouter.ai/openai/gpt-5.3-codex,False,[],,False
+openai/gpt-5.4,closed,live_detail,https://openrouter.ai/openai/gpt-5.4,False,[],,False
+openai/gpt-5.4-image-2,closed,live_detail,https://openrouter.ai/openai/gpt-5.4-image-2,False,[],,False
+openai/gpt-5.4-mini,closed,live_detail,https://openrouter.ai/openai/gpt-5.4-mini,False,[],,False
+openai/gpt-5.4-nano,closed,live_detail,https://openrouter.ai/openai/gpt-5.4-nano,False,[],,False
+openai/gpt-5.4-pro,closed,live_detail,https://openrouter.ai/openai/gpt-5.4-pro,False,[],,False
+openai/gpt-5.5,closed,live_detail,https://openrouter.ai/openai/gpt-5.5,False,[],,False
+openai/gpt-5.5-pro,closed,live_detail,https://openrouter.ai/openai/gpt-5.5-pro,False,[],,False
+openai/gpt-audio,closed,live_detail,https://openrouter.ai/openai/gpt-audio,False,[],,False
+openai/gpt-audio-mini,closed,live_detail,https://openrouter.ai/openai/gpt-audio-mini,False,[],,False
+openai/gpt-chat-latest,closed,live_detail,https://openrouter.ai/openai/gpt-chat-latest,False,[],,False
+openai/gpt-oss-120b,open_weight,live_detail,https://openrouter.ai/openai/gpt-oss-120b,True,"[{""href"": ""https://huggingface.co/openai/gpt-oss-120b"", ""text"": ""Model weights""}]",,False
+openai/gpt-oss-120b:exacto,open_weight,live_detail,https://openrouter.ai/openai/gpt-oss-120b:exacto,True,"[{""href"": ""https://huggingface.co/openai/gpt-oss-120b"", ""text"": ""Model weights""}]",,False
+openai/gpt-oss-120b:free,open_weight,live_detail,https://openrouter.ai/openai/gpt-oss-120b:free,True,"[{""href"": ""https://huggingface.co/openai/gpt-oss-120b"", ""text"": ""Model weights""}]",,False
+openai/gpt-oss-20b,open_weight,live_detail,https://openrouter.ai/openai/gpt-oss-20b,True,"[{""href"": ""https://huggingface.co/openai/gpt-oss-20b"", ""text"": ""Model weights""}]",,False
+openai/gpt-oss-20b:free,open_weight,live_detail,https://openrouter.ai/openai/gpt-oss-20b:free,True,"[{""href"": ""https://huggingface.co/openai/gpt-oss-20b"", ""text"": ""Model weights""}]",,False
+openai/gpt-oss-safeguard-20b,open_weight,live_detail,https://openrouter.ai/openai/gpt-oss-safeguard-20b,True,"[{""href"": ""https://huggingface.co/openai/gpt-oss-safeguard-20b"", ""text"": ""Model weights""}]",,False
+openai/o1,closed,live_detail,https://openrouter.ai/openai/o1,False,[],,False
+openai/o1-mini,closed,live_detail,https://openrouter.ai/openai/o1-mini,False,[],,False
+openai/o1-mini-2024-09-12,closed,live_detail,https://openrouter.ai/openai/o1-mini-2024-09-12,False,[],,False
+openai/o1-preview,closed,live_detail,https://openrouter.ai/openai/o1-preview,False,[],,False
+openai/o1-preview-2024-09-12,closed,live_detail,https://openrouter.ai/openai/o1-preview-2024-09-12,False,[],,False
+openai/o1-pro,closed,live_detail,https://openrouter.ai/openai/o1-pro,False,[],,False
+openai/o3,closed,live_detail,https://openrouter.ai/openai/o3,False,[],,False
+openai/o3-deep-research,closed,live_detail,https://openrouter.ai/openai/o3-deep-research,False,[],,False
+openai/o3-mini,closed,live_detail,https://openrouter.ai/openai/o3-mini,False,[],,False
+openai/o3-mini-high,closed,live_detail,https://openrouter.ai/openai/o3-mini-high,False,[],,False
+openai/o3-pro,closed,live_detail,https://openrouter.ai/openai/o3-pro,False,[],,False
+openai/o4-mini,closed,live_detail,https://openrouter.ai/openai/o4-mini,False,[],,False
+openai/o4-mini-deep-research,closed,live_detail,https://openrouter.ai/openai/o4-mini-deep-research,False,[],,False
+openai/o4-mini-high,closed,live_detail,https://openrouter.ai/openai/o4-mini-high,False,[],,False
+openai/sora-2-pro,closed,live_detail,https://openrouter.ai/openai/sora-2-pro,False,[],,False
+openai/text-embedding-3-large,closed,live_detail,https://openrouter.ai/openai/text-embedding-3-large,False,[],,False
+openai/text-embedding-3-small,closed,live_detail,https://openrouter.ai/openai/text-embedding-3-small,False,[],,False
+openai/text-embedding-ada-002,closed,live_detail,https://openrouter.ai/openai/text-embedding-ada-002,False,[],,False
+openai/whisper-1,closed,live_detail,https://openrouter.ai/openai/whisper-1,False,[],,False
+openai/whisper-large-v3,closed,live_detail,https://openrouter.ai/openai/whisper-large-v3,False,[],,False
+openai/whisper-large-v3-turbo,closed,live_detail,https://openrouter.ai/openai/whisper-large-v3-turbo,False,[],,False
+openchat/openchat-7b,open_weight,live_detail,https://openrouter.ai/openchat/openchat-7b,True,"[{""href"": ""https://huggingface.co/openchat/openchat-3.5-0106"", ""text"": ""Model weights""}]",,False
+openchat/openchat-8b,open_weight,live_detail,https://openrouter.ai/openchat/openchat-8b,True,"[{""href"": ""https://huggingface.co/openchat/openchat-3.6-8b-20240522"", ""text"": ""Model weights""}]",,False
+opengvlab/internvl3-14b,open_weight,live_detail,https://openrouter.ai/opengvlab/internvl3-14b,True,"[{""href"": ""https://huggingface.co/OpenGVLab/InternVL3-14B"", ""text"": ""Model weights""}]",,False
+opengvlab/internvl3-2b,open_weight,live_detail,https://openrouter.ai/opengvlab/internvl3-2b,True,"[{""href"": ""https://huggingface.co/OpenGVLab/InternVL3-2B"", ""text"": ""Model weights""}]",,False
+opengvlab/internvl3-78b,open_weight,live_detail,https://openrouter.ai/opengvlab/internvl3-78b,True,"[{""href"": ""https://huggingface.co/OpenGVLab/InternVL3-78B"", ""text"": ""Model weights""}]",,False
+openrouter/andromeda-alpha,closed,live_detail,https://openrouter.ai/openrouter/andromeda-alpha,False,[],,False
+openrouter/aurora-alpha,closed,live_detail,https://openrouter.ai/openrouter/aurora-alpha,False,[],,False
+openrouter/auto,closed,live_detail,https://openrouter.ai/openrouter/auto,False,[],,False
+openrouter/bert-nebulon-alpha,closed,live_detail,https://openrouter.ai/openrouter/bert-nebulon-alpha,False,[],,False
+openrouter/bodybuilder,closed,live_detail,https://openrouter.ai/openrouter/bodybuilder,False,[],,False
+openrouter/cinematika-7b,open_weight,live_detail,https://openrouter.ai/openrouter/cinematika-7b,True,"[{""href"": ""https://huggingface.co/OpenRouter/cinematika-7b-v0.1"", ""text"": ""Model weights""}]",,False
+openrouter/cypher-alpha,closed,live_detail,https://openrouter.ai/openrouter/cypher-alpha,False,[],,False
+openrouter/elephant-alpha,closed,live_detail,https://openrouter.ai/openrouter/elephant-alpha,False,[],,False
+openrouter/free,closed,live_detail,https://openrouter.ai/openrouter/free,False,[],,False
+openrouter/healer-alpha,closed,live_detail,https://openrouter.ai/openrouter/healer-alpha,False,[],,False
+openrouter/horizon-alpha,closed,live_detail,https://openrouter.ai/openrouter/horizon-alpha,False,[],,False
+openrouter/horizon-beta,closed,live_detail,https://openrouter.ai/openrouter/horizon-beta,False,[],,False
+openrouter/hunter-alpha,closed,live_detail,https://openrouter.ai/openrouter/hunter-alpha,False,[],,False
+openrouter/optimus-alpha,closed,live_detail,https://openrouter.ai/openrouter/optimus-alpha,False,[],,False
+openrouter/owl-alpha,closed,live_detail,https://openrouter.ai/openrouter/owl-alpha,False,[],,False
+openrouter/pareto-code,closed,live_detail,https://openrouter.ai/openrouter/pareto-code,False,[],,False
+openrouter/polaris-alpha,closed,live_detail,https://openrouter.ai/openrouter/polaris-alpha,False,[],,False
+openrouter/pony-alpha,closed,live_detail,https://openrouter.ai/openrouter/pony-alpha,False,[],,False
+openrouter/quasar-alpha,closed,live_detail,https://openrouter.ai/openrouter/quasar-alpha,False,[],,False
+openrouter/sherlock-dash-alpha,closed,live_detail,https://openrouter.ai/openrouter/sherlock-dash-alpha,False,[],,False
+openrouter/sherlock-think-alpha,closed,live_detail,https://openrouter.ai/openrouter/sherlock-think-alpha,False,[],,False
+openrouter/sonoma-dusk-alpha,closed,live_detail,https://openrouter.ai/openrouter/sonoma-dusk-alpha,False,[],,False
+openrouter/sonoma-sky-alpha,closed,live_detail,https://openrouter.ai/openrouter/sonoma-sky-alpha,False,[],,False
+perplexity/llama-3-sonar-large-32k-chat,closed,live_detail,https://openrouter.ai/perplexity/llama-3-sonar-large-32k-chat,False,[],,False
+perplexity/llama-3-sonar-large-32k-online,closed,live_detail,https://openrouter.ai/perplexity/llama-3-sonar-large-32k-online,False,[],,False
+perplexity/llama-3-sonar-small-32k-chat,closed,live_detail,https://openrouter.ai/perplexity/llama-3-sonar-small-32k-chat,False,[],,False
+perplexity/llama-3-sonar-small-32k-online,closed,live_detail,https://openrouter.ai/perplexity/llama-3-sonar-small-32k-online,False,[],,False
+perplexity/llama-3.1-sonar-large-128k-online,closed,live_detail,https://openrouter.ai/perplexity/llama-3.1-sonar-large-128k-online,False,[],,False
+perplexity/llama-3.1-sonar-small-128k-online,closed,live_detail,https://openrouter.ai/perplexity/llama-3.1-sonar-small-128k-online,False,[],,False
+perplexity/pplx-embed-v1-0.6b,closed,live_detail,https://openrouter.ai/perplexity/pplx-embed-v1-0.6b,False,[],,False
+perplexity/pplx-embed-v1-4b,closed,live_detail,https://openrouter.ai/perplexity/pplx-embed-v1-4b,False,[],,False
+perplexity/r1-1776,open_weight,live_detail,https://openrouter.ai/perplexity/r1-1776,True,"[{""href"": ""https://cdn-uploads.huggingface.co/production/uploads/675c8332d01f593dc90817f5/GiN2VqC5hawUgAGJ6oHla.png"", ""text"": ""Evaluation Results (opens in new tab)""}, {""href"": ""https://cdn-uploads.huggingface.co/production/uploads/675c8332d01f593dc90817f5/n4Z9Byqp2S7sKUvCvI40R.png"", ""text"": ""Reasoning Performance (opens in new tab)""}, {""href"": ""https://huggingface.co/perplexity-ai/r1-1776"", ""text"": ""Model weights""}]",,False
+perplexity/sonar,closed,live_detail,https://openrouter.ai/perplexity/sonar,False,[],,False
+perplexity/sonar-deep-research,closed,live_detail,https://openrouter.ai/perplexity/sonar-deep-research,False,[],,False
+perplexity/sonar-pro,closed,live_detail,https://openrouter.ai/perplexity/sonar-pro,False,[],,False
+perplexity/sonar-pro-search,closed,live_detail,https://openrouter.ai/perplexity/sonar-pro-search,False,[],,False
+perplexity/sonar-reasoning,closed,live_detail,https://openrouter.ai/perplexity/sonar-reasoning,False,[],,False
+perplexity/sonar-reasoning-pro,closed,live_detail,https://openrouter.ai/perplexity/sonar-reasoning-pro,False,[],,False
+phind/phind-codellama-34b,open_weight,live_detail,https://openrouter.ai/phind/phind-codellama-34b,True,"[{""href"": ""https://huggingface.co/Phind/Phind-CodeLlama-34B-v2"", ""text"": ""Model weights""}]",,False
+poolside/laguna-m.1:free,closed,live_detail,https://openrouter.ai/poolside/laguna-m.1:free,False,[],,False
+poolside/laguna-xs.2:free,open_weight,live_detail,https://openrouter.ai/poolside/laguna-xs.2:free,True,"[{""href"": ""https://huggingface.co/poolside/Laguna-XS.2"", ""text"": ""Model weights""}]",,False
+prime-intellect/intellect-3,open_weight,live_detail,https://openrouter.ai/prime-intellect/intellect-3,True,"[{""href"": ""https://huggingface.co/PrimeIntellect/INTELLECT-3-FP8"", ""text"": ""Model weights""}]",,False
+pygmalionai/mythalion-13b,open_weight,live_detail,https://openrouter.ai/pygmalionai/mythalion-13b,True,"[{""href"": ""https://huggingface.co/PygmalionAI/mythalion-13b"", ""text"": ""Model weights""}]",,False
+qwen/qwen-110b-chat,open_weight,live_detail,https://openrouter.ai/qwen/qwen-110b-chat,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat"", ""text"": ""Model weights""}]",,False
+qwen/qwen-14b-chat,open_weight,live_detail,https://openrouter.ai/qwen/qwen-14b-chat,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen1.5-14B-Chat"", ""text"": ""Model weights""}]",,False
+qwen/qwen-2-72b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen-2-72b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen2-72B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen-2-7b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen-2-7b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen2-7B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen-2.5-72b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen-2.5-72b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen2.5-72B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen-2.5-72b-instruct:free,open_weight,live_detail,https://openrouter.ai/qwen/qwen-2.5-72b-instruct:free,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen2.5-72B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen-2.5-7b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen-2.5-7b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen2.5-7B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen-2.5-coder-32b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen-2.5-coder-32b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen-2.5-coder-32b-instruct:free,open_weight,live_detail,https://openrouter.ai/qwen/qwen-2.5-coder-32b-instruct:free,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen-2.5-vl-7b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen-2.5-vl-7b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen-2.5-vl-7b-instruct:free,open_weight,live_detail,https://openrouter.ai/qwen/qwen-2.5-vl-7b-instruct:free,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen-32b-chat,open_weight,live_detail,https://openrouter.ai/qwen/qwen-32b-chat,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen1.5-32B-Chat"", ""text"": ""Model weights""}]",,False
+qwen/qwen-4b-chat,open_weight,live_detail,https://openrouter.ai/qwen/qwen-4b-chat,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen1.5-4B-Chat"", ""text"": ""Model weights""}]",,False
+qwen/qwen-72b-chat,open_weight,live_detail,https://openrouter.ai/qwen/qwen-72b-chat,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen1.5-72B-Chat"", ""text"": ""Model weights""}]",,False
+qwen/qwen-7b-chat,open_weight,live_detail,https://openrouter.ai/qwen/qwen-7b-chat,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen1.5-7B-Chat"", ""text"": ""Model weights""}]",,False
+qwen/qwen-max,closed,live_detail,https://openrouter.ai/qwen/qwen-max,False,[],,False
+qwen/qwen-plus,closed,live_detail,https://openrouter.ai/qwen/qwen-plus,False,[],,False
+qwen/qwen-plus-2025-07-28,closed,live_detail,https://openrouter.ai/qwen/qwen-plus-2025-07-28,False,[],,False
+qwen/qwen-plus-2025-07-28:thinking,closed,live_detail,https://openrouter.ai/qwen/qwen-plus-2025-07-28:thinking,False,[],,False
+qwen/qwen-turbo,closed,live_detail,https://openrouter.ai/qwen/qwen-turbo,False,[],,False
+qwen/qwen-vl-max,closed,live_detail,https://openrouter.ai/qwen/qwen-vl-max,False,[],,False
+qwen/qwen-vl-plus,closed,live_detail,https://openrouter.ai/qwen/qwen-vl-plus,False,[],,False
+qwen/qwen2.5-32b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen2.5-32b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen2.5-32B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen2.5-coder-7b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen2.5-coder-7b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen2.5-vl-32b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen2.5-vl-32b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen2.5-vl-32b-instruct:free,open_weight,live_detail,https://openrouter.ai/qwen/qwen2.5-vl-32b-instruct:free,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen2.5-vl-3b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen2.5-vl-3b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE"", ""text"": ""Tongyi Qianwen LICENSE AGREEMENT (opens in new tab)""}, {""href"": ""https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen2.5-vl-72b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen2.5-vl-72b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-0.6b-04-28,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-0.6b-04-28,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-0.6B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-1.7b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-1.7b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-1.7B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-14b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-14b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-14B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-14b:free,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-14b:free,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-14B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-235b-a22b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-235b-a22b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-235B-A22B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-235b-a22b-2507,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-235b-a22b-2507,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-235b-a22b-thinking-2507,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-235b-a22b-thinking-2507,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-235b-a22b:free,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-235b-a22b:free,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-235B-A22B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-30b-a3b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-30b-a3b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-30B-A3B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-30b-a3b-instruct-2507,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-30b-a3b-instruct-2507,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-30b-a3b-thinking-2507,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-30b-a3b-thinking-2507,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-30B-A3B-Thinking-2507"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-30b-a3b:free,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-30b-a3b:free,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-30B-A3B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-32b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-32b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-32B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-4b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-4b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-4B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-4b:free,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-4b:free,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-4B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-8b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-8b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-8B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-coder,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-coder,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-coder-30b-a3b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-coder-30b-a3b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-coder-flash,closed,live_detail,https://openrouter.ai/qwen/qwen3-coder-flash,False,[],,False
+qwen/qwen3-coder-next,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-coder-next,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-Coder-Next"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-coder-plus,closed,live_detail,https://openrouter.ai/qwen/qwen3-coder-plus,False,[],,False
+qwen/qwen3-coder:exacto,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-coder:exacto,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-coder:free,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-coder:free,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-embedding-0.6b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-embedding-0.6b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-Embedding-0.6B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-embedding-4b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-embedding-4b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-Embedding-4B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-embedding-8b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-embedding-8b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-Embedding-8B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-max,closed,live_detail,https://openrouter.ai/qwen/qwen3-max,False,[],,False
+qwen/qwen3-max-thinking,closed,live_detail,https://openrouter.ai/qwen/qwen3-max-thinking,False,[],,False
+qwen/qwen3-next-80b-a3b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-next-80b-a3b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-next-80b-a3b-instruct:free,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-next-80b-a3b-instruct:free,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-next-80b-a3b-thinking,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-next-80b-a3b-thinking,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-vl-235b-a22b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-vl-235b-a22b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-vl-235b-a22b-thinking,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-vl-235b-a22b-thinking,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Thinking"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-vl-30b-a3b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-vl-30b-a3b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-VL-30B-A3B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-vl-30b-a3b-thinking,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-vl-30b-a3b-thinking,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-VL-30B-A3B-Thinking"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-vl-32b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-vl-32b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-VL-32B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-vl-8b-instruct,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-vl-8b-instruct,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct"", ""text"": ""Model weights""}]",,False
+qwen/qwen3-vl-8b-thinking,open_weight,live_detail,https://openrouter.ai/qwen/qwen3-vl-8b-thinking,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"", ""text"": ""Model weights""}]",,False
+qwen/qwen3.5-122b-a10b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3.5-122b-a10b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3.5-122B-A10B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3.5-27b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3.5-27b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3.5-27B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3.5-35b-a3b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3.5-35b-a3b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3.5-35B-A3B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3.5-397b-a17b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3.5-397b-a17b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3.5-397B-A17B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3.5-9b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3.5-9b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3.5-9B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3.5-flash-02-23,closed,live_detail,https://openrouter.ai/qwen/qwen3.5-flash-02-23,False,[],,False
+qwen/qwen3.5-plus-02-15,closed,live_detail,https://openrouter.ai/qwen/qwen3.5-plus-02-15,False,[],,False
+qwen/qwen3.5-plus-20260420,closed,live_detail,https://openrouter.ai/qwen/qwen3.5-plus-20260420,False,[],,False
+qwen/qwen3.6-27b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3.6-27b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3.6-27B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3.6-35b-a3b,open_weight,live_detail,https://openrouter.ai/qwen/qwen3.6-35b-a3b,True,"[{""href"": ""https://huggingface.co/Qwen/Qwen3.6-35B-A3B"", ""text"": ""Model weights""}]",,False
+qwen/qwen3.6-flash,closed,live_detail,https://openrouter.ai/qwen/qwen3.6-flash,False,[],,False
+qwen/qwen3.6-max-preview,closed,live_detail,https://openrouter.ai/qwen/qwen3.6-max-preview,False,[],,False
+qwen/qwen3.6-plus,closed,live_detail,https://openrouter.ai/qwen/qwen3.6-plus,False,[],,False
+qwen/qwen3.6-plus-preview,closed,live_detail,https://openrouter.ai/qwen/qwen3.6-plus-preview,False,[],,False
+qwen/qwen3.6-plus-preview:free,closed,live_detail,https://openrouter.ai/qwen/qwen3.6-plus-preview:free,False,[],,False
+qwen/qwen3.6-plus:free,closed,live_detail,https://openrouter.ai/qwen/qwen3.6-plus:free,False,[],,False
+qwen/qwq-32b,open_weight,live_detail,https://openrouter.ai/qwen/qwq-32b,True,"[{""href"": ""https://huggingface.co/Qwen/QwQ-32B"", ""text"": ""Model weights""}]",,False
+qwen/qwq-32b-preview,open_weight,live_detail,https://openrouter.ai/qwen/qwq-32b-preview,True,"[{""href"": ""https://huggingface.co/Qwen/QwQ-32B-Preview"", ""text"": ""Model weights""}]",,False
+raifle/sorcererlm-8x22b,open_weight,live_detail,https://openrouter.ai/raifle/sorcererlm-8x22b,True,"[{""href"": ""https://huggingface.co/rAIfle/SorcererLM-8x22b-bf16"", ""text"": ""Model weights""}]",,False
+recursal/eagle-7b,open_weight,live_detail,https://openrouter.ai/recursal/eagle-7b,True,"[{""href"": ""https://huggingface.co/RWKV/v5-Eagle"", ""text"": ""Model weights""}]",,False
+recursal/rwkv-5-3b-ai-town,open_weight,live_detail,https://openrouter.ai/recursal/rwkv-5-3b-ai-town,True,"[{""href"": ""https://huggingface.co/recursal/rwkv-5-3b-ai-town"", ""text"": ""Model weights""}]",,False
+reka/reka-edge,closed,live_detail,https://openrouter.ai/reka/reka-edge,False,[],,False
+rekaai/reka-edge,open_weight,live_detail,https://openrouter.ai/rekaai/reka-edge,True,"[{""href"": ""https://huggingface.co/RekaAI/reka-edge-2603"", ""text"": ""Model weights""}, {""href"": ""https://openrouter.ai/rekaai/reka-flash-3"", ""text"": ""Reka Flash 3 Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a 32K context length and optimized through reinforcement learning (RLOO), it provides competitive performance comparable to proprietary models within a smaller parameter footprint. Ideal for low-latency, local, or on-device deployments, Reka Flash 3 is compact, supports efficient quantization (down to 11GB at 4-bit precision), and employs explicit reasoning tags (\""<reasoning>\"") to indicate its internal thought process. Reka Flash 3 is primarily an English model with limited multilingual understanding capabilities. The model weights are released under the Apache 2.0 license.""}]",,False
+rekaai/reka-flash-3,open_weight,live_detail,https://openrouter.ai/rekaai/reka-flash-3,True,"[{""href"": ""https://huggingface.co/RekaAI/reka-flash-3"", ""text"": ""Model weights""}]",,False
+relace/relace-apply-3,closed,live_detail,https://openrouter.ai/relace/relace-apply-3,False,[],,False
+relace/relace-search,closed,live_detail,https://openrouter.ai/relace/relace-search,False,[],,False
+rwkv/rwkv-5-world-3b,open_weight,live_detail,https://openrouter.ai/rwkv/rwkv-5-world-3b,True,"[{""href"": ""https://huggingface.co/RWKV/rwkv-5-world-3b"", ""text"": ""Model weights""}]",,False
+sao10k/fimbulvetr-11b-v2,open_weight,live_detail,https://openrouter.ai/sao10k/fimbulvetr-11b-v2,True,"[{""href"": ""https://huggingface.co/Sao10K/Fimbulvetr-11B-v2"", ""text"": ""Model weights""}]",,False
+sao10k/l3-euryale-70b,open_weight,live_detail,https://openrouter.ai/sao10k/l3-euryale-70b,True,"[{""href"": ""https://huggingface.co/Sao10K/L3-70B-Euryale-v2.1"", ""text"": ""Model weights""}]",,False
+sao10k/l3-lunaris-8b,open_weight,live_detail,https://openrouter.ai/sao10k/l3-lunaris-8b,True,"[{""href"": ""https://huggingface.co/Sao10k"", ""text"": ""Sao10k (opens in new tab)""}, {""href"": ""https://huggingface.co/Sao10K/L3-8B-Lunaris-v1"", ""text"": ""Model weights""}]",,False
+sao10k/l3-stheno-8b,open_weight,live_detail,https://openrouter.ai/sao10k/l3-stheno-8b,True,"[{""href"": ""https://huggingface.co/Sao10K/L3-8B-Stheno-v3.3-32K"", ""text"": ""Model weights""}]",,False
+sao10k/l3.1-70b-hanami-x1,open_weight,live_detail,https://openrouter.ai/sao10k/l3.1-70b-hanami-x1,True,"[{""href"": ""https://huggingface.co/Sao10K/L3.1-70B-Hanami-x1"", ""text"": ""Model weights""}]",,False
+sao10k/l3.1-euryale-70b,open_weight,live_detail,https://openrouter.ai/sao10k/l3.1-euryale-70b,True,"[{""href"": ""https://huggingface.co/Sao10K/L3.1-70B-Euryale-v2.2"", ""text"": ""Model weights""}]",,False
+sao10k/l3.3-euryale-70b,open_weight,live_detail,https://openrouter.ai/sao10k/l3.3-euryale-70b,True,"[{""href"": ""https://huggingface.co/Sao10K/L3.3-70B-Euryale-v2.3"", ""text"": ""Model weights""}]",,False
+sarvamai/sarvam-m,open_weight,live_detail,https://openrouter.ai/sarvamai/sarvam-m,True,"[{""href"": ""https://huggingface.co/sarvamai/sarvam-m"", ""text"": ""Model weights""}]",,False
+scb10x/llama3.1-typhoon2-70b-instruct,open_weight,live_detail,https://openrouter.ai/scb10x/llama3.1-typhoon2-70b-instruct,True,"[{""href"": ""https://huggingface.co/scb10x/llama3.1-typhoon2-70b-instruct"", ""text"": ""Model weights""}]",,False
+scb10x/llama3.1-typhoon2-8b-instruct,open_weight,live_detail,https://openrouter.ai/scb10x/llama3.1-typhoon2-8b-instruct,True,"[{""href"": ""https://huggingface.co/scb10x/llama3.1-typhoon2-8b-instruct"", ""text"": ""Model weights""}]",,False
+sentence-transformers/all-minilm-l12-v2,open_weight,live_detail,https://openrouter.ai/sentence-transformers/all-minilm-l12-v2,True,"[{""href"": ""https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2"", ""text"": ""Model weights""}]",,False
+sentence-transformers/all-minilm-l6-v2,open_weight,live_detail,https://openrouter.ai/sentence-transformers/all-minilm-l6-v2,True,"[{""href"": ""https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"", ""text"": ""Model weights""}]",,False
+sentence-transformers/all-mpnet-base-v2,open_weight,live_detail,https://openrouter.ai/sentence-transformers/all-mpnet-base-v2,True,"[{""href"": ""https://huggingface.co/sentence-transformers/all-mpnet-base-v2"", ""text"": ""Model weights""}]",,False
+sentence-transformers/multi-qa-mpnet-base-dot-v1,open_weight,live_detail,https://openrouter.ai/sentence-transformers/multi-qa-mpnet-base-dot-v1,True,"[{""href"": ""https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1"", ""text"": ""Model weights""}]",,False
+sentence-transformers/paraphrase-minilm-l6-v2,open_weight,live_detail,https://openrouter.ai/sentence-transformers/paraphrase-minilm-l6-v2,True,"[{""href"": ""https://huggingface.co/sentence-transformers/paraphrase-MiniLM-L6-v2"", ""text"": ""Model weights""}]",,False
+sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,open_weight,live_detail,https://openrouter.ai/sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,True,"[{""href"": ""https://huggingface.co/SentientAGI/Dobby-Mini-Unhinged-Plus-Llama-3.1-8B"", ""text"": ""Model weights""}]",,False
+sesame/csm-1b,closed,live_detail,https://openrouter.ai/sesame/csm-1b,False,[],,False
+snowflake/snowflake-arctic-instruct,open_weight,live_detail,https://openrouter.ai/snowflake/snowflake-arctic-instruct,True,"[{""href"": ""https://huggingface.co/Snowflake/snowflake-arctic-instruct"", ""text"": ""Model weights""}]",,False
+sophosympatheia/midnight-rose-70b,open_weight,live_detail,https://openrouter.ai/sophosympatheia/midnight-rose-70b,True,"[{""href"": ""https://huggingface.co/sophosympatheia/Wizard-Tulu-Dolphin-70B-v1.0"", ""text"": ""Wizard Tulu Dolphin 70B (opens in new tab)""}, {""href"": ""https://huggingface.co/sophosympatheia/Midnight-Rose-70B-v2.0.3"", ""text"": ""Model weights""}]",,False
+sourceful/riverflow-v2-fast,closed,live_detail,https://openrouter.ai/sourceful/riverflow-v2-fast,False,[],,False
+sourceful/riverflow-v2-fast-preview,closed,live_detail,https://openrouter.ai/sourceful/riverflow-v2-fast-preview,False,[],,False
+sourceful/riverflow-v2-max-preview,closed,live_detail,https://openrouter.ai/sourceful/riverflow-v2-max-preview,False,[],,False
+sourceful/riverflow-v2-pro,closed,live_detail,https://openrouter.ai/sourceful/riverflow-v2-pro,False,[],,False
+sourceful/riverflow-v2-standard-preview,closed,live_detail,https://openrouter.ai/sourceful/riverflow-v2-standard-preview,False,[],,False
+steelskull/l3.3-electra-r1-70b,open_weight,live_detail,https://openrouter.ai/steelskull/l3.3-electra-r1-70b,True,"[{""href"": ""https://huggingface.co/Steelskull/L3.3-Electra-R1-70b"", ""text"": ""prompting here (opens in new tab)""}, {""href"": ""https://huggingface.co/Steelskull/L3.3-Electra-R1-70b"", ""text"": ""Model weights""}]",,False
+stepfun-ai/step3,open_weight,live_detail,https://openrouter.ai/stepfun-ai/step3,True,"[{""href"": ""https://huggingface.co/stepfun-ai/step3"", ""text"": ""Model weights""}]",,False
+stepfun/step-3.5-flash,open_weight,live_detail,https://openrouter.ai/stepfun/step-3.5-flash,True,"[{""href"": ""https://huggingface.co/stepfun-ai/Step-3.5-Flash"", ""text"": ""Model weights""}]",,False
+stepfun/step-3.5-flash:free,open_weight,live_detail,https://openrouter.ai/stepfun/step-3.5-flash:free,True,"[{""href"": ""https://huggingface.co/stepfun-ai/Step-3.5-Flash"", ""text"": ""Model weights""}]",,False
+switchpoint/router,closed,live_detail,https://openrouter.ai/switchpoint/router,False,[],,False
+teknium/openhermes-2-mistral-7b,open_weight,live_detail,https://openrouter.ai/teknium/openhermes-2-mistral-7b,True,"[{""href"": ""https://huggingface.co/teknium/OpenHermes-2-Mistral-7B"", ""text"": ""Model weights""}]",,False
+teknium/openhermes-2.5-mistral-7b,open_weight,live_detail,https://openrouter.ai/teknium/openhermes-2.5-mistral-7b,True,"[{""href"": ""https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B"", ""text"": ""Model weights""}]",,False
+tencent/hunyuan-a13b-instruct,open_weight,live_detail,https://openrouter.ai/tencent/hunyuan-a13b-instruct,True,"[{""href"": ""https://huggingface.co/tencent/Hunyuan-A13B-Instruct"", ""text"": ""Model weights""}]",,False
+tencent/hy3-preview:free,open_weight,live_detail,https://openrouter.ai/tencent/hy3-preview:free,True,"[{""href"": ""https://huggingface.co/tencent/Hy3-preview"", ""text"": ""Model weights""}]",,False
+thedrummer/anubis-70b-v1.1,closed,live_detail,https://openrouter.ai/thedrummer/anubis-70b-v1.1,False,[],,False
+thedrummer/cydonia-24b-v4.1,open_weight,live_detail,https://openrouter.ai/thedrummer/cydonia-24b-v4.1,True,"[{""href"": ""https://huggingface.co/thedrummer/cydonia-24b-v4.1"", ""text"": ""Model weights""}]",,False
+thedrummer/rocinante-12b,open_weight,live_detail,https://openrouter.ai/thedrummer/rocinante-12b,True,"[{""href"": ""https://huggingface.co/TheDrummer/Rocinante-12B-v1.1"", ""text"": ""Model weights""}]",,False
+thedrummer/skyfall-36b-v2,open_weight,live_detail,https://openrouter.ai/thedrummer/skyfall-36b-v2,True,"[{""href"": ""https://huggingface.co/TheDrummer/Skyfall-36B-v2"", ""text"": ""Model weights""}]",,False
+thedrummer/unslopnemo-12b,open_weight,live_detail,https://openrouter.ai/thedrummer/unslopnemo-12b,True,"[{""href"": ""https://huggingface.co/TheDrummer/UnslopNemo-12B-v4.1"", ""text"": ""Model weights""}]",,False
+thedrummer/valkyrie-49b-v1,open_weight,live_detail,https://openrouter.ai/thedrummer/valkyrie-49b-v1,True,"[{""href"": ""https://huggingface.co/TheDrummer/Valkyrie-49B-v1"", ""text"": ""Model weights""}]",,False
+thenlper/gte-base,open_weight,live_detail,https://openrouter.ai/thenlper/gte-base,True,"[{""href"": ""https://huggingface.co/thenlper/gte-base"", ""text"": ""Model weights""}]",,False
+thenlper/gte-large,open_weight,live_detail,https://openrouter.ai/thenlper/gte-large,True,"[{""href"": ""https://huggingface.co/thenlper/gte-large"", ""text"": ""Model weights""}]",,False
+thudm/glm-4-32b,open_weight,live_detail,https://openrouter.ai/thudm/glm-4-32b,True,"[{""href"": ""https://huggingface.co/THUDM/GLM-4-32B-0414"", ""text"": ""Model weights""}]",,False
+thudm/glm-4-9b,open_weight,live_detail,https://openrouter.ai/thudm/glm-4-9b,True,"[{""href"": ""https://huggingface.co/THUDM/GLM-4-9B-0414"", ""text"": ""Model weights""}]",,False
+thudm/glm-4.1v-9b-thinking,open_weight,live_detail,https://openrouter.ai/thudm/glm-4.1v-9b-thinking,True,"[{""href"": ""https://huggingface.co/THUDM/GLM-4.1V-9B-Thinking"", ""text"": ""Model weights""}]",,False
+thudm/glm-z1-32b,open_weight,live_detail,https://openrouter.ai/thudm/glm-z1-32b,True,"[{""href"": ""https://huggingface.co/THUDM/GLM-Z1-32B-0414"", ""text"": ""Model weights""}]",,False
+thudm/glm-z1-9b,open_weight,live_detail,https://openrouter.ai/thudm/glm-z1-9b,True,"[{""href"": ""https://huggingface.co/thudm/glm-z1-9b-0414"", ""text"": ""Model weights""}]",,False
+thudm/glm-z1-rumination-32b,open_weight,live_detail,https://openrouter.ai/thudm/glm-z1-rumination-32b,True,"[{""href"": ""https://huggingface.co/THUDM/GLM-Z1-Rumination-32B-0414"", ""text"": ""Model weights""}]",,False
+tngtech/deepseek-r1t-chimera,open_weight,live_detail,https://openrouter.ai/tngtech/deepseek-r1t-chimera,True,"[{""href"": ""https://huggingface.co/tngtech/DeepSeek-R1T-Chimera"", ""text"": ""Model weights""}]",,False
+tngtech/deepseek-r1t-chimera:free,open_weight,live_detail,https://openrouter.ai/tngtech/deepseek-r1t-chimera:free,True,"[{""href"": ""https://huggingface.co/tngtech/DeepSeek-R1T-Chimera"", ""text"": ""Model weights""}]",,False
+tngtech/deepseek-r1t2-chimera,open_weight,live_detail,https://openrouter.ai/tngtech/deepseek-r1t2-chimera,True,"[{""href"": ""https://huggingface.co/tngtech/DeepSeek-TNG-R1T2-Chimera"", ""text"": ""Model weights""}]",,False
+tngtech/deepseek-r1t2-chimera:free,open_weight,live_detail,https://openrouter.ai/tngtech/deepseek-r1t2-chimera:free,True,"[{""href"": ""https://huggingface.co/tngtech/DeepSeek-TNG-R1T2-Chimera"", ""text"": ""Model weights""}]",,False
+tngtech/tng-r1t-chimera,open_weight,live_detail,https://openrouter.ai/tngtech/tng-r1t-chimera,True,"[{""href"": ""https://huggingface.co/microsoft/MAI-DS-R1"", ""text"": ""https://huggingface.co/microsoft/MAI-DS-R1 (opens in new tab)""}]",,False
+tngtech/tng-r1t-chimera:free,open_weight,live_detail,https://openrouter.ai/tngtech/tng-r1t-chimera:free,True,"[{""href"": ""https://huggingface.co/microsoft/MAI-DS-R1"", ""text"": ""https://huggingface.co/microsoft/MAI-DS-R1 (opens in new tab)""}]",,False
+togethercomputer/stripedhyena-hessian-7b,open_weight,live_detail,https://openrouter.ai/togethercomputer/stripedhyena-hessian-7b,True,"[{""href"": ""https://huggingface.co/togethercomputer/StripedHyena-Hessian-7B"", ""text"": ""Model weights""}]",,False
+togethercomputer/stripedhyena-nous-7b,open_weight,live_detail,https://openrouter.ai/togethercomputer/stripedhyena-nous-7b,True,"[{""href"": ""https://huggingface.co/togethercomputer/StripedHyena-Nous-7B"", ""text"": ""Model weights""}]",,False
+tokyotech-llm/llama-3.1-swallow-8b-instruct-v0.3,open_weight,live_detail,https://openrouter.ai/tokyotech-llm/llama-3.1-swallow-8b-instruct-v0.3,True,"[{""href"": ""https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.3"", ""text"": ""Model weights""}]",,False
+undi95/remm-slerp-l2-13b,open_weight,live_detail,https://openrouter.ai/undi95/remm-slerp-l2-13b,True,"[{""href"": ""https://huggingface.co/Undi95/ReMM-SLERP-L2-13B"", ""text"": ""Model weights""}]",,False
+undi95/toppy-m-7b,open_weight,live_detail,https://openrouter.ai/undi95/toppy-m-7b,True,"[{""href"": ""https://huggingface.co/Undi95/Toppy-M-7B"", ""text"": ""Model weights""}]",,False
+upstage/solar-pro-3,closed,live_detail,https://openrouter.ai/upstage/solar-pro-3,False,[],,False
+upstage/solar-pro-3:free,closed,live_detail,https://openrouter.ai/upstage/solar-pro-3:free,False,[],,False
+writer/palmyra-x5,closed,live_detail,https://openrouter.ai/writer/palmyra-x5,False,[],,False
+x-ai/grok-2,closed,live_detail,https://openrouter.ai/x-ai/grok-2,False,[],,False
+x-ai/grok-2-1212,closed,live_detail,https://openrouter.ai/x-ai/grok-2-1212,False,[],,False
+x-ai/grok-2-mini,closed,live_detail,https://openrouter.ai/x-ai/grok-2-mini,False,[],,False
+x-ai/grok-2-vision-1212,closed,live_detail,https://openrouter.ai/x-ai/grok-2-vision-1212,False,[],,False
+x-ai/grok-3,closed,live_detail,https://openrouter.ai/x-ai/grok-3,False,[],,False
+x-ai/grok-3-beta,closed,live_detail,https://openrouter.ai/x-ai/grok-3-beta,False,[],,False
+x-ai/grok-3-mini,closed,live_detail,https://openrouter.ai/x-ai/grok-3-mini,False,[],,False
+x-ai/grok-3-mini-beta,closed,live_detail,https://openrouter.ai/x-ai/grok-3-mini-beta,False,[],,False
+x-ai/grok-4,closed,live_detail,https://openrouter.ai/x-ai/grok-4,False,[],,False
+x-ai/grok-4-fast,closed,live_detail,https://openrouter.ai/x-ai/grok-4-fast,False,[],,False
+x-ai/grok-4.1-fast,closed,live_detail,https://openrouter.ai/x-ai/grok-4.1-fast,False,[],,False
+x-ai/grok-4.1-fast:free,closed,live_detail,https://openrouter.ai/x-ai/grok-4.1-fast:free,False,[],,False
+x-ai/grok-4.20,closed,live_detail,https://openrouter.ai/x-ai/grok-4.20,False,[],,False
+x-ai/grok-4.20-beta,closed,live_detail,https://openrouter.ai/x-ai/grok-4.20-beta,False,[],,False
+x-ai/grok-4.20-multi-agent,closed,live_detail,https://openrouter.ai/x-ai/grok-4.20-multi-agent,False,[],,False
+x-ai/grok-4.20-multi-agent-beta,closed,live_detail,https://openrouter.ai/x-ai/grok-4.20-multi-agent-beta,False,[],,False
+x-ai/grok-4.3,closed,live_detail,https://openrouter.ai/x-ai/grok-4.3,False,[],,False
+x-ai/grok-beta,closed,live_detail,https://openrouter.ai/x-ai/grok-beta,False,[],,False
+x-ai/grok-code-fast-1,closed,live_detail,https://openrouter.ai/x-ai/grok-code-fast-1,False,[],,False
+x-ai/grok-vision-beta,closed,live_detail,https://openrouter.ai/x-ai/grok-vision-beta,False,[],,False
+xiaomi/mimo-v2-flash,open_weight,live_detail,https://openrouter.ai/xiaomi/mimo-v2-flash,True,"[{""href"": ""https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"", ""text"": ""Model weights""}]",,False
+xiaomi/mimo-v2-flash:free,open_weight,live_detail,https://openrouter.ai/xiaomi/mimo-v2-flash:free,True,"[{""href"": ""https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"", ""text"": ""Model weights""}]",,False
+xiaomi/mimo-v2-omni,closed,live_detail,https://openrouter.ai/xiaomi/mimo-v2-omni,False,[],,False
+xiaomi/mimo-v2-pro,closed,live_detail,https://openrouter.ai/xiaomi/mimo-v2-pro,False,[],,False
+xiaomi/mimo-v2.5,open_weight,live_detail,https://openrouter.ai/xiaomi/mimo-v2.5,True,"[{""href"": ""https://huggingface.co/XiaomiMiMo/MiMo-V2.5"", ""text"": ""Model weights""}]",,False
+xiaomi/mimo-v2.5-pro,open_weight,live_detail,https://openrouter.ai/xiaomi/mimo-v2.5-pro,True,"[{""href"": ""https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro"", ""text"": ""Model weights""}]",,False
+xwin-lm/xwin-lm-70b,open_weight,live_detail,https://openrouter.ai/xwin-lm/xwin-lm-70b,True,"[{""href"": ""https://huggingface.co/Xwin-LM/Xwin-LM-70B-V0.1"", ""text"": ""Model weights""}]",,False
+z-ai/glm-4-32b,closed,live_detail,https://openrouter.ai/z-ai/glm-4-32b,False,[],,False
+z-ai/glm-4.5,open_weight,live_detail,https://openrouter.ai/z-ai/glm-4.5,True,"[{""href"": ""https://huggingface.co/zai-org/GLM-4.5"", ""text"": ""Model weights""}]",,False
+z-ai/glm-4.5-air,open_weight,live_detail,https://openrouter.ai/z-ai/glm-4.5-air,True,"[{""href"": ""https://huggingface.co/zai-org/GLM-4.5-Air"", ""text"": ""Model weights""}]",,False
+z-ai/glm-4.5-air:free,open_weight,live_detail,https://openrouter.ai/z-ai/glm-4.5-air:free,True,"[{""href"": ""https://huggingface.co/zai-org/GLM-4.5-Air"", ""text"": ""Model weights""}]",,False
+z-ai/glm-4.5v,open_weight,live_detail,https://openrouter.ai/z-ai/glm-4.5v,True,"[{""href"": ""https://huggingface.co/zai-org/GLM-4.5V"", ""text"": ""Model weights""}]",,False
+z-ai/glm-4.6,open_weight,live_detail,https://openrouter.ai/z-ai/glm-4.6,True,"[{""href"": ""https://huggingface.co/zai-org/GLM-4.6"", ""text"": ""Model weights""}]",,False
+z-ai/glm-4.6:exacto,open_weight,live_detail,https://openrouter.ai/z-ai/glm-4.6:exacto,True,"[{""href"": ""https://huggingface.co/zai-org/GLM-4.6"", ""text"": ""Model weights""}]",,False
+z-ai/glm-4.6v,open_weight,live_detail,https://openrouter.ai/z-ai/glm-4.6v,True,"[{""href"": ""https://huggingface.co/zai-org/GLM-4.6V"", ""text"": ""Model weights""}]",,False
+z-ai/glm-4.7,open_weight,live_detail,https://openrouter.ai/z-ai/glm-4.7,True,"[{""href"": ""https://huggingface.co/zai-org/GLM-4.7"", ""text"": ""Model weights""}]",,False
+z-ai/glm-4.7-flash,open_weight,live_detail,https://openrouter.ai/z-ai/glm-4.7-flash,True,"[{""href"": ""https://huggingface.co/zai-org/GLM-4.7-Flash"", ""text"": ""Model weights""}]",,False
+z-ai/glm-5,open_weight,live_detail,https://openrouter.ai/z-ai/glm-5,True,"[{""href"": ""https://huggingface.co/zai-org/GLM-5"", ""text"": ""Model weights""}]",,False
+z-ai/glm-5-turbo,closed,live_detail,https://openrouter.ai/z-ai/glm-5-turbo,False,[],,False
+z-ai/glm-5.1,open_weight,live_detail,https://openrouter.ai/z-ai/glm-5.1,True,"[{""href"": ""https://huggingface.co/zai-org/GLM-5.1"", ""text"": ""Model weights""}]",,False
+z-ai/glm-5v-turbo,closed,live_detail,https://openrouter.ai/z-ai/glm-5v-turbo,False,[],,False
+zyphra/zonos-v0.1-hybrid,closed,live_detail,https://openrouter.ai/zyphra/zonos-v0.1-hybrid,False,[],,False
+zyphra/zonos-v0.1-transformer,closed,live_detail,https://openrouter.ai/zyphra/zonos-v0.1-transformer,False,[],,False
+~anthropic/claude-haiku-latest,closed,live_detail,https://openrouter.ai/~anthropic/claude-haiku-latest,False,[],,False
+~anthropic/claude-opus-latest,closed,live_detail,https://openrouter.ai/~anthropic/claude-opus-latest,False,[],,False
+~anthropic/claude-sonnet-latest,closed,live_detail,https://openrouter.ai/~anthropic/claude-sonnet-latest,False,[],,False
+~google/gemini-flash-latest,closed,live_detail,https://openrouter.ai/~google/gemini-flash-latest,False,[],,False
+~google/gemini-pro-latest,closed,live_detail,https://openrouter.ai/~google/gemini-pro-latest,False,[],,False
+~moonshotai/kimi-latest,closed,live_detail,https://openrouter.ai/~moonshotai/kimi-latest,False,[],,False
+~openai/gpt-latest,closed,live_detail,https://openrouter.ai/~openai/gpt-latest,False,[],,False
+~openai/gpt-mini-latest,closed,live_detail,https://openrouter.ai/~openai/gpt-mini-latest,False,[],,False

@@ -1,0 +1,2 @@
+# Only needed for optional website collection. Offline reproduction uses Python alone.
+playwright==1.59.0

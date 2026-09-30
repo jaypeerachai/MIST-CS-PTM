@@ -1,0 +1,730 @@
+model_id,author,model_name,scrape_utc
+01-ai/yi-1.5-34b-chat,01-ai,Yi 1.5 34B Chat,2026-05-06T01:21:18.843732+00:00
+01-ai/yi-34b,01-ai,Yi 34B (base),2026-05-06T01:21:18.843732+00:00
+01-ai/yi-34b-200k,01-ai,Yi 34B 200K,2026-05-06T01:21:18.843732+00:00
+01-ai/yi-34b-chat,01-ai,Yi 34B Chat,2026-05-06T01:21:18.843732+00:00
+01-ai/yi-6b,01-ai,Yi 6B (base),2026-05-06T01:21:18.843732+00:00
+01-ai/yi-large,01-ai,01.AI: Yi Large,2026-05-06T01:21:18.843732+00:00
+01-ai/yi-large-fc,01-ai,01.AI: Yi Large FC,2026-05-06T01:21:18.843732+00:00
+01-ai/yi-large-turbo,01-ai,01.AI: Yi Large Turbo,2026-05-06T01:21:18.843732+00:00
+01-ai/yi-vision,01-ai,01.AI: Yi Vision,2026-05-06T01:21:18.843732+00:00
+aetherwiing/mn-starcannon-12b,aetherwiing,Aetherwiing: Starcannon 12B,2026-05-06T01:21:18.843732+00:00
+agentica-org/deepcoder-14b-preview,agentica-org,Agentica: Deepcoder 14B Preview,2026-05-06T01:21:18.843732+00:00
+ai21/jamba-1-5-large,ai21,AI21: Jamba 1.5 Large,2026-05-06T01:21:18.843732+00:00
+ai21/jamba-1-5-mini,ai21,AI21: Jamba 1.5 Mini,2026-05-06T01:21:18.843732+00:00
+ai21/jamba-1.6-large,ai21,AI21: Jamba 1.6 Large,2026-05-06T01:21:18.843732+00:00
+ai21/jamba-1.6-mini,ai21,AI21: Jamba Mini 1.6,2026-05-06T01:21:18.843732+00:00
+ai21/jamba-instruct,ai21,AI21: Jamba Instruct,2026-05-06T01:21:18.843732+00:00
+ai21/jamba-large-1.7,ai21,AI21: Jamba Large 1.7,2026-05-06T01:21:18.843732+00:00
+ai21/jamba-mini-1.7,ai21,AI21: Jamba Mini 1.7,2026-05-06T01:21:18.843732+00:00
+aion-labs/aion-1.0,aion-labs,AionLabs: Aion-1.0,2026-05-06T01:21:18.843732+00:00
+aion-labs/aion-1.0-mini,aion-labs,AionLabs: Aion-1.0-Mini,2026-05-06T01:21:18.843732+00:00
+aion-labs/aion-2.0,aion-labs,AionLabs: Aion-2.0,2026-05-06T01:21:18.843732+00:00
+aion-labs/aion-rp-llama-3.1-8b,aion-labs,AionLabs: Aion-RP 1.0 (8B),2026-05-06T01:21:18.843732+00:00
+alfredpros/codellama-7b-instruct-solidity,alfredpros,AlfredPros: CodeLLaMa 7B Instruct Solidity,2026-05-06T01:21:18.843732+00:00
+alibaba/tongyi-deepresearch-30b-a3b,alibaba,Tongyi DeepResearch 30B A3B,2026-05-06T01:21:18.843732+00:00
+alibaba/wan-2.6,alibaba,Alibaba: Wan 2.6,2026-05-06T01:21:18.843732+00:00
+alibaba/wan-2.7,alibaba,Alibaba: Wan 2.7,2026-05-06T01:21:18.843732+00:00
+all-hands/openhands-lm-32b-v0.1,all-hands,OpenHands LM 32B V0.1,2026-05-06T01:21:18.843732+00:00
+allenai/llama-3.1-tulu-3-405b,allenai,Llama 3.1 Tulu 3 405B,2026-05-06T01:21:18.843732+00:00
+allenai/molmo-2-8b,allenai,AllenAI: Molmo2 8B,2026-05-06T01:21:18.843732+00:00
+allenai/olmo-2-0325-32b-instruct,allenai,AllenAI: Olmo 2 32B Instruct,2026-05-06T01:21:18.843732+00:00
+allenai/olmo-3-32b-think,allenai,AllenAI: Olmo 3 32B Think,2026-05-06T01:21:18.843732+00:00
+allenai/olmo-3-7b-instruct,allenai,AllenAI: Olmo 3 7B Instruct,2026-05-06T01:21:18.843732+00:00
+allenai/olmo-3-7b-think,allenai,AllenAI: Olmo 3 7B Think,2026-05-06T01:21:18.843732+00:00
+allenai/olmo-3.1-32b-instruct,allenai,AllenAI: Olmo 3.1 32B Instruct,2026-05-06T01:21:18.843732+00:00
+allenai/olmo-3.1-32b-think,allenai,AllenAI: Olmo 3.1 32B Think,2026-05-06T01:21:18.843732+00:00
+allenai/olmo-7b-instruct,allenai,OLMo 7B Instruct,2026-05-06T01:21:18.843732+00:00
+alpindale/goliath-120b,alpindale,Goliath 120B,2026-05-06T01:21:18.843732+00:00
+alpindale/magnum-72b,alpindale,Magnum 72B,2026-05-06T01:21:18.843732+00:00
+amazon/nova-2-lite-v1,amazon,Amazon: Nova 2 Lite,2026-05-06T01:21:18.843732+00:00
+amazon/nova-lite-v1,amazon,Amazon: Nova Lite 1.0,2026-05-06T01:21:18.843732+00:00
+amazon/nova-micro-v1,amazon,Amazon: Nova Micro 1.0,2026-05-06T01:21:18.843732+00:00
+amazon/nova-premier-v1,amazon,Amazon: Nova Premier 1.0,2026-05-06T01:21:18.843732+00:00
+amazon/nova-pro-v1,amazon,Amazon: Nova Pro 1.0,2026-05-06T01:21:18.843732+00:00
+anthracite-org/magnum-v2-72b,anthracite-org,Magnum v2 72B,2026-05-06T01:21:18.843732+00:00
+anthracite-org/magnum-v4-72b,anthracite-org,Magnum v4 72B,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-1,anthropic,Anthropic: Claude v1,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-1.2,anthropic,Anthropic: Claude v1.2,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-2,anthropic,Anthropic: Claude v2,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-2.0,anthropic,Anthropic: Claude v2.0,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-2.1,anthropic,Anthropic: Claude v2.1,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-3-haiku,anthropic,Anthropic: Claude 3 Haiku,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-3-opus,anthropic,Anthropic: Claude 3 Opus,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-3-sonnet,anthropic,Anthropic: Claude 3 Sonnet,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-3.5-haiku,anthropic,Anthropic: Claude 3.5 Haiku,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-3.5-haiku-20241022,anthropic,Anthropic: Claude 3.5 Haiku (2024-10-22),2026-05-06T01:21:18.843732+00:00
+anthropic/claude-3.5-sonnet,anthropic,Anthropic: Claude 3.5 Sonnet,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-3.5-sonnet-20240620,anthropic,Anthropic: Claude 3.5 Sonnet (2024-06-20),2026-05-06T01:21:18.843732+00:00
+anthropic/claude-3.7-sonnet,anthropic,Anthropic: Claude 3.7 Sonnet,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-3.7-sonnet:thinking,anthropic,Anthropic: Claude 3.7 Sonnet (thinking),2026-05-06T01:21:18.843732+00:00
+anthropic/claude-haiku-4.5,anthropic,Anthropic: Claude Haiku 4.5,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-instant-1,anthropic,Anthropic: Claude Instant v1,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-instant-1.0,anthropic,Anthropic: Claude Instant v1.0,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-instant-1.1,anthropic,Anthropic: Claude Instant v1.1,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-opus-4,anthropic,Anthropic: Claude Opus 4,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-opus-4.1,anthropic,Anthropic: Claude Opus 4.1,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-opus-4.5,anthropic,Anthropic: Claude Opus 4.5,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-opus-4.6,anthropic,Anthropic: Claude Opus 4.6,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-opus-4.6-fast,anthropic,Anthropic: Claude Opus 4.6 (Fast),2026-05-06T01:21:18.843732+00:00
+anthropic/claude-opus-4.7,anthropic,Anthropic: Claude Opus 4.7,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-sonnet-4,anthropic,Anthropic: Claude Sonnet 4,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-sonnet-4.5,anthropic,Anthropic: Claude Sonnet 4.5,2026-05-06T01:21:18.843732+00:00
+anthropic/claude-sonnet-4.6,anthropic,Anthropic: Claude Sonnet 4.6,2026-05-06T01:21:18.843732+00:00
+arcee-ai/afm-4.5b,arcee-ai,Arcee AI: AFM 4.5B,2026-05-06T01:21:18.843732+00:00
+arcee-ai/arcee-blitz,arcee-ai,Arcee AI: Arcee Blitz,2026-05-06T01:21:18.843732+00:00
+arcee-ai/caller-large,arcee-ai,Arcee AI: Caller Large,2026-05-06T01:21:18.843732+00:00
+arcee-ai/coder-large,arcee-ai,Arcee AI: Coder Large,2026-05-06T01:21:18.843732+00:00
+arcee-ai/maestro-reasoning,arcee-ai,Arcee AI: Maestro Reasoning,2026-05-06T01:21:18.843732+00:00
+arcee-ai/spotlight,arcee-ai,Arcee AI: Spotlight,2026-05-06T01:21:18.843732+00:00
+arcee-ai/trinity-large-preview,arcee-ai,Arcee AI: Trinity Large Preview,2026-05-06T01:21:18.843732+00:00
+arcee-ai/trinity-large-thinking,arcee-ai,Arcee AI: Trinity Large Thinking,2026-05-06T01:21:18.843732+00:00
+arcee-ai/trinity-mini,arcee-ai,Arcee AI: Trinity Mini,2026-05-06T01:21:18.843732+00:00
+arcee-ai/virtuoso-large,arcee-ai,Arcee AI: Virtuoso Large,2026-05-06T01:21:18.843732+00:00
+arcee-ai/virtuoso-medium-v2,arcee-ai,Arcee AI: Virtuoso Medium V2,2026-05-06T01:21:18.843732+00:00
+arliai/qwq-32b-arliai-rpr-v1,arliai,ArliAI: QwQ 32B RpR v1,2026-05-06T01:21:18.843732+00:00
+baai/bge-base-en-v1.5,baai,BAAI: bge-base-en-v1.5,2026-05-06T01:21:18.843732+00:00
+baai/bge-large-en-v1.5,baai,BAAI: bge-large-en-v1.5,2026-05-06T01:21:18.843732+00:00
+baai/bge-m3,baai,BAAI: bge-m3,2026-05-06T01:21:18.843732+00:00
+baidu/ernie-4.5-21b-a3b,baidu,Baidu: ERNIE 4.5 21B A3B,2026-05-06T01:21:18.843732+00:00
+baidu/ernie-4.5-21b-a3b-thinking,baidu,Baidu: ERNIE 4.5 21B A3B Thinking,2026-05-06T01:21:18.843732+00:00
+baidu/ernie-4.5-300b-a47b,baidu,Baidu: ERNIE 4.5 300B A47B,2026-05-06T01:21:18.843732+00:00
+baidu/ernie-4.5-vl-28b-a3b,baidu,Baidu: ERNIE 4.5 VL 28B A3B,2026-05-06T01:21:18.843732+00:00
+baidu/ernie-4.5-vl-424b-a47b,baidu,Baidu: ERNIE 4.5 VL 424B A47B,2026-05-06T01:21:18.843732+00:00
+baidu/qianfan-ocr-fast:free,baidu,Baidu: Qianfan-OCR-Fast (free),2026-05-06T01:21:18.843732+00:00
+bigcode/starcoder2-15b-instruct,bigcode,StarCoder2 15B Instruct,2026-05-06T01:21:18.843732+00:00
+black-forest-labs/flux.2-flex,black-forest-labs,Black Forest Labs: FLUX.2 Flex,2026-05-06T01:21:18.843732+00:00
+black-forest-labs/flux.2-klein-4b,black-forest-labs,Black Forest Labs: FLUX.2 Klein 4B,2026-05-06T01:21:18.843732+00:00
+black-forest-labs/flux.2-max,black-forest-labs,Black Forest Labs: FLUX.2 Max,2026-05-06T01:21:18.843732+00:00
+black-forest-labs/flux.2-pro,black-forest-labs,Black Forest Labs: FLUX.2 Pro,2026-05-06T01:21:18.843732+00:00
+bytedance-research/ui-tars-72b,bytedance-research,Bytedance: UI-TARS 72B,2026-05-06T01:21:18.843732+00:00
+bytedance-seed/seed-1.6,bytedance-seed,ByteDance Seed: Seed 1.6,2026-05-06T01:21:18.843732+00:00
+bytedance-seed/seed-1.6-flash,bytedance-seed,ByteDance Seed: Seed 1.6 Flash,2026-05-06T01:21:18.843732+00:00
+bytedance-seed/seed-2.0-lite,bytedance-seed,ByteDance Seed: Seed-2.0-Lite,2026-05-06T01:21:18.843732+00:00
+bytedance-seed/seed-2.0-mini,bytedance-seed,ByteDance Seed: Seed-2.0-Mini,2026-05-06T01:21:18.843732+00:00
+bytedance-seed/seedream-4.5,bytedance-seed,ByteDance Seed: Seedream 4.5,2026-05-06T01:21:18.843732+00:00
+bytedance/seed-oss-36b-instruct,bytedance,ByteDance: Seed OSS 36B Instruct,2026-05-06T01:21:18.843732+00:00
+bytedance/seedance-1-5-pro,bytedance,ByteDance: Seedance 1.5 Pro,2026-05-06T01:21:18.843732+00:00
+bytedance/seedance-2.0,bytedance,ByteDance: Seedance 2.0,2026-05-06T01:21:18.843732+00:00
+bytedance/seedance-2.0-fast,bytedance,ByteDance: Seedance 2.0 Fast,2026-05-06T01:21:18.843732+00:00
+bytedance/ui-tars-1.5-7b,bytedance,ByteDance: UI-TARS 7B,2026-05-06T01:21:18.843732+00:00
+canopylabs/orpheus-3b-0.1-ft,canopylabs,Canopy Labs: Orpheus 3B,2026-05-06T01:21:18.843732+00:00
+cognitivecomputations/dolphin-llama-3-70b,cognitivecomputations,Dolphin Llama 3 70B 🐬,2026-05-06T01:21:18.843732+00:00
+cognitivecomputations/dolphin-mistral-24b-venice-edition:free,venice,Venice: Uncensored (free),2026-05-06T01:21:18.843732+00:00
+cognitivecomputations/dolphin-mixtral-8x22b,cognitivecomputations,Dolphin 2.9.2 Mixtral 8x22B 🐬,2026-05-06T01:21:18.843732+00:00
+cognitivecomputations/dolphin-mixtral-8x7b,cognitivecomputations,Dolphin 2.6 Mixtral 8x7B 🐬,2026-05-06T01:21:18.843732+00:00
+cognitivecomputations/dolphin3.0-mistral-24b,cognitivecomputations,Dolphin3.0 Mistral 24B,2026-05-06T01:21:18.843732+00:00
+cognitivecomputations/dolphin3.0-r1-mistral-24b,cognitivecomputations,Dolphin3.0 R1 Mistral 24B,2026-05-06T01:21:18.843732+00:00
+cohere/command,cohere,Cohere: Command,2026-05-06T01:21:18.843732+00:00
+cohere/command-a,cohere,Cohere: Command A,2026-05-06T01:21:18.843732+00:00
+cohere/command-r,cohere,Cohere: Command R,2026-05-06T01:21:18.843732+00:00
+cohere/command-r-03-2024,cohere,Cohere: Command R (03-2024),2026-05-06T01:21:18.843732+00:00
+cohere/command-r-08-2024,cohere,Cohere: Command R (08-2024),2026-05-06T01:21:18.843732+00:00
+cohere/command-r-plus,cohere,Cohere: Command R+,2026-05-06T01:21:18.843732+00:00
+cohere/command-r-plus-04-2024,cohere,Cohere: Command R+ (04-2024),2026-05-06T01:21:18.843732+00:00
+cohere/command-r-plus-08-2024,cohere,Cohere: Command R+ (08-2024),2026-05-06T01:21:18.843732+00:00
+cohere/command-r7b-12-2024,cohere,Cohere: Command R7B (12-2024),2026-05-06T01:21:18.843732+00:00
+cohere/rerank-4-fast,cohere,Cohere: Rerank 4 Fast,2026-05-06T01:21:18.843732+00:00
+cohere/rerank-4-pro,cohere,Cohere: Rerank 4 Pro,2026-05-06T01:21:18.843732+00:00
+cohere/rerank-v3.5,cohere,Cohere: Rerank v3.5,2026-05-06T01:21:18.843732+00:00
+databricks/dbrx-instruct,databricks,Databricks: DBRX 132B Instruct,2026-05-06T01:21:18.843732+00:00
+deepcogito/cogito-v2-preview-deepseek-671b,deepcogito,Deep Cogito: Cogito V2 Preview Deepseek 671B,2026-05-06T01:21:18.843732+00:00
+deepcogito/cogito-v2-preview-llama-109b-moe,deepcogito,Cogito V2 Preview Llama 109B,2026-05-06T01:21:18.843732+00:00
+deepcogito/cogito-v2-preview-llama-405b,deepcogito,Deep Cogito: Cogito V2 Preview Llama 405B,2026-05-06T01:21:18.843732+00:00
+deepcogito/cogito-v2-preview-llama-70b,deepcogito,Deep Cogito: Cogito V2 Preview Llama 70B,2026-05-06T01:21:18.843732+00:00
+deepcogito/cogito-v2.1-671b,deepcogito,Deep Cogito: Cogito v2.1 671B,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-chat,deepseek-ai,DeepSeek: DeepSeek V3,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-chat-v2.5,deepseek,DeepSeek V2.5,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-chat-v3-0324,deepseek,DeepSeek: DeepSeek V3 0324,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-chat-v3.1,deepseek,DeepSeek: DeepSeek V3.1,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-prover-v2,deepseek,DeepSeek: DeepSeek Prover V2,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-r1,deepseek,DeepSeek: R1,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-r1-0528,deepseek,DeepSeek: R1 0528,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-r1-0528-qwen3-8b,deepseek,DeepSeek: DeepSeek R1 0528 Qwen3 8B,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-r1-distill-llama-70b,deepseek,DeepSeek: R1 Distill Llama 70B,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-r1-distill-llama-8b,deepseek,DeepSeek: R1 Distill Llama 8B,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-r1-distill-qwen-1.5b,deepseek,DeepSeek: R1 Distill Qwen 1.5B,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-r1-distill-qwen-14b,deepseek,DeepSeek: R1 Distill Qwen 14B,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-r1-distill-qwen-32b,deepseek,DeepSeek: R1 Distill Qwen 32B,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-r1-distill-qwen-7b,deepseek,DeepSeek: R1 Distill Qwen 7B,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-r1-zero,deepseek,DeepSeek: DeepSeek R1 Zero,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-v3-base,deepseek,DeepSeek: DeepSeek V3 Base,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-v3.1-base,deepseek,DeepSeek: DeepSeek V3.1 Base,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-v3.1-terminus,deepseek,DeepSeek: DeepSeek V3.1 Terminus,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-v3.2,deepseek,DeepSeek: DeepSeek V3.2,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-v3.2-exp,deepseek,DeepSeek: DeepSeek V3.2 Exp,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-v3.2-speciale,deepseek,DeepSeek: DeepSeek V3.2 Speciale,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-v4-flash,deepseek,DeepSeek: DeepSeek V4 Flash,2026-05-06T01:21:18.843732+00:00
+deepseek/deepseek-v4-pro,deepseek,DeepSeek: DeepSeek V4 Pro,2026-05-06T01:21:18.843732+00:00
+essentialai/rnj-1-instruct,essentialai,EssentialAI: Rnj 1 Instruct,2026-05-06T01:21:18.843732+00:00
+eva-unit-01/eva-llama-3.33-70b,eva-unit-01,EVA Llama 3.33 70B,2026-05-06T01:21:18.843732+00:00
+eva-unit-01/eva-qwen-2.5-14b,eva-unit-01,EVA Qwen2.5 14B,2026-05-06T01:21:18.843732+00:00
+eva-unit-01/eva-qwen-2.5-32b,eva-unit-01,EVA Qwen2.5 32B,2026-05-06T01:21:18.843732+00:00
+eva-unit-01/eva-qwen-2.5-72b,eva-unit-01,EVA Qwen2.5 72B,2026-05-06T01:21:18.843732+00:00
+featherless/qwerky-72b,featherless,Qrwkv 72B,2026-05-06T01:21:18.843732+00:00
+fireworks/firellava-13b,fireworks,Fireworks: FireLLaVA 13B,2026-05-06T01:21:18.843732+00:00
+google/gemini-2.0-flash-001,google,Google: Gemini 2.0 Flash,2026-05-06T01:21:18.843732+00:00
+google/gemini-2.0-flash-exp,google,Google: Gemini 2.0 Flash Experimental,2026-05-06T01:21:18.843732+00:00
+google/gemini-2.0-flash-lite-001,google,Google: Gemini 2.0 Flash Lite,2026-05-06T01:21:18.843732+00:00
+google/gemini-2.5-flash,google,Google: Gemini 2.5 Flash,2026-05-06T01:21:18.843732+00:00
+google/gemini-2.5-flash-image,google,Google: Nano Banana (Gemini 2.5 Flash Image),2026-05-06T01:21:18.843732+00:00
+google/gemini-2.5-flash-image-preview,google,Google: Gemini 2.5 Flash Image Preview (Nano Banana),2026-05-06T01:21:18.843732+00:00
+google/gemini-2.5-flash-lite,google,Google: Gemini 2.5 Flash Lite,2026-05-06T01:21:18.843732+00:00
+google/gemini-2.5-flash-lite-preview-09-2025,google,Google: Gemini 2.5 Flash Lite Preview 09-2025,2026-05-06T01:21:18.843732+00:00
+google/gemini-2.5-flash-preview-09-2025,google,Google: Gemini 2.5 Flash Preview 09-2025,2026-05-06T01:21:18.843732+00:00
+google/gemini-2.5-pro,google,Google: Gemini 2.5 Pro,2026-05-06T01:21:18.843732+00:00
+google/gemini-2.5-pro-exp-03-25,google,Google: Gemini 2.5 Pro Experimental,2026-05-06T01:21:18.843732+00:00
+google/gemini-2.5-pro-preview,google,Google: Gemini 2.5 Pro Preview 06-05,2026-05-06T01:21:18.843732+00:00
+google/gemini-2.5-pro-preview-05-06,google,Google: Gemini 2.5 Pro Preview 05-06,2026-05-06T01:21:18.843732+00:00
+google/gemini-3-flash-preview,google,Google: Gemini 3 Flash Preview,2026-05-06T01:21:18.843732+00:00
+google/gemini-3-pro-image-preview,google,Google: Nano Banana Pro (Gemini 3 Pro Image Preview),2026-05-06T01:21:18.843732+00:00
+google/gemini-3-pro-preview,google,Google: Gemini 3 Pro Preview,2026-05-06T01:21:18.843732+00:00
+google/gemini-3.1-flash-image-preview,google,Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview),2026-05-06T01:21:18.843732+00:00
+google/gemini-3.1-flash-lite-preview,google,Google: Gemini 3.1 Flash Lite Preview,2026-05-06T01:21:18.843732+00:00
+google/gemini-3.1-flash-tts-preview,google,Google: Gemini 3.1 Flash TTS Preview,2026-05-06T01:21:18.843732+00:00
+google/gemini-3.1-pro-preview,google,Google: Gemini 3.1 Pro Preview,2026-05-06T01:21:18.843732+00:00
+google/gemini-3.1-pro-preview-customtools,google,Google: Gemini 3.1 Pro Preview Custom Tools,2026-05-06T01:21:18.843732+00:00
+google/gemini-embedding-001,google,Google: Gemini Embedding 001,2026-05-06T01:21:18.843732+00:00
+google/gemini-embedding-2-preview,google,Google: Gemini Embedding 2 Preview,2026-05-06T01:21:18.843732+00:00
+google/gemini-exp-1114,google,Google: Gemini Experimental 1114,2026-05-06T01:21:18.843732+00:00
+google/gemini-exp-1121,google,Google: Gemini Experimental 1121,2026-05-06T01:21:18.843732+00:00
+google/gemini-flash-1.5,google,Google: Gemini 1.5 Flash,2026-05-06T01:21:18.843732+00:00
+google/gemini-flash-1.5-8b,google,Google: Gemini 1.5 Flash 8B,2026-05-06T01:21:18.843732+00:00
+google/gemini-flash-1.5-exp,google,Google: Gemini 1.5 Flash Experimental,2026-05-06T01:21:18.843732+00:00
+google/gemini-pro-1.5,google,Google: Gemini 1.5 Pro,2026-05-06T01:21:18.843732+00:00
+google/gemini-pro-1.5-exp,google,Google: Gemini 1.5 Pro Experimental,2026-05-06T01:21:18.843732+00:00
+google/gemma-2-27b-it,google,Google: Gemma 2 27B,2026-05-06T01:21:18.843732+00:00
+google/gemma-2-9b-it,google,Google: Gemma 2 9B,2026-05-06T01:21:18.843732+00:00
+google/gemma-2b-it,google,Google: Gemma 1 2B,2026-05-06T01:21:18.843732+00:00
+google/gemma-3-12b-it,google,Google: Gemma 3 12B,2026-05-06T01:21:18.843732+00:00
+google/gemma-3-1b-it,google,Google: Gemma 3 1B,2026-05-06T01:21:18.843732+00:00
+google/gemma-3-27b-it,google,Google: Gemma 3 27B,2026-05-06T01:21:18.843732+00:00
+google/gemma-3-4b-it,google,Google: Gemma 3 4B,2026-05-06T01:21:18.843732+00:00
+google/gemma-3n-e2b-it,google,Google: Gemma 3n 2B,2026-05-06T01:21:18.843732+00:00
+google/gemma-3n-e4b-it,google,Google: Gemma 3n 4B,2026-05-06T01:21:18.843732+00:00
+google/gemma-4-26b-a4b-it,google,Google: Gemma 4 26B A4B,2026-05-06T01:21:18.843732+00:00
+google/gemma-4-26b-a4b-it:free,google,Google: Gemma 4 26B A4B (free),2026-05-06T01:21:18.843732+00:00
+google/gemma-4-31b-it,google,Google: Gemma 4 31B,2026-05-06T01:21:18.843732+00:00
+google/gemma-4-31b-it:free,google,Google: Gemma 4 31B (free),2026-05-06T01:21:18.843732+00:00
+google/gemma-7b-it,google,Google: Gemma 7B,2026-05-06T01:21:18.843732+00:00
+google/lyria-3-clip-preview,google,Google: Lyria 3 Clip Preview,2026-05-06T01:21:18.843732+00:00
+google/lyria-3-pro-preview,google,Google: Lyria 3 Pro Preview,2026-05-06T01:21:18.843732+00:00
+google/palm-2-chat-bison,google,Google: PaLM 2 Chat,2026-05-06T01:21:18.843732+00:00
+google/palm-2-chat-bison-32k,google,Google: PaLM 2 Chat 32k,2026-05-06T01:21:18.843732+00:00
+google/palm-2-codechat-bison,google,Google: PaLM 2 Code Chat,2026-05-06T01:21:18.843732+00:00
+google/palm-2-codechat-bison-32k,google,Google: PaLM 2 Code Chat 32k,2026-05-06T01:21:18.843732+00:00
+google/veo-3.1,google,Google: Veo 3.1,2026-05-06T01:21:18.843732+00:00
+google/veo-3.1-fast,google,Google: Veo 3.1 Fast,2026-05-06T01:21:18.843732+00:00
+google/veo-3.1-lite,google,Google: Veo 3.1 Lite,2026-05-06T01:21:18.843732+00:00
+gryphe/mythomax-l2-13b,gryphe,MythoMax 13B,2026-05-06T01:21:18.843732+00:00
+gryphe/mythomist-7b,gryphe,MythoMist 7B,2026-05-06T01:21:18.843732+00:00
+hexgrad/kokoro-82m,hexgrad,hexgrad: Kokoro 82M,2026-05-06T01:21:18.843732+00:00
+huggingfaceh4/zephyr-7b-beta,huggingfaceh4,Hugging Face: Zephyr 7B,2026-05-06T01:21:18.843732+00:00
+huggingfaceh4/zephyr-orpo-141b-a35b,huggingfaceh4,Zephyr 141B-A35B,2026-05-06T01:21:18.843732+00:00
+ibm-granite/granite-4.0-h-micro,ibm-granite,IBM: Granite 4.0 Micro,2026-05-06T01:21:18.843732+00:00
+ibm-granite/granite-4.1-8b,ibm-granite,IBM: Granite 4.1 8B,2026-05-06T01:21:18.843732+00:00
+inception/mercury,inception,Inception: Mercury,2026-05-06T01:21:18.843732+00:00
+inception/mercury-2,inception,Inception: Mercury 2,2026-05-06T01:21:18.843732+00:00
+inception/mercury-coder,inception,Inception: Mercury Coder,2026-05-06T01:21:18.843732+00:00
+inclusionai/ling-2.6-1t:free,inclusionai,inclusionAI: Ling-2.6-1T (free),2026-05-06T01:21:18.843732+00:00
+inclusionai/ling-2.6-flash,inclusionai,inclusionAI: Ling-2.6-flash,2026-05-06T01:21:18.843732+00:00
+infermatic/mn-inferor-12b,infermatic,Infermatic: Mistral Nemo Inferor 12B,2026-05-06T01:21:18.843732+00:00
+inflatebot/mn-mag-mell-r1,inflatebot,Inflatebot: Mag Mell R1 12B,2026-05-06T01:21:18.843732+00:00
+inflection/inflection-3-pi,inflection,Inflection: Inflection 3 Pi,2026-05-06T01:21:18.843732+00:00
+inflection/inflection-3-productivity,inflection,Inflection: Inflection 3 Productivity,2026-05-06T01:21:18.843732+00:00
+intel/neural-chat-7b,intel,Neural Chat 7B v3.1,2026-05-06T01:21:18.843732+00:00
+intfloat/e5-base-v2,intfloat,Intfloat: E5-Base-v2,2026-05-06T01:21:18.843732+00:00
+intfloat/e5-large-v2,intfloat,Intfloat: E5-Large-v2,2026-05-06T01:21:18.843732+00:00
+intfloat/multilingual-e5-large,intfloat,Intfloat: Multilingual-E5-Large,2026-05-06T01:21:18.843732+00:00
+jebcarter/psyfighter-13b,jebcarter,Psyfighter 13B,2026-05-06T01:21:18.843732+00:00
+jondurbin/airoboros-l2-70b,jondurbin,Airoboros 70B,2026-05-06T01:21:18.843732+00:00
+jondurbin/bagel-34b,jondurbin,Bagel 34B v0.2,2026-05-06T01:21:18.843732+00:00
+koboldai/psyfighter-13b-2,koboldai,Psyfighter v2 13B,2026-05-06T01:21:18.843732+00:00
+kwaipilot/kat-coder-pro,kwaipilot,Kwaipilot: KAT-Coder-Pro V1,2026-05-06T01:21:18.843732+00:00
+kwaipilot/kat-coder-pro-v2,kwaipilot,Kwaipilot: KAT-Coder-Pro V2,2026-05-06T01:21:18.843732+00:00
+kwaivgi/kling-v3.0-pro,kwaivgi,Kling: Video v3.0 Pro,2026-05-06T01:21:18.843732+00:00
+kwaivgi/kling-v3.0-std,kwaivgi,Kling: Video v3.0 Standard,2026-05-06T01:21:18.843732+00:00
+kwaivgi/kling-video-o1,kwaivgi,Kling: Video O1,2026-05-06T01:21:18.843732+00:00
+latitudegames/wayfarer-large-70b-llama-3.3,latitudegames,LatitudeGames: Wayfarer Large 70B Llama 3.3,2026-05-06T01:21:18.843732+00:00
+liquid/lfm-2-24b-a2b,liquid,LiquidAI: LFM2-24B-A2B,2026-05-06T01:21:18.843732+00:00
+liquid/lfm-2.2-6b,liquid,LiquidAI: LFM2-2.6B,2026-05-06T01:21:18.843732+00:00
+liquid/lfm-2.5-1.2b-instruct:free,liquid,LiquidAI: LFM2.5-1.2B-Instruct (free),2026-05-06T01:21:18.843732+00:00
+liquid/lfm-2.5-1.2b-thinking:free,liquid,LiquidAI: LFM2.5-1.2B-Thinking (free),2026-05-06T01:21:18.843732+00:00
+liquid/lfm-3b,liquid,Liquid: LFM 3B,2026-05-06T01:21:18.843732+00:00
+liquid/lfm-40b,liquid,Liquid: LFM 40B MoE,2026-05-06T01:21:18.843732+00:00
+liquid/lfm-7b,liquid,Liquid: LFM 7B,2026-05-06T01:21:18.843732+00:00
+liquid/lfm2-8b-a1b,liquid,LiquidAI: LFM2-8B-A1B,2026-05-06T01:21:18.843732+00:00
+liuhaotian/llava-13b,liuhaotian,LLaVA 13B,2026-05-06T01:21:18.843732+00:00
+liuhaotian/llava-yi-34b,liuhaotian,LLaVA v1.6 34B,2026-05-06T01:21:18.843732+00:00
+lizpreciatior/lzlv-70b-fp16-hf,lizpreciatior,lzlv 70B,2026-05-06T01:21:18.843732+00:00
+lynn/soliloquy-l3,lynn,Lynn: Llama 3 Soliloquy 8B v2,2026-05-06T01:21:18.843732+00:00
+lynn/soliloquy-v3,lynn,Lynn: Llama 3 Soliloquy 7B v3 32K,2026-05-06T01:21:18.843732+00:00
+mancer/weaver,mancer,Mancer: Weaver (alpha),2026-05-06T01:21:18.843732+00:00
+mattshumer/reflection-70b,mattshumer,Reflection 70B,2026-05-06T01:21:18.843732+00:00
+meituan/longcat-flash-chat,meituan,Meituan: LongCat Flash Chat,2026-05-06T01:21:18.843732+00:00
+meta-llama/codellama-34b-instruct,meta-llama,Meta: CodeLlama 34B Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/codellama-70b-instruct,meta-llama,Meta: CodeLlama 70B Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-2-13b-chat,meta-llama,Meta: Llama 2 13B Chat,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-2-70b-chat,meta-llama,Meta: Llama 2 70B Chat,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3-70b,meta-llama,Meta: Llama 3 70B (Base),2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3-70b-instruct,meta-llama,Meta: Llama 3 70B Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3-8b,meta-llama,Meta: Llama 3 8B (Base),2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3-8b-instruct,meta-llama,Meta: Llama 3 8B Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3.1-405b,meta-llama,Meta: Llama 3.1 405B (base),2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3.1-405b-instruct,meta-llama,Meta: Llama 3.1 405B Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3.1-70b-instruct,meta-llama,Meta: Llama 3.1 70B Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3.1-8b-instruct,meta-llama,Meta: Llama 3.1 8B Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3.2-11b-vision-instruct,meta-llama,Meta: Llama 3.2 11B Vision Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3.2-1b-instruct,meta-llama,Meta: Llama 3.2 1B Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3.2-3b-instruct,meta-llama,Meta: Llama 3.2 3B Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3.2-3b-instruct:free,meta-llama,Meta: Llama 3.2 3B Instruct (free),2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3.2-90b-vision-instruct,meta-llama,Meta: Llama 3.2 90B Vision Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3.3-70b-instruct,meta-llama,Meta: Llama 3.3 70B Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3.3-70b-instruct:free,meta-llama,Meta: Llama 3.3 70B Instruct (free),2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-3.3-8b-instruct,meta-llama,Meta: Llama 3.3 8B Instruct,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-4-maverick,meta-llama,Meta: Llama 4 Maverick,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-4-scout,meta-llama,Meta: Llama 4 Scout,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-guard-2-8b,meta-llama,Meta: LlamaGuard 2 8B,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-guard-3-8b,meta-llama,Llama Guard 3 8B,2026-05-06T01:21:18.843732+00:00
+meta-llama/llama-guard-4-12b,meta-llama,Meta: Llama Guard 4 12B,2026-05-06T01:21:18.843732+00:00
+microsoft/mai-ds-r1,microsoft,Microsoft: MAI DS R1,2026-05-06T01:21:18.843732+00:00
+microsoft/phi-3-medium-128k-instruct,microsoft,Microsoft: Phi-3 Medium 128K Instruct,2026-05-06T01:21:18.843732+00:00
+microsoft/phi-3-medium-4k-instruct,microsoft,Microsoft: Phi-3 Medium 4K Instruct,2026-05-06T01:21:18.843732+00:00
+microsoft/phi-3-mini-128k-instruct,microsoft,Microsoft: Phi-3 Mini 128K Instruct,2026-05-06T01:21:18.843732+00:00
+microsoft/phi-3.5-mini-128k-instruct,microsoft,Microsoft: Phi-3.5 Mini 128K Instruct,2026-05-06T01:21:18.843732+00:00
+microsoft/phi-4,microsoft,Microsoft: Phi 4,2026-05-06T01:21:18.843732+00:00
+microsoft/phi-4-mini-instruct,microsoft,Microsoft: Phi 4 Mini Instruct,2026-05-06T01:21:18.843732+00:00
+microsoft/phi-4-multimodal-instruct,microsoft,Microsoft: Phi 4 Multimodal Instruct,2026-05-06T01:21:18.843732+00:00
+microsoft/phi-4-reasoning,microsoft,Microsoft: Phi 4 Reasoning,2026-05-06T01:21:18.843732+00:00
+microsoft/phi-4-reasoning-plus,microsoft,Microsoft: Phi 4 Reasoning Plus,2026-05-06T01:21:18.843732+00:00
+microsoft/wizardlm-2-7b,microsoft,WizardLM-2 7B,2026-05-06T01:21:18.843732+00:00
+microsoft/wizardlm-2-8x22b,microsoft,WizardLM-2 8x22B,2026-05-06T01:21:18.843732+00:00
+migtissera/synthia-70b,migtissera,Synthia 70B,2026-05-06T01:21:18.843732+00:00
+minimax/hailuo-2.3,minimax,MiniMax: Hailuo 2.3,2026-05-06T01:21:18.843732+00:00
+minimax/minimax-01,minimax,MiniMax: MiniMax-01,2026-05-06T01:21:18.843732+00:00
+minimax/minimax-m1,minimax,MiniMax: MiniMax M1,2026-05-06T01:21:18.843732+00:00
+minimax/minimax-m2,minimax,MiniMax: MiniMax M2,2026-05-06T01:21:18.843732+00:00
+minimax/minimax-m2-her,minimax,MiniMax: MiniMax M2-her,2026-05-06T01:21:18.843732+00:00
+minimax/minimax-m2.1,minimax,MiniMax: MiniMax M2.1,2026-05-06T01:21:18.843732+00:00
+minimax/minimax-m2.5,minimax,MiniMax: MiniMax M2.5,2026-05-06T01:21:18.843732+00:00
+minimax/minimax-m2.5:free,minimax,MiniMax: MiniMax M2.5 (free),2026-05-06T01:21:18.843732+00:00
+minimax/minimax-m2.7,minimax,MiniMax: MiniMax M2.7,2026-05-06T01:21:18.843732+00:00
+mistralai/codestral-2501,mistralai,Mistral: Codestral 2501,2026-05-06T01:21:18.843732+00:00
+mistralai/codestral-2508,mistralai,Mistral: Codestral 2508,2026-05-06T01:21:18.843732+00:00
+mistralai/codestral-embed-2505,mistralai,Mistral: Codestral Embed 2505,2026-05-06T01:21:18.843732+00:00
+mistralai/codestral-mamba,mistralai,Mistral: Codestral Mamba,2026-05-06T01:21:18.843732+00:00
+mistralai/devstral-2512,mistralai,Mistral: Devstral 2 2512,2026-05-06T01:21:18.843732+00:00
+mistralai/devstral-medium,mistralai,Mistral: Devstral Medium,2026-05-06T01:21:18.843732+00:00
+mistralai/devstral-small,mistralai,Mistral: Devstral Small 1.1,2026-05-06T01:21:18.843732+00:00
+mistralai/devstral-small-2505,mistralai,Mistral: Devstral Small 2505,2026-05-06T01:21:18.843732+00:00
+mistralai/magistral-medium-2506,mistralai,Mistral: Magistral Medium 2506,2026-05-06T01:21:18.843732+00:00
+mistralai/magistral-small-2506,mistralai,Mistral: Magistral Small 2506,2026-05-06T01:21:18.843732+00:00
+mistralai/ministral-14b-2512,mistralai,Mistral: Ministral 3 14B 2512,2026-05-06T01:21:18.843732+00:00
+mistralai/ministral-3b,mistralai,Mistral: Ministral 3B,2026-05-06T01:21:18.843732+00:00
+mistralai/ministral-3b-2512,mistralai,Mistral: Ministral 3 3B 2512,2026-05-06T01:21:18.843732+00:00
+mistralai/ministral-8b,mistralai,Mistral: Ministral 8B,2026-05-06T01:21:18.843732+00:00
+mistralai/ministral-8b-2512,mistralai,Mistral: Ministral 3 8B 2512,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-7b-instruct,mistralai,Mistral: Mistral 7B Instruct,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-7b-instruct-v0.1,mistralai,Mistral: Mistral 7B Instruct v0.1,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-7b-instruct-v0.2,mistralai,Mistral: Mistral 7B Instruct v0.2,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-7b-instruct-v0.3,mistralai,Mistral: Mistral 7B Instruct v0.3,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-embed-2312,mistralai,Mistral: Mistral Embed 2312,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-large,mistralai,Mistral Large,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-large-2407,mistralai,Mistral Large 2407,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-large-2411,mistralai,Mistral Large 2411,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-large-2512,mistralai,Mistral: Mistral Large 3 2512,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-medium,mistralai,Mistral Medium,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-medium-3,mistralai,Mistral: Mistral Medium 3,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-medium-3-5,mistralai,Mistral: Mistral Medium 3.5,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-medium-3.1,mistralai,Mistral: Mistral Medium 3.1,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-nemo,mistralai,Mistral: Mistral Nemo,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-saba,mistralai,Mistral: Saba,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-small,mistralai,Mistral Small,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-small-24b-instruct-2501,mistralai,Mistral: Mistral Small 3,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-small-2603,mistralai,Mistral: Mistral Small 4,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-small-3.1-24b-instruct,mistralai,Mistral: Mistral Small 3.1 24B,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-small-3.2-24b-instruct,mistralai,Mistral: Mistral Small 3.2 24B,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-small-creative,mistralai,Mistral: Mistral Small Creative,2026-05-06T01:21:18.843732+00:00
+mistralai/mistral-tiny,mistralai,Mistral Tiny,2026-05-06T01:21:18.843732+00:00
+mistralai/mixtral-8x22b,mistralai,Mistral: Mixtral 8x22B (base),2026-05-06T01:21:18.843732+00:00
+mistralai/mixtral-8x22b-instruct,mistralai,Mistral: Mixtral 8x22B Instruct,2026-05-06T01:21:18.843732+00:00
+mistralai/mixtral-8x7b-instruct,mistralai,Mistral: Mixtral 8x7B Instruct,2026-05-06T01:21:18.843732+00:00
+mistralai/pixtral-12b,mistralai,Mistral: Pixtral 12B,2026-05-06T01:21:18.843732+00:00
+mistralai/pixtral-large-2411,mistralai,Mistral: Pixtral Large 2411,2026-05-06T01:21:18.843732+00:00
+mistralai/voxtral-mini-tts-2603,mistralai,Mistral: Voxtral Mini TTS,2026-05-06T01:21:18.843732+00:00
+mistralai/voxtral-small-24b-2507,mistralai,Mistral: Voxtral Small 24B 2507,2026-05-06T01:21:18.843732+00:00
+moonshotai/kimi-dev-72b,moonshotai,MoonshotAI: Kimi Dev 72B,2026-05-06T01:21:18.843732+00:00
+moonshotai/kimi-k2,moonshotai,MoonshotAI: Kimi K2 0711,2026-05-06T01:21:18.843732+00:00
+moonshotai/kimi-k2-0905,moonshotai,MoonshotAI: Kimi K2 0905,2026-05-06T01:21:18.843732+00:00
+moonshotai/kimi-k2-thinking,moonshotai,MoonshotAI: Kimi K2 Thinking,2026-05-06T01:21:18.843732+00:00
+moonshotai/kimi-k2.5,moonshotai,MoonshotAI: Kimi K2.5,2026-05-06T01:21:18.843732+00:00
+moonshotai/kimi-k2.6,moonshotai,MoonshotAI: Kimi K2.6,2026-05-06T01:21:18.843732+00:00
+moonshotai/kimi-vl-a3b-thinking,moonshotai,MoonshotAI: Kimi VL A3B Thinking,2026-05-06T01:21:18.843732+00:00
+moonshotai/moonlight-16b-a3b-instruct,moonshotai,MoonshotAI: Moonlight 16B A3B Instruct,2026-05-06T01:21:18.843732+00:00
+morph/morph-v2,morph,Morph: Fast Apply,2026-05-06T01:21:18.843732+00:00
+morph/morph-v3-fast,morph,Morph: Morph V3 Fast,2026-05-06T01:21:18.843732+00:00
+morph/morph-v3-large,morph,Morph: Morph V3 Large,2026-05-06T01:21:18.843732+00:00
+neversleep/llama-3-lumimaid-70b,neversleep,NeverSleep: Llama 3 Lumimaid 70B,2026-05-06T01:21:18.843732+00:00
+neversleep/llama-3-lumimaid-8b,neversleep,NeverSleep: Llama 3 Lumimaid 8B,2026-05-06T01:21:18.843732+00:00
+neversleep/llama-3.1-lumimaid-70b,neversleep,NeverSleep: Lumimaid v0.2 70B,2026-05-06T01:21:18.843732+00:00
+neversleep/llama-3.1-lumimaid-8b,neversleep,NeverSleep: Lumimaid v0.2 8B,2026-05-06T01:21:18.843732+00:00
+neversleep/noromaid-20b,neversleep,Noromaid 20B,2026-05-06T01:21:18.843732+00:00
+neversleep/noromaid-mixtral-8x7b-instruct,neversleep,Noromaid Mixtral 8x7B Instruct,2026-05-06T01:21:18.843732+00:00
+nex-agi/deepseek-v3.1-nex-n1,nex-agi,Nex AGI: DeepSeek V3.1 Nex N1,2026-05-06T01:21:18.843732+00:00
+nothingiisreal/mn-celeste-12b,nothingiisreal,Mistral Nemo 12B Celeste,2026-05-06T01:21:18.843732+00:00
+nousresearch/deephermes-3-llama-3-8b-preview,nousresearch,Nous: DeepHermes 3 Llama 3 8B Preview,2026-05-06T01:21:18.843732+00:00
+nousresearch/deephermes-3-mistral-24b-preview,nousresearch,Nous: DeepHermes 3 Mistral 24B Preview,2026-05-06T01:21:18.843732+00:00
+nousresearch/hermes-2-pro-llama-3-8b,nousresearch,NousResearch: Hermes 2 Pro - Llama-3 8B,2026-05-06T01:21:18.843732+00:00
+nousresearch/hermes-2-theta-llama-3-8b,nousresearch,Nous: Hermes 2 Theta 8B,2026-05-06T01:21:18.843732+00:00
+nousresearch/hermes-3-llama-3.1-405b,nousresearch,Nous: Hermes 3 405B Instruct,2026-05-06T01:21:18.843732+00:00
+nousresearch/hermes-3-llama-3.1-405b:free,nousresearch,Nous: Hermes 3 405B Instruct (free),2026-05-06T01:21:18.843732+00:00
+nousresearch/hermes-3-llama-3.1-70b,nousresearch,Nous: Hermes 3 70B Instruct,2026-05-06T01:21:18.843732+00:00
+nousresearch/hermes-4-405b,nousresearch,Nous: Hermes 4 405B,2026-05-06T01:21:18.843732+00:00
+nousresearch/hermes-4-70b,nousresearch,Nous: Hermes 4 70B,2026-05-06T01:21:18.843732+00:00
+nousresearch/nous-capybara-34b,nousresearch,Nous: Capybara 34B,2026-05-06T01:21:18.843732+00:00
+nousresearch/nous-capybara-7b,nousresearch,Nous: Capybara 7B,2026-05-06T01:21:18.843732+00:00
+nousresearch/nous-hermes-2-mistral-7b-dpo,nousresearch,Nous: Hermes 2 Mistral 7B DPO,2026-05-06T01:21:18.843732+00:00
+nousresearch/nous-hermes-2-mixtral-8x7b-dpo,nousresearch,Nous: Hermes 2 Mixtral 8x7B DPO,2026-05-06T01:21:18.843732+00:00
+nousresearch/nous-hermes-2-mixtral-8x7b-sft,nousresearch,Nous: Hermes 2 Mixtral 8x7B SFT,2026-05-06T01:21:18.843732+00:00
+nousresearch/nous-hermes-2-vision-7b,nousresearch,Nous: Hermes 2 Vision 7B (alpha),2026-05-06T01:21:18.843732+00:00
+nousresearch/nous-hermes-llama2-13b,nousresearch,Nous: Hermes 13B,2026-05-06T01:21:18.843732+00:00
+nousresearch/nous-hermes-llama2-70b,nousresearch,Nous: Hermes 70B,2026-05-06T01:21:18.843732+00:00
+nousresearch/nous-hermes-yi-34b,nousresearch,Nous: Hermes 2 Yi 34B,2026-05-06T01:21:18.843732+00:00
+nvidia/llama-3.1-nemotron-70b-instruct,nvidia,NVIDIA: Llama 3.1 Nemotron 70B Instruct,2026-05-06T01:21:18.843732+00:00
+nvidia/llama-3.1-nemotron-nano-8b-v1,nvidia,NVIDIA: Llama 3.1 Nemotron Nano 8B v1,2026-05-06T01:21:18.843732+00:00
+nvidia/llama-3.1-nemotron-ultra-253b-v1,nvidia,NVIDIA: Llama 3.1 Nemotron Ultra 253B v1,2026-05-06T01:21:18.843732+00:00
+nvidia/llama-3.3-nemotron-super-49b-v1,nvidia,NVIDIA: Llama 3.3 Nemotron Super 49B v1,2026-05-06T01:21:18.843732+00:00
+nvidia/llama-3.3-nemotron-super-49b-v1.5,nvidia,NVIDIA: Llama 3.3 Nemotron Super 49B V1.5,2026-05-06T01:21:18.843732+00:00
+nvidia/llama-nemotron-embed-vl-1b-v2:free,nvidia,NVIDIA: Llama Nemotron Embed VL 1B V2 (free),2026-05-06T01:21:18.843732+00:00
+nvidia/nemotron-3-nano-30b-a3b,nvidia,NVIDIA: Nemotron 3 Nano 30B A3B,2026-05-06T01:21:18.843732+00:00
+nvidia/nemotron-3-nano-30b-a3b:free,nvidia,NVIDIA: Nemotron 3 Nano 30B A3B (free),2026-05-06T01:21:18.843732+00:00
+nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free,nvidia,NVIDIA: Nemotron 3 Nano Omni (free),2026-05-06T01:21:18.843732+00:00
+nvidia/nemotron-3-super-120b-a12b,nvidia,NVIDIA: Nemotron 3 Super,2026-05-06T01:21:18.843732+00:00
+nvidia/nemotron-3-super-120b-a12b:free,nvidia,NVIDIA: Nemotron 3 Super (free),2026-05-06T01:21:18.843732+00:00
+nvidia/nemotron-4-340b-instruct,nvidia,NVIDIA: Nemotron-4 340B Instruct,2026-05-06T01:21:18.843732+00:00
+nvidia/nemotron-nano-12b-v2-vl,nvidia,NVIDIA: Nemotron Nano 12B 2 VL,2026-05-06T01:21:18.843732+00:00
+nvidia/nemotron-nano-12b-v2-vl:free,nvidia,NVIDIA: Nemotron Nano 12B 2 VL (free),2026-05-06T01:21:18.843732+00:00
+nvidia/nemotron-nano-9b-v2,nvidia,NVIDIA: Nemotron Nano 9B V2,2026-05-06T01:21:18.843732+00:00
+nvidia/nemotron-nano-9b-v2:free,nvidia,NVIDIA: Nemotron Nano 9B V2 (free),2026-05-06T01:21:18.843732+00:00
+open-orca/mistral-7b-openorca,open-orca,Mistral OpenOrca 7B,2026-05-06T01:21:18.843732+00:00
+open-r1/olympiccoder-32b,open-r1,OlympicCoder 32B,2026-05-06T01:21:18.843732+00:00
+openai/chatgpt-4o-latest,openai,OpenAI: ChatGPT-4o,2026-05-06T01:21:18.843732+00:00
+openai/codex-mini,openai,OpenAI: Codex Mini,2026-05-06T01:21:18.843732+00:00
+openai/gpt-3.5-turbo,openai,OpenAI: GPT-3.5 Turbo,2026-05-06T01:21:18.843732+00:00
+openai/gpt-3.5-turbo-0125,openai,OpenAI: GPT-3.5 Turbo 16k,2026-05-06T01:21:18.843732+00:00
+openai/gpt-3.5-turbo-0301,openai,OpenAI: GPT-3.5 Turbo (older v0301),2026-05-06T01:21:18.843732+00:00
+openai/gpt-3.5-turbo-0613,openai,OpenAI: GPT-3.5 Turbo (older v0613),2026-05-06T01:21:18.843732+00:00
+openai/gpt-3.5-turbo-1106,openai,OpenAI: GPT-3.5 Turbo 16k (older v1106),2026-05-06T01:21:18.843732+00:00
+openai/gpt-3.5-turbo-16k,openai,OpenAI: GPT-3.5 Turbo 16k,2026-05-06T01:21:18.843732+00:00
+openai/gpt-3.5-turbo-instruct,openai,OpenAI: GPT-3.5 Turbo Instruct,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4,openai,OpenAI: GPT-4,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4-0314,openai,OpenAI: GPT-4 (older v0314),2026-05-06T01:21:18.843732+00:00
+openai/gpt-4-1106-preview,openai,OpenAI: GPT-4 Turbo (older v1106),2026-05-06T01:21:18.843732+00:00
+openai/gpt-4-32k,openai,OpenAI: GPT-4 32k,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4-32k-0314,openai,OpenAI: GPT-4 32k (older v0314),2026-05-06T01:21:18.843732+00:00
+openai/gpt-4-turbo,openai,OpenAI: GPT-4 Turbo,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4-turbo-preview,openai,OpenAI: GPT-4 Turbo Preview,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4-vision-preview,openai,OpenAI: GPT-4 Vision,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4.1,openai,OpenAI: GPT-4.1,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4.1-mini,openai,OpenAI: GPT-4.1 Mini,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4.1-nano,openai,OpenAI: GPT-4.1 Nano,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4.5-preview,openai,OpenAI: GPT-4.5 (Preview),2026-05-06T01:21:18.843732+00:00
+openai/gpt-4o,openai,OpenAI: GPT-4o,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4o-2024-05-13,openai,OpenAI: GPT-4o (2024-05-13),2026-05-06T01:21:18.843732+00:00
+openai/gpt-4o-2024-08-06,openai,OpenAI: GPT-4o (2024-08-06),2026-05-06T01:21:18.843732+00:00
+openai/gpt-4o-2024-11-20,openai,OpenAI: GPT-4o (2024-11-20),2026-05-06T01:21:18.843732+00:00
+openai/gpt-4o-audio-preview,openai,OpenAI: GPT-4o Audio,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4o-mini,openai,OpenAI: GPT-4o-mini,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4o-mini-2024-07-18,openai,OpenAI: GPT-4o-mini (2024-07-18),2026-05-06T01:21:18.843732+00:00
+openai/gpt-4o-mini-search-preview,openai,OpenAI: GPT-4o-mini Search Preview,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4o-mini-transcribe,openai,OpenAI: GPT-4o Mini Transcribe,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4o-mini-tts-2025-12-15,openai,OpenAI: GPT-4o Mini TTS,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4o-search-preview,openai,OpenAI: GPT-4o Search Preview,2026-05-06T01:21:18.843732+00:00
+openai/gpt-4o-transcribe,openai,OpenAI: GPT-4o Transcribe,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5,openai,OpenAI: GPT-5,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5-chat,openai,OpenAI: GPT-5 Chat,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5-codex,openai,OpenAI: GPT-5 Codex,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5-image,openai,OpenAI: GPT-5 Image,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5-image-mini,openai,OpenAI: GPT-5 Image Mini,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5-mini,openai,OpenAI: GPT-5 Mini,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5-nano,openai,OpenAI: GPT-5 Nano,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5-pro,openai,OpenAI: GPT-5 Pro,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.1,openai,OpenAI: GPT-5.1,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.1-chat,openai,OpenAI: GPT-5.1 Chat,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.1-codex,openai,OpenAI: GPT-5.1-Codex,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.1-codex-max,openai,OpenAI: GPT-5.1-Codex-Max,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.1-codex-mini,openai,OpenAI: GPT-5.1-Codex-Mini,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.2,openai,OpenAI: GPT-5.2,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.2-chat,openai,OpenAI: GPT-5.2 Chat,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.2-codex,openai,OpenAI: GPT-5.2-Codex,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.2-pro,openai,OpenAI: GPT-5.2 Pro,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.3-chat,openai,OpenAI: GPT-5.3 Chat,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.3-codex,openai,OpenAI: GPT-5.3-Codex,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.4,openai,OpenAI: GPT-5.4,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.4-image-2,openai,OpenAI: GPT-5.4 Image 2,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.4-mini,openai,OpenAI: GPT-5.4 Mini,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.4-nano,openai,OpenAI: GPT-5.4 Nano,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.4-pro,openai,OpenAI: GPT-5.4 Pro,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.5,openai,OpenAI: GPT-5.5,2026-05-06T01:21:18.843732+00:00
+openai/gpt-5.5-pro,openai,OpenAI: GPT-5.5 Pro,2026-05-06T01:21:18.843732+00:00
+openai/gpt-audio,openai,OpenAI: GPT Audio,2026-05-06T01:21:18.843732+00:00
+openai/gpt-audio-mini,openai,OpenAI: GPT Audio Mini,2026-05-06T01:21:18.843732+00:00
+openai/gpt-chat-latest,openai,OpenAI: GPT Chat Latest,2026-05-06T01:21:18.843732+00:00
+openai/gpt-oss-120b,openai,OpenAI: gpt-oss-120b,2026-05-06T01:21:18.843732+00:00
+openai/gpt-oss-120b:free,openai,OpenAI: gpt-oss-120b (free),2026-05-06T01:21:18.843732+00:00
+openai/gpt-oss-20b,openai,OpenAI: gpt-oss-20b,2026-05-06T01:21:18.843732+00:00
+openai/gpt-oss-20b:free,openai,OpenAI: gpt-oss-20b (free),2026-05-06T01:21:18.843732+00:00
+openai/gpt-oss-safeguard-20b,openai,OpenAI: gpt-oss-safeguard-20b,2026-05-06T01:21:18.843732+00:00
+openai/o1,openai,OpenAI: o1,2026-05-06T01:21:18.843732+00:00
+openai/o1-mini,openai,OpenAI: o1-mini,2026-05-06T01:21:18.843732+00:00
+openai/o1-mini-2024-09-12,openai,OpenAI: o1-mini (2024-09-12),2026-05-06T01:21:18.843732+00:00
+openai/o1-preview,openai,OpenAI: o1-preview,2026-05-06T01:21:18.843732+00:00
+openai/o1-preview-2024-09-12,openai,OpenAI: o1-preview (2024-09-12),2026-05-06T01:21:18.843732+00:00
+openai/o1-pro,openai,OpenAI: o1-pro,2026-05-06T01:21:18.843732+00:00
+openai/o3,openai,OpenAI: o3,2026-05-06T01:21:18.843732+00:00
+openai/o3-deep-research,openai,OpenAI: o3 Deep Research,2026-05-06T01:21:18.843732+00:00
+openai/o3-mini,openai,OpenAI: o3 Mini,2026-05-06T01:21:18.843732+00:00
+openai/o3-mini-high,openai,OpenAI: o3 Mini High,2026-05-06T01:21:18.843732+00:00
+openai/o3-pro,openai,OpenAI: o3 Pro,2026-05-06T01:21:18.843732+00:00
+openai/o4-mini,openai,OpenAI: o4 Mini,2026-05-06T01:21:18.843732+00:00
+openai/o4-mini-deep-research,openai,OpenAI: o4 Mini Deep Research,2026-05-06T01:21:18.843732+00:00
+openai/o4-mini-high,openai,OpenAI: o4 Mini High,2026-05-06T01:21:18.843732+00:00
+openai/sora-2-pro,openai,OpenAI: Sora 2 Pro,2026-05-06T01:21:18.843732+00:00
+openai/text-embedding-3-large,openai,OpenAI: Text Embedding 3 Large,2026-05-06T01:21:18.843732+00:00
+openai/text-embedding-3-small,openai,OpenAI: Text Embedding 3 Small,2026-05-06T01:21:18.843732+00:00
+openai/text-embedding-ada-002,openai,OpenAI: Text Embedding Ada 002,2026-05-06T01:21:18.843732+00:00
+openai/whisper-1,openai,OpenAI: Whisper 1,2026-05-06T01:21:18.843732+00:00
+openai/whisper-large-v3,openai,OpenAI: Whisper Large V3,2026-05-06T01:21:18.843732+00:00
+openai/whisper-large-v3-turbo,openai,OpenAI: Whisper Large V3 Turbo,2026-05-06T01:21:18.843732+00:00
+openchat/openchat-7b,openchat,OpenChat 3.5 7B,2026-05-06T01:21:18.843732+00:00
+openchat/openchat-8b,openchat,OpenChat 3.6 8B,2026-05-06T01:21:18.843732+00:00
+opengvlab/internvl3-14b,opengvlab,OpenGVLab: InternVL3 14B,2026-05-06T01:21:18.843732+00:00
+opengvlab/internvl3-2b,opengvlab,OpenGVLab: InternVL3 2B,2026-05-06T01:21:18.843732+00:00
+opengvlab/internvl3-78b,opengvlab,OpenGVLab: InternVL3 78B,2026-05-06T01:21:18.843732+00:00
+openrouter/andromeda-alpha,openrouter,Andromeda Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/aurora-alpha,openrouter,Aurora Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/auto,openrouter,Auto Router,2026-05-06T01:21:18.843732+00:00
+openrouter/bert-nebulon-alpha,openrouter,Bert-Nebulon Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/bodybuilder,openrouter,Body Builder (beta),2026-05-06T01:21:18.843732+00:00
+openrouter/cinematika-7b,openrouter,Cinematika 7B (alpha),2026-05-06T01:21:18.843732+00:00
+openrouter/cypher-alpha,openrouter,Cypher Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/elephant-alpha,openrouter,Elephant Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/free,openrouter,Free Models Router,2026-05-06T01:21:18.843732+00:00
+openrouter/healer-alpha,openrouter,Healer Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/horizon-alpha,openrouter,Horizon Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/horizon-beta,openrouter,Horizon Beta,2026-05-06T01:21:18.843732+00:00
+openrouter/hunter-alpha,openrouter,Hunter Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/optimus-alpha,openrouter,Optimus Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/owl-alpha,openrouter,Owl Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/pareto-code,openrouter,Pareto Code Router,2026-05-06T01:21:18.843732+00:00
+openrouter/polaris-alpha,openrouter,Polaris Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/pony-alpha,openrouter,Pony Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/quasar-alpha,openrouter,Quasar Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/sherlock-dash-alpha,openrouter,Sherlock Dash Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/sherlock-think-alpha,openrouter,Sherlock Think Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/sonoma-dusk-alpha,openrouter,Sonoma Dusk Alpha,2026-05-06T01:21:18.843732+00:00
+openrouter/sonoma-sky-alpha,openrouter,Sonoma Sky Alpha,2026-05-06T01:21:18.843732+00:00
+perplexity/llama-3-sonar-large-32k-chat,perplexity,Perplexity: Llama3 Sonar 70B,2026-05-06T01:21:18.843732+00:00
+perplexity/llama-3-sonar-large-32k-online,perplexity,Perplexity: Llama3 Sonar 70B Online,2026-05-06T01:21:18.843732+00:00
+perplexity/llama-3-sonar-small-32k-chat,perplexity,Perplexity: Llama3 Sonar 8B,2026-05-06T01:21:18.843732+00:00
+perplexity/llama-3-sonar-small-32k-online,perplexity,Perplexity: Llama3 Sonar 8B Online,2026-05-06T01:21:18.843732+00:00
+perplexity/llama-3.1-sonar-large-128k-online,perplexity,Perplexity: Llama 3.1 Sonar 70B Online,2026-05-06T01:21:18.843732+00:00
+perplexity/llama-3.1-sonar-small-128k-online,perplexity,Perplexity: Llama 3.1 Sonar 8B Online,2026-05-06T01:21:18.843732+00:00
+perplexity/pplx-embed-v1-0.6b,perplexity,Perplexity: Embed V1 0.6B,2026-05-06T01:21:18.843732+00:00
+perplexity/pplx-embed-v1-4b,perplexity,Perplexity: Embed V1 4B,2026-05-06T01:21:18.843732+00:00
+perplexity/r1-1776,perplexity,Perplexity: R1 1776,2026-05-06T01:21:18.843732+00:00
+perplexity/sonar,perplexity,Perplexity: Sonar,2026-05-06T01:21:18.843732+00:00
+perplexity/sonar-deep-research,perplexity,Perplexity: Sonar Deep Research,2026-05-06T01:21:18.843732+00:00
+perplexity/sonar-pro,perplexity,Perplexity: Sonar Pro,2026-05-06T01:21:18.843732+00:00
+perplexity/sonar-pro-search,perplexity,Perplexity: Sonar Pro Search,2026-05-06T01:21:18.843732+00:00
+perplexity/sonar-reasoning,perplexity,Perplexity: Sonar Reasoning,2026-05-06T01:21:18.843732+00:00
+perplexity/sonar-reasoning-pro,perplexity,Perplexity: Sonar Reasoning Pro,2026-05-06T01:21:18.843732+00:00
+phind/phind-codellama-34b,phind,Phind: CodeLlama 34B v2,2026-05-06T01:21:18.843732+00:00
+poolside/laguna-m.1:free,poolside,Poolside: Laguna M.1 (free),2026-05-06T01:21:18.843732+00:00
+poolside/laguna-xs.2:free,poolside,Poolside: Laguna XS.2 (free),2026-05-06T01:21:18.843732+00:00
+prime-intellect/intellect-3,prime-intellect,Prime Intellect: INTELLECT-3,2026-05-06T01:21:18.843732+00:00
+pygmalionai/mythalion-13b,pygmalionai,Pygmalion: Mythalion 13B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-110b-chat,qwen,Qwen 1.5 110B Chat,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-14b-chat,qwen,Qwen 1.5 14B Chat,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-2-72b-instruct,qwen,Qwen 2 72B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-2-7b-instruct,qwen,Qwen 2 7B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-2.5-72b-instruct,qwen,Qwen2.5 72B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-2.5-7b-instruct,qwen,Qwen: Qwen2.5 7B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-2.5-coder-32b-instruct,qwen,Qwen2.5 Coder 32B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-2.5-vl-7b-instruct,qwen,Qwen: Qwen2.5-VL 7B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-32b-chat,qwen,Qwen 1.5 32B Chat,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-4b-chat,qwen,Qwen 1.5 4B Chat,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-72b-chat,qwen,Qwen 1.5 72B Chat,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-7b-chat,qwen,Qwen 1.5 7B Chat,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-max,qwen,Qwen: Qwen-Max,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-plus,qwen,Qwen: Qwen-Plus,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-plus-2025-07-28,qwen,Qwen: Qwen Plus 0728,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-plus-2025-07-28:thinking,qwen,Qwen: Qwen Plus 0728 (thinking),2026-05-06T01:21:18.843732+00:00
+qwen/qwen-turbo,qwen,Qwen: Qwen-Turbo,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-vl-max,qwen,Qwen: Qwen VL Max,2026-05-06T01:21:18.843732+00:00
+qwen/qwen-vl-plus,qwen,Qwen: Qwen VL Plus,2026-05-06T01:21:18.843732+00:00
+qwen/qwen2.5-32b-instruct,qwen,Qwen: Qwen2.5 32B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen2.5-coder-7b-instruct,qwen,Qwen: Qwen2.5 Coder 7B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen2.5-vl-32b-instruct,qwen,Qwen: Qwen2.5 VL 32B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen2.5-vl-3b-instruct,qwen,Qwen: Qwen2.5 VL 3B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen2.5-vl-72b-instruct,qwen,Qwen: Qwen2.5 VL 72B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-0.6b-04-28,qwen,Qwen: Qwen3 0.6B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-1.7b,qwen,Qwen: Qwen3 1.7B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-14b,qwen,Qwen: Qwen3 14B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-235b-a22b,qwen,Qwen: Qwen3 235B A22B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-235b-a22b-2507,qwen,Qwen: Qwen3 235B A22B Instruct 2507,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-235b-a22b-thinking-2507,qwen,Qwen: Qwen3 235B A22B Thinking 2507,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-30b-a3b,qwen,Qwen: Qwen3 30B A3B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-30b-a3b-instruct-2507,qwen,Qwen: Qwen3 30B A3B Instruct 2507,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-30b-a3b-thinking-2507,qwen,Qwen: Qwen3 30B A3B Thinking 2507,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-32b,qwen,Qwen: Qwen3 32B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-4b,qwen,Qwen: Qwen3 4B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-8b,qwen,Qwen: Qwen3 8B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-coder,qwen,Qwen: Qwen3 Coder 480B A35B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-coder-30b-a3b-instruct,qwen,Qwen: Qwen3 Coder 30B A3B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-coder-flash,qwen,Qwen: Qwen3 Coder Flash,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-coder-next,qwen,Qwen: Qwen3 Coder Next,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-coder-plus,qwen,Qwen: Qwen3 Coder Plus,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-coder:free,qwen,Qwen: Qwen3 Coder 480B A35B (free),2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-embedding-0.6b,qwen,Qwen: Qwen3 Embedding 0.6B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-embedding-4b,qwen,Qwen: Qwen3 Embedding 4B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-embedding-8b,qwen,Qwen: Qwen3 Embedding 8B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-max,qwen,Qwen: Qwen3 Max,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-max-thinking,qwen,Qwen: Qwen3 Max Thinking,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-next-80b-a3b-instruct,qwen,Qwen: Qwen3 Next 80B A3B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-next-80b-a3b-instruct:free,qwen,Qwen: Qwen3 Next 80B A3B Instruct (free),2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-next-80b-a3b-thinking,qwen,Qwen: Qwen3 Next 80B A3B Thinking,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-vl-235b-a22b-instruct,qwen,Qwen: Qwen3 VL 235B A22B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-vl-235b-a22b-thinking,qwen,Qwen: Qwen3 VL 235B A22B Thinking,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-vl-30b-a3b-instruct,qwen,Qwen: Qwen3 VL 30B A3B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-vl-30b-a3b-thinking,qwen,Qwen: Qwen3 VL 30B A3B Thinking,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-vl-32b-instruct,qwen,Qwen: Qwen3 VL 32B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-vl-8b-instruct,qwen,Qwen: Qwen3 VL 8B Instruct,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3-vl-8b-thinking,qwen,Qwen: Qwen3 VL 8B Thinking,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.5-122b-a10b,qwen,Qwen: Qwen3.5-122B-A10B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.5-27b,qwen,Qwen: Qwen3.5-27B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.5-35b-a3b,qwen,Qwen: Qwen3.5-35B-A3B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.5-397b-a17b,qwen,Qwen: Qwen3.5 397B A17B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.5-9b,qwen,Qwen: Qwen3.5-9B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.5-flash-02-23,qwen,Qwen: Qwen3.5-Flash,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.5-plus-02-15,qwen,Qwen: Qwen3.5 Plus 2026-02-15,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.5-plus-20260420,qwen,Qwen: Qwen3.5 Plus 2026-04-20,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.6-27b,qwen,Qwen: Qwen3.6 27B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.6-35b-a3b,qwen,Qwen: Qwen3.6 35B A3B,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.6-flash,qwen,Qwen: Qwen3.6 Flash,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.6-max-preview,qwen,Qwen: Qwen3.6 Max Preview,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.6-plus,qwen,Qwen: Qwen3.6 Plus,2026-05-06T01:21:18.843732+00:00
+qwen/qwen3.6-plus-preview,qwen,Qwen: Qwen3.6 Plus Preview,2026-05-06T01:21:18.843732+00:00
+qwen/qwq-32b,qwen,Qwen: QwQ 32B,2026-05-06T01:21:18.843732+00:00
+qwen/qwq-32b-preview,qwen,Qwen: QwQ 32B Preview,2026-05-06T01:21:18.843732+00:00
+raifle/sorcererlm-8x22b,raifle,SorcererLM 8x22B,2026-05-06T01:21:18.843732+00:00
+recursal/eagle-7b,recursal,RWKV v5: Eagle 7B,2026-05-06T01:21:18.843732+00:00
+recursal/rwkv-5-3b-ai-town,recursal,RWKV v5 3B AI Town,2026-05-06T01:21:18.843732+00:00
+rekaai/reka-edge,rekaai,Reka Edge,2026-05-06T01:21:18.843732+00:00
+rekaai/reka-flash-3,rekaai,Reka Flash 3,2026-05-06T01:21:18.843732+00:00
+relace/relace-apply-3,relace,Relace: Relace Apply 3,2026-05-06T01:21:18.843732+00:00
+relace/relace-search,relace,Relace: Relace Search,2026-05-06T01:21:18.843732+00:00
+rwkv/rwkv-5-world-3b,rwkv,RWKV v5 World 3B,2026-05-06T01:21:18.843732+00:00
+sao10k/fimbulvetr-11b-v2,sao10k,Fimbulvetr 11B v2,2026-05-06T01:21:18.843732+00:00
+sao10k/l3-euryale-70b,sao10k,Sao10k: Llama 3 Euryale 70B v2.1,2026-05-06T01:21:18.843732+00:00
+sao10k/l3-lunaris-8b,sao10k,Sao10K: Llama 3 8B Lunaris,2026-05-06T01:21:18.843732+00:00
+sao10k/l3-stheno-8b,sao10k,Sao10K: Llama 3 Stheno 8B v3.3 32K,2026-05-06T01:21:18.843732+00:00
+sao10k/l3.1-70b-hanami-x1,sao10k,Sao10K: Llama 3.1 70B Hanami x1,2026-05-06T01:21:18.843732+00:00
+sao10k/l3.1-euryale-70b,sao10k,Sao10K: Llama 3.1 Euryale 70B v2.2,2026-05-06T01:21:18.843732+00:00
+sao10k/l3.3-euryale-70b,sao10k,Sao10K: Llama 3.3 Euryale 70B,2026-05-06T01:21:18.843732+00:00
+sarvamai/sarvam-m,sarvamai,Sarvam AI: Sarvam-M,2026-05-06T01:21:18.843732+00:00
+scb10x/llama3.1-typhoon2-70b-instruct,scb10x,Typhoon2 70B Instruct,2026-05-06T01:21:18.843732+00:00
+scb10x/llama3.1-typhoon2-8b-instruct,scb10x,Typhoon2 8B Instruct,2026-05-06T01:21:18.843732+00:00
+sentence-transformers/all-minilm-l12-v2,sentence-transformers,Sentence Transformers: all-MiniLM-L12-v2,2026-05-06T01:21:18.843732+00:00
+sentence-transformers/all-minilm-l6-v2,sentence-transformers,Sentence Transformers: all-MiniLM-L6-v2,2026-05-06T01:21:18.843732+00:00
+sentence-transformers/all-mpnet-base-v2,sentence-transformers,Sentence Transformers: all-mpnet-base-v2,2026-05-06T01:21:18.843732+00:00
+sentence-transformers/multi-qa-mpnet-base-dot-v1,sentence-transformers,Sentence Transformers: multi-qa-mpnet-base-dot-v1,2026-05-06T01:21:18.843732+00:00
+sentence-transformers/paraphrase-minilm-l6-v2,sentence-transformers,Sentence Transformers: paraphrase-MiniLM-L6-v2,2026-05-06T01:21:18.843732+00:00
+sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,sentientagi,SentientAGI: Dobby Mini Plus Llama 3.1 8B,2026-05-06T01:21:18.843732+00:00
+sesame/csm-1b,sesame,Sesame: CSM 1B,2026-05-06T01:21:18.843732+00:00
+snowflake/snowflake-arctic-instruct,snowflake,Snowflake: Arctic Instruct,2026-05-06T01:21:18.843732+00:00
+sophosympatheia/midnight-rose-70b,sophosympatheia,Midnight Rose 70B,2026-05-06T01:21:18.843732+00:00
+sourceful/riverflow-v2-fast,sourceful,Sourceful: Riverflow V2 Fast,2026-05-06T01:21:18.843732+00:00
+sourceful/riverflow-v2-fast-preview,sourceful,Sourceful: Riverflow V2 Fast Preview,2026-05-06T01:21:18.843732+00:00
+sourceful/riverflow-v2-max-preview,sourceful,Sourceful: Riverflow V2 Max Preview,2026-05-06T01:21:18.843732+00:00
+sourceful/riverflow-v2-pro,sourceful,Sourceful: Riverflow V2 Pro,2026-05-06T01:21:18.843732+00:00
+sourceful/riverflow-v2-standard-preview,sourceful,Sourceful: Riverflow V2 Standard Preview,2026-05-06T01:21:18.843732+00:00
+steelskull/l3.3-electra-r1-70b,steelskull,SteelSkull: L3.3 Electra R1 70B,2026-05-06T01:21:18.843732+00:00
+stepfun-ai/step3,stepfun-ai,StepFun: Step3,2026-05-06T01:21:18.843732+00:00
+stepfun/step-3.5-flash,stepfun,StepFun: Step 3.5 Flash,2026-05-06T01:21:18.843732+00:00
+switchpoint/router,switchpoint,Switchpoint Router,2026-05-06T01:21:18.843732+00:00
+teknium/openhermes-2-mistral-7b,teknium,OpenHermes 2 Mistral 7B,2026-05-06T01:21:18.843732+00:00
+teknium/openhermes-2.5-mistral-7b,teknium,OpenHermes 2.5 Mistral 7B,2026-05-06T01:21:18.843732+00:00
+tencent/hunyuan-a13b-instruct,tencent,Tencent: Hunyuan A13B Instruct,2026-05-06T01:21:18.843732+00:00
+tencent/hy3-preview:free,tencent,Tencent: Hy3 preview (free),2026-05-06T01:21:18.843732+00:00
+thedrummer/cydonia-24b-v4.1,thedrummer,TheDrummer: Cydonia 24B V4.1,2026-05-06T01:21:18.843732+00:00
+thedrummer/rocinante-12b,thedrummer,TheDrummer: Rocinante 12B,2026-05-06T01:21:18.843732+00:00
+thedrummer/skyfall-36b-v2,thedrummer,TheDrummer: Skyfall 36B V2,2026-05-06T01:21:18.843732+00:00
+thedrummer/unslopnemo-12b,thedrummer,TheDrummer: UnslopNemo 12B,2026-05-06T01:21:18.843732+00:00
+thedrummer/valkyrie-49b-v1,thedrummer,TheDrummer: Valkyrie 49B V1,2026-05-06T01:21:18.843732+00:00
+thenlper/gte-base,thenlper,Thenlper: GTE-Base,2026-05-06T01:21:18.843732+00:00
+thenlper/gte-large,thenlper,Thenlper: GTE-Large,2026-05-06T01:21:18.843732+00:00
+thudm/glm-4-32b,thudm,THUDM: GLM 4 32B,2026-05-06T01:21:18.843732+00:00
+thudm/glm-4-9b,thudm,THUDM: GLM 4 9B,2026-05-06T01:21:18.843732+00:00
+thudm/glm-4.1v-9b-thinking,thudm,THUDM: GLM 4.1V 9B Thinking,2026-05-06T01:21:18.843732+00:00
+thudm/glm-z1-32b,thudm,THUDM: GLM Z1 32B,2026-05-06T01:21:18.843732+00:00
+thudm/glm-z1-9b,thudm,THUDM: GLM Z1 9B,2026-05-06T01:21:18.843732+00:00
+thudm/glm-z1-rumination-32b,thudm,THUDM: GLM Z1 Rumination 32B,2026-05-06T01:21:18.843732+00:00
+tngtech/deepseek-r1t-chimera,tngtech,TNG: DeepSeek R1T Chimera,2026-05-06T01:21:18.843732+00:00
+tngtech/deepseek-r1t2-chimera,tngtech,TNG: DeepSeek R1T2 Chimera,2026-05-06T01:21:18.843732+00:00
+tngtech/tng-r1t-chimera,tngtech,TNG: R1T Chimera,2026-05-06T01:21:18.843732+00:00
+togethercomputer/stripedhyena-hessian-7b,togethercomputer,StripedHyena Hessian 7B (base),2026-05-06T01:21:18.843732+00:00
+togethercomputer/stripedhyena-nous-7b,togethercomputer,StripedHyena Nous 7B,2026-05-06T01:21:18.843732+00:00
+tokyotech-llm/llama-3.1-swallow-8b-instruct-v0.3,tokyotech-llm,Swallow: Llama 3.1 Swallow 8B Instruct V0.3,2026-05-06T01:21:18.843732+00:00
+undi95/remm-slerp-l2-13b,undi95,ReMM SLERP 13B,2026-05-06T01:21:18.843732+00:00
+undi95/toppy-m-7b,undi95,Toppy M 7B,2026-05-06T01:21:18.843732+00:00
+upstage/solar-pro-3,upstage,Upstage: Solar Pro 3,2026-05-06T01:21:18.843732+00:00
+writer/palmyra-x5,writer,Writer: Palmyra X5,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-2,x-ai,xAI: Grok 2,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-2-1212,x-ai,xAI: Grok 2 1212,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-2-mini,x-ai,xAI: Grok 2 mini,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-2-vision-1212,x-ai,xAI: Grok 2 Vision 1212,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-3,x-ai,xAI: Grok 3,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-3-beta,x-ai,xAI: Grok 3 Beta,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-3-mini,x-ai,xAI: Grok 3 Mini,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-3-mini-beta,x-ai,xAI: Grok 3 Mini Beta,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-4,x-ai,xAI: Grok 4,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-4-fast,x-ai,xAI: Grok 4 Fast,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-4.1-fast,x-ai,xAI: Grok 4.1 Fast,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-4.20,x-ai,xAI: Grok 4.20,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-4.20-beta,x-ai,xAI: Grok 4.20 Beta,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-4.20-multi-agent,x-ai,xAI: Grok 4.20 Multi-Agent,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-4.20-multi-agent-beta,x-ai,xAI: Grok 4.20 Multi-Agent Beta,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-4.3,x-ai,xAI: Grok 4.3,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-beta,x-ai,xAI: Grok Beta,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-code-fast-1,x-ai,xAI: Grok Code Fast 1,2026-05-06T01:21:18.843732+00:00
+x-ai/grok-vision-beta,x-ai,xAI: Grok Vision Beta,2026-05-06T01:21:18.843732+00:00
+xiaomi/mimo-v2-flash,xiaomi,Xiaomi: MiMo-V2-Flash,2026-05-06T01:21:18.843732+00:00
+xiaomi/mimo-v2-omni,xiaomi,Xiaomi: MiMo-V2-Omni,2026-05-06T01:21:18.843732+00:00
+xiaomi/mimo-v2-pro,xiaomi,Xiaomi: MiMo-V2-Pro,2026-05-06T01:21:18.843732+00:00
+xiaomi/mimo-v2.5,xiaomi,Xiaomi: MiMo-V2.5,2026-05-06T01:21:18.843732+00:00
+xiaomi/mimo-v2.5-pro,xiaomi,Xiaomi: MiMo-V2.5-Pro,2026-05-06T01:21:18.843732+00:00
+xwin-lm/xwin-lm-70b,xwin-lm,Xwin 70B,2026-05-06T01:21:18.843732+00:00
+z-ai/glm-4-32b,z-ai,Z.ai: GLM 4 32B,2026-05-06T01:21:18.843732+00:00
+z-ai/glm-4.5,z-ai,Z.ai: GLM 4.5,2026-05-06T01:21:18.843732+00:00
+z-ai/glm-4.5-air,z-ai,Z.ai: GLM 4.5 Air,2026-05-06T01:21:18.843732+00:00
+z-ai/glm-4.5-air:free,z-ai,Z.ai: GLM 4.5 Air (free),2026-05-06T01:21:18.843732+00:00
+z-ai/glm-4.5v,z-ai,Z.ai: GLM 4.5V,2026-05-06T01:21:18.843732+00:00
+z-ai/glm-4.6,z-ai,Z.ai: GLM 4.6,2026-05-06T01:21:18.843732+00:00
+z-ai/glm-4.6v,z-ai,Z.ai: GLM 4.6V,2026-05-06T01:21:18.843732+00:00
+z-ai/glm-4.7,z-ai,Z.ai: GLM 4.7,2026-05-06T01:21:18.843732+00:00
+z-ai/glm-4.7-flash,z-ai,Z.ai: GLM 4.7 Flash,2026-05-06T01:21:18.843732+00:00
+z-ai/glm-5,z-ai,Z.ai: GLM 5,2026-05-06T01:21:18.843732+00:00
+z-ai/glm-5-turbo,z-ai,Z.ai: GLM 5 Turbo,2026-05-06T01:21:18.843732+00:00
+z-ai/glm-5.1,z-ai,Z.ai: GLM 5.1,2026-05-06T01:21:18.843732+00:00
+z-ai/glm-5v-turbo,z-ai,Z.ai: GLM 5V Turbo,2026-05-06T01:21:18.843732+00:00
+zyphra/zonos-v0.1-hybrid,zyphra,Zyphra: Zonos v0.1 Hybrid,2026-05-06T01:21:18.843732+00:00
+zyphra/zonos-v0.1-transformer,zyphra,Zyphra: Zonos v0.1 Transformer,2026-05-06T01:21:18.843732+00:00
+~anthropic/claude-haiku-latest,anthropic,Anthropic Claude Haiku Latest,2026-05-06T01:21:18.843732+00:00
+~anthropic/claude-opus-latest,anthropic,Anthropic: Claude Opus Latest,2026-05-06T01:21:18.843732+00:00
+~anthropic/claude-sonnet-latest,anthropic,Anthropic Claude Sonnet Latest,2026-05-06T01:21:18.843732+00:00
+~google/gemini-flash-latest,google,Google Gemini Flash Latest,2026-05-06T01:21:18.843732+00:00
+~google/gemini-pro-latest,google,Google Gemini Pro Latest,2026-05-06T01:21:18.843732+00:00
+~moonshotai/kimi-latest,moonshotai,MoonshotAI Kimi Latest,2026-05-06T01:21:18.843732+00:00
+~openai/gpt-latest,openai,OpenAI GPT Latest,2026-05-06T01:21:18.843732+00:00
+~openai/gpt-mini-latest,openai,OpenAI GPT Mini Latest,2026-05-06T01:21:18.843732+00:00
