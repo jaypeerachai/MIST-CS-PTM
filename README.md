@@ -17,7 +17,7 @@ Maintaining software that relies on PTMs requires knowing which PTMs it uses and
 
 The diagram shows data collection, annotation, and MIST evaluation on the left, and MIST's reuse-validation steps on the right.
 
-![Data collection, annotation, and evaluation workflow alongside MIST's reuse-validation steps.](assets/mist_pipeline.png)
+![Data collection, annotation, and evaluation workflow alongside MIST's reuse-validation steps.](assets/mist_pipeline.jpg)
 
 ## 🗂️ Package contents
 
