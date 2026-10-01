@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "summaries": [
+    {
+      "name": "home_assistant_options_flow_with_voluptuous",
+      "flow_base_classes": [
+        "homeassistant.config_entries.OptionsFlow"
+      ],
+      "selector_calls": [
+        "voluptuous.In"
+      ],
+      "key_calls": [
+        "voluptuous.Optional",
+        "voluptuous.Required"
+      ],
+      "schema_calls": [
+        "voluptuous.Schema"
+      ],
+      "form_methods": [
+        "async_show_form"
+      ],
+      "form_schema_keywords": [
+        "data_schema"
+      ],
+      "persistence_methods": [
+        "async_create_entry"
+      ],
+      "persistence_data_keywords": [
+        "data"
+      ],
+      "submission_parameter_position": 0,
+      "state_container_attributes": [
+        "options"
+      ],
+      "state_read_methods": [
+        "get"
+      ],
+      "state_owner_types": [
+        "homeassistant.config_entries.ConfigEntry"
+      ],
+      "state_namespace": "homeassistant.config_entries.ConfigEntry.options"
+    }
+  ]
+}

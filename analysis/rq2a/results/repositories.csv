@@ -1,0 +1,451 @@
+repository,commit_sha,binding_count,model_author_count,interface_family_count,interface_origin_count,local_binding_count,non_local_binding_count,locality,model_authors,interface_families,interface_origins
+10xHub/Agentflow,23b41e6aaaf8c6b145dec550276e5c42032e7eb5,14,2,1,2,2,12,has_non_local,google | openai,Provider SDK,google | openai
+1ch1n/mychatarchive,46ac45e08b664960a7bc9befa0257faf2d50d78a,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+4lx69/jellyfin-collection,fe42f651570748a9f0d674b1aa4afaf64f967848,5,1,1,1,5,0,local_only,openai,Provider SDK,openai
+AI-Hypercomputer/maxtext,b30b2d27a83f6d3c1cdd21ee580faf90e740c523,1,1,1,1,1,0,local_only,google,Provider SDK,google
+AI-Planning/l2p,72d297efa30e2b561c2d7466b2caa89e8e56e638,3,1,1,1,0,3,has_non_local,openai,Provider SDK,openai
+AI-as-Infrastructure/aiinfra-atlas,3d889a50a92dd4c6506178c5e7c7d9e3dca4be50,2,1,1,1,1,1,has_non_local,openai,Integration and orchestration framework,langchain_openai
+AISecurityLab/hackagent,cac56451f563cd158ce35f222e2b2b658d8e3f36,1,1,1,1,0,1,has_non_local,openai,Integration and orchestration framework,litellm
+AISquare-Studio/AISquare-Studio-QA,8e2c72411f8ec8cc670268e4f2c2547de0c2ff89,3,1,2,2,3,0,local_only,openai,Integration and orchestration framework | Raw HTTP,crewai | requests
+AIVTDevPKevin/AI-VTuber-System,b7bfa6b2c53dd8a77e951518b4531dc3eb34a2ef,5,2,1,2,4,1,has_non_local,google | openai,Provider SDK,google | openai
+AMD-AGI/GEAK,d9a80f7b9331376588ab8301be790bd6f791b507,1,1,1,1,1,0,local_only,anthropic,Provider SDK,anthropic
+AOrbitron/Eridanus,14427df361666b4afa75f1b8bbfeec9e18f46275,2,2,2,2,1,1,has_non_local,openai | x-ai,Provider SDK | Raw HTTP,httpx | openai
+Aleph-Alpha-Research/eval-framework,1223a21ccd92b9a767a40d4700382eb377240e8e,2,1,1,1,1,1,has_non_local,openai,Provider SDK,openai
+Alibaba-NLP/qqr,8653a9abd77549459eafedfbece638df4460faf5,1,1,1,1,1,0,local_only,qwen,Provider SDK,openai
+AlphaAvatar/AlphaAvatar,96ab738f257d049db2272f4b4318f3a1990b7ef9,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+Anionex/banana-slides,801bd626cb07b25da83e63a378075bb58d97bbc9,9,3,2,4,5,4,has_non_local,anthropic | google | openai,Provider SDK | Raw HTTP,anthropic | google | openai | requests
+ApiLogicServer/ApiLogicServer-src,8758f76a2b5c279503e198a0b288ebd208b6348b,5,1,1,1,5,0,local_only,openai,Provider SDK,openai
+ArcadeAI/agent-library,cf63c8deb77cbf7145f89ff5c4b633b54c7dcc7a,2,2,1,2,2,0,local_only,anthropic | openai,Provider SDK,anthropic | openai
+ArchAI-Labs/medha,6ae88c9dfbb7bcf8d491b1ab2eb773f4c930fc8e,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+ArtificialAnalysis/Stirrup,cd7f51f999af12893acd48b5d7f5862fe6c26521,2,2,1,1,0,2,has_non_local,google | openai,Provider SDK,openai
+Azure-Samples/art-voice-agent-accelerator,3dda3db74e6cbcb50a1c6ed6f44730d3e5b9cf53,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+Azure/az-prototype,afb8821da0bb88cfa433dbe3e475b8e4910403ea,58,3,2,3,55,3,has_non_local,anthropic | google | openai,Provider SDK | Raw HTTP,openai | requests | urllib
+BasisResearch/effectful,745fbfa696807bec85bbdd035db2de85e3937e59,1,1,1,1,0,1,has_non_local,openai,Integration and orchestration framework,litellm
+Bayer-Group/PhenEx,cc412fb81e318cec6e8173bb180f025b79aa6169,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+Beever-AI/beever-atlas,20d0686ddce08a01cba04da81eeee57f872c4d2e,2,1,1,1,0,2,has_non_local,google,Integration and orchestration framework,litellm
+Bryantad/Sona,eba246f8b484fa3687a4ca0cc7bb3d474144c29e,5,2,1,2,5,0,local_only,anthropic | openai,Provider SDK,anthropic | openai
+CaddyGlow/ccproxy-api,9a0e49655f648f3eac7030a673674d1f8469893e,4,1,1,1,4,0,local_only,openai,Raw HTTP,httpx
+Center-for-AI-Innovation/ai-ta-backend,3d3f4620fc7287b34ffe4f108f126fe8223fa6d5,2,1,2,2,2,0,local_only,openai,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+ConflictHQ/PlanOpticon,7f695d1d6793cb9e388655cf19ab77eacb23cfaf,14,3,2,4,13,1,has_non_local,anthropic | google | openai,Integration and orchestration framework | Provider SDK,anthropic | google | litellm | openai
+Constellab/gws_core,303320dea67dadc2a56ae6493676850c204c4788,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+Corbell-AI/Corbell,eb9052899012db3e1e7ced4d79675fc8e6b9a93f,4,2,1,1,4,0,local_only,anthropic | openai,Provider SDK,anthropic
+CraftOS-dev/CraftBot,2ad3402a2d756216d70cda9d082f3693b6cb8270,4,3,1,2,2,2,has_non_local,anthropic | google | x-ai,Provider SDK,anthropic | google
+CursorTouch/Web-Use,1bd906cf8202e6ec8bf1d324c3bbf8924637b41c,2,2,1,2,2,0,local_only,google | openai,Provider SDK,google | openai
+DataJourneyHQ/DataJourney,6cb8eb1820fb092bc1eeade0566f5851a208b2ca,3,1,1,1,3,0,local_only,openai,Provider SDK,openai
+Datus-ai/Datus-agent,b86630a22920affc8640aa1f86caa1ea2b8b5eac,34,3,2,2,1,33,has_non_local,anthropic | openai | qwen,Integration and orchestration framework | Provider SDK,agents | openai
+DavidLMS/aphra,d5cdd49cfcd9805af8cca7befc64c0d01e1718ad,1,1,1,1,0,1,has_non_local,anthropic,Provider SDK,openai
+DemonDamon/AgenticX,bf41fb39a028d4b9283dc8c99f8a9c6de819f52a,6,2,2,3,6,0,local_only,google | openai,Integration and orchestration framework | Provider SDK,google | litellm | openai
+DigitalArchivst/Open-Genealogy,8e923fcc5846ac83d27de61d5569f0b826e89127,2,1,1,1,0,2,has_non_local,anthropic,Provider SDK,anthropic
+DigitalHarborFoundation/FlexEval,3871497576c4f10053a1c4d7925e991e7dbc900f,2,1,2,2,2,0,local_only,openai,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+EXP-Codes/py-transgpt,146f7b840cc9790929bbbb10126bb1a9b3da74dd,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+EfeDurmaz16/sardis,cecb045fc32d29a381e5174e7783b084625c54c8,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+EleutherAI/lm-evaluation-harness,95d580638385578c1c07fa554cf16ad7f5b5f460,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+EpicStaff/EpicStaff,1c8f4d594f7ebf966a5249b323912b27250d1f22,59,3,2,5,51,8,has_non_local,anthropic | google | openai,Integration and orchestration framework | Provider SDK,crewai | google | langchain_openai | litellm | openai
+EvolvingLMMs-Lab/lmms-engine,4158d7fc71d1f96d09c1206e3426633d9faee518,1,1,1,1,1,0,local_only,openai,Raw HTTP,requests
+EvolvingLMMs-Lab/lmms-eval,1979f32fe55f60c6d4f282989493d8f4c9419e3f,53,4,2,5,45,8,has_non_local,anthropic | google | openai | qwen,Provider SDK | Raw HTTP,anthropic | dashscope | google | openai | requests
+FOR-sight-ai/interpreto,500515b67d9dfed59cd9101d797e2a265c375ed2,2,1,1,1,1,1,has_non_local,openai,Provider SDK,openai
+FalkorDB/GraphRAG-SDK,a174629d23d270159523035a9e10d25033b027f4,9,1,2,2,0,9,has_non_local,openai,Integration and orchestration framework | Provider SDK,litellm | openai
+Fan1234-1/tonesoul52,91f950de971a9ebb3b556a0e755f7a6341b05c94,5,3,1,1,0,5,has_non_local,anthropic | google | openai,Provider SDK,google
+Fincept-Corporation/FinceptTerminal,9e719ddba5857c600e04a9b7115ae8d73d5c9696,2,2,1,2,2,0,local_only,google | openai,Integration and orchestration framework,langchain_google_genai | langchain_openai
+Forge-Theory-Labs/BuddAI,407e6d6660a488b642352f65a2750e7110681fd0,4,2,1,2,4,0,local_only,anthropic | openai,Provider SDK,anthropic | openai
+GeneralNewsExtractor/GeneralNewsExtractor,3d5a67c65f4d6c8e13c3047754a4c18fc0b0754a,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+GoogleCloudPlatform/cloud-solutions,a51edfa7dd16a41790964f7cf4050a6081a34e1f,22,1,2,2,13,9,has_non_local,google,Cloud-platform SDK | Provider SDK,google | vertexai
+GoogleCloudPlatform/conversational-insights-devkit,a57237c86cf31f8e9fce8f02ab93cf90a6a8ebb3,4,1,2,2,3,1,has_non_local,google,Cloud-platform SDK | Provider SDK,google | vertexai
+GoogleCloudPlatform/cxas-scrapi,96a1b16f5c96a63841bfd50c40285d218653a82f,6,1,1,1,4,2,has_non_local,google,Provider SDK,google
+GoogleCloudPlatform/dfcx-scrapi,c6f25ad0abd97dc106347dd7fc17f30b64e74e5f,1,1,1,1,1,0,local_only,google,Cloud-platform SDK,vertexai
+Guifp177/J.A.R.V.I.S,d3b5d28326278c43e61670ba229457b710300f82,1,1,1,1,1,0,local_only,google,Provider SDK,google
+HKUDS/OpenHarness,09bc641aadf07f5498567c86591cd72cd96a0c28,5,1,1,1,0,5,has_non_local,openai,Provider SDK,openai
+Haohao-end/openagent,88a72f85716900be3b9c4b1daef170a8dc6b357a,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+HiveTrace/HiveTraceRed,6d06752460d3c358732b3deabb0e4abf396d040b,4,2,2,3,3,1,has_non_local,google | openai,Integration and orchestration framework | Provider SDK,google | langchain_google_genai | langchain_openai
+IINemo/lm-polygraph,6d3a5740b602ac4b4f956fa044f83705c6c3d367,3,1,1,1,2,1,has_non_local,openai,Provider SDK,openai
+JC0v0/Customer-Agent,32924f943f180ae88d83ba7c4d337bdcabdc13dd,2,1,1,1,0,2,has_non_local,openai,Provider SDK,openai
+JackHopkins/factorio-learning-environment,6439e18b7870770454cf91eb36b3d1e6412724f4,5,2,1,2,5,0,local_only,anthropic | openai,Provider SDK,anthropic | openai
+JacobZuliani/giz,1752f284199af7175eca6f2de6b892cd37528efe,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+Japan-AISI/aisev,e0604d1e7997c2949e3cea40d219089dfd477fb4,3,1,1,2,3,0,local_only,openai,Raw HTTP,httpx | requests
+JoasASantos/NeuroSploit,7563260b2b73de62846ba559dd27ce5ad38ccf1a,10,3,2,2,10,0,local_only,anthropic | google | openai,Provider SDK | Raw HTTP,openai | requests
+JoeGaffney/deferred-diffusion,76fd8dc7a9f1058459134858c5cddb93b44c7434,7,1,1,1,4,3,has_non_local,openai,Provider SDK,openai
+JohnnyFiv3r/Core-Memory,c240ddd78f04492d6269ff37c5b1b8fd137da538,5,2,1,1,3,2,has_non_local,google | openai,Provider SDK,openai
+JosephOIbrahim/Comfy-Cozy,2309b41df907eff1d39bd053e18c3d2045d5852a,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+KKingZero/Zypheron-CLI,31eea99f4b50adb0fdc7d1e331bcf3f758bd14ca,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+KRLabsOrg/verbatim-rag,fa155cef114dd7a1464a8142cd9b44e3cc837848,4,1,1,1,2,2,has_non_local,openai,Provider SDK,openai
+KasarLabs/cairo-coder,77714f2a194c3e4855dfe893e11c8fdfa6c4146c,1,1,1,1,1,0,local_only,x-ai,Provider SDK,xai_sdk
+KennyCaty/PageIndex_Chat_UI,ec956b97fc1c4cc14a6d1614db96ae04d164cc2a,3,1,1,1,0,3,has_non_local,openai,Provider SDK,openai
+KevinAHM/sonorus,2090d500c03f16aa179e7454a0c505ad63ad39dc,18,3,1,2,3,15,has_non_local,google | openai | x-ai,Provider SDK,google | openai
+KnowledgeXLab/Heta,b9ebfeab36d245ce476e73020834c4a76da891b1,15,2,2,2,12,3,has_non_local,openai | qwen,Provider SDK | Raw HTTP,openai | requests
+KodyKendall/LlamaBot,7b5ac44b029c1e699bffc101f028b0ddd161e990,29,2,1,2,29,0,local_only,google | openai,Integration and orchestration framework,langchain_google_genai | langchain_openai
+Kovname/nano-banana-render,f93bfc70cac9e7156b242d2988db6503f3ce2c36,6,1,1,1,1,5,has_non_local,google,Provider SDK,google
+Lucky-183/PI-Assistant,5a48867dc021514c7deab81863a218bce7c741ba,1,1,1,1,0,1,has_non_local,openai,Raw HTTP,requests
+M-Chimiste/TheseusInsight,a6dad82e688ed544258c5191a3e0d5f703f396c3,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+MCSLTeam/MCSL2,4e5990fede356dc8f00c5c1b64578558611d1790,14,3,1,1,0,14,has_non_local,google | openai | qwen,Provider SDK,openai
+METR/hawk,692d9b709852c76c138d0542fbcabca1f1ec0b8a,4,2,1,2,4,0,local_only,google | openai,Provider SDK,google | openai
+MGdaasLab/WHartTest,c9b581ea150cb65ea6f2a79655350b882e5ed598,3,1,1,1,3,0,local_only,openai,Integration and orchestration framework,langchain_openai
+MantisAI/sieves,6a19679d8e74cdb8669b5f5a4fd4eadbac2de500,2,2,1,1,2,0,local_only,google | openai,Integration and orchestration framework,langchain_openai
+Manumarzo/AudioTTo,73a92c363759ff996d28c21e1ba24a82e444d7cb,1,1,1,1,1,0,local_only,google,Provider SDK,google
+MemMachine/MemMachine,aad4bbb0b47fee77eee83b30e8a4f54c1168d341,5,1,1,1,3,2,has_non_local,openai,Provider SDK,openai
+MeridianAlgo/Learn-Quant,70f61deccec8c3bd2c98ad3ac2e3fae223bfedc2,1,1,1,1,1,0,local_only,google,Provider SDK,google
+MigoXLab/dingo,32c6de59bf8b2d98b736921a53d5ed6056768550,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+MigoXLab/webqa-agent,4723594da7ba81766e67ac40b14ef48102572a88,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+MinimalFuture/AgentMesh,d33e43284c31e28aee8d363e9e998144bd50bc34,4,1,2,2,1,3,has_non_local,openai,Provider SDK | Raw HTTP,openai | requests
+ModelEngine-Group/unified-cache-management,5a686c88c7faccbcd723eea62f511faf27d1519a,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+Montimage/NetworkFuzzer,7639c9e79e4fe4d952daab0f642d4c81dd86768b,2,1,2,2,2,0,local_only,openai,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+MotleyAI/motleycrew,527bbb8ccbd8764488b7ffd3311e0f1c9d28bee8,2,1,1,1,2,0,local_only,openai,Integration and orchestration framework,langchain_openai
+NCAR/miles-credit,aa35a1ca0dc82e99d3787c019d350355c152a2eb,3,1,1,1,3,0,local_only,anthropic,Provider SDK,anthropic
+NHERI-SimCenter/BrailsPlusPlus,4e7727022f23bfcee35f996e734274adf42b280b,1,1,1,1,0,1,has_non_local,openai,Raw HTTP,requests
+NLP-LOVE/personal-llm-api,280814a798f8142f3a60515d18edf40eee32e0c3,1,1,1,1,1,0,local_only,google,Provider SDK,google
+NVIDIA-NeMo/Guardrails,2a1d965f5183758d8c2f0537803f08fbdfbf55fe,6,2,1,2,0,6,has_non_local,google | openai,Provider SDK,google | openai
+NVIDIA-NeMo/Gym,8e145db5035483f3f71882b33026279793cc5351,10,1,1,1,10,0,local_only,anthropic,Raw HTTP,requests
+NousResearch/atropos,c20c85256e5a45ad31edf8b7276e9c5ee1995a30,2,2,1,1,1,1,has_non_local,anthropic | openai,Provider SDK,openai
+NovaSky-AI/SkyRL,ecdaa9460e281774638a9170d6724456f46c8356,2,1,1,1,2,0,local_only,openai,Integration and orchestration framework,litellm
+Noveum/noveum-trace,89e14b6f984d3c39d9c92c47c8546a4810a543fa,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+Open-Source-Legal/OpenContracts,42f2e7332788d6d02d56a0322e98865a244cf5f1,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+OpenBMB/ChatDev,b23950d03575e31c958d7f57af521fb782db8750,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+OpenBMB/UltraRAG,909a2345336a9aacd1585de32f558ec5a92448f1,2,1,1,1,2,0,local_only,openai,Raw HTTP,requests
+OpenCSGs/csghub-dataflow,d96f7aa25002264695157dc9a759e3caaf2cfce6,5,2,2,2,5,0,local_only,openai | qwen,Provider SDK | Raw HTTP,openai | requests
+OpenDCAI/DataFlow,9932d311c57f92631e4b7f5b8f3dfa524a7b2ff5,9,2,3,3,1,8,has_non_local,google | openai,Cloud-platform SDK | Integration and orchestration framework | Provider SDK,litellm | openai | vertexai
+OpenMind/OM1,7a32ed4e1886e282f454f2168d0c9d05c8283bd9,29,4,1,1,4,25,has_non_local,anthropic | google | openai | x-ai,Provider SDK,openai
+Orbifold/knwl,a12118e9b4a5b9be54143aa5f7318bf0eeed81c3,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+Osmosis-AI/osmosis-sdk-python,9a8995fd5024bb19cab75cc42bc5eb458043319f,1,1,1,1,0,1,has_non_local,openai,Integration and orchestration framework,litellm
+Parslee-ai/statebench,5359ae4c120dc07071b180842253a44977286f6d,12,2,1,3,11,1,has_non_local,anthropic | openai,Provider SDK,anthropic | google | openai
+Peargent/peargent,d9d48ff069ed663c1b4ab0cce14a2a8e4886700b,1,1,1,1,1,0,local_only,openai,Raw HTTP,requests
+Project-N-E-K-O/N.E.K.O,ed507b07d637ca1f99ada43a7f552ba569b3fd46,7,3,1,2,0,7,has_non_local,google | openai | qwen,Provider SDK,google | openai
+Protegrity-Developer-Edition/protegrity-developer-edition,43dfe7603fc2f4d7719d4c77039d0a8ae5da9e15,2,1,2,2,1,1,has_non_local,openai,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+QIN2DIM/hcaptcha-challenger,6bfe78150b491579af7c07e7c5fab8e3bc6e77e5,2,1,1,1,2,0,local_only,google,Provider SDK,google
+QWED-AI/qwed-verification,edb0c90b16df9afefd8795e2707c126ab92858d9,13,2,2,3,11,2,has_non_local,anthropic | openai,Provider SDK | Raw HTTP,anthropic | openai | requests
+RISE-UNIBAS/humanities_data_benchmark,41a111dcecd983cafe1bd7e6227e2d291cded978,1,1,1,1,1,0,local_only,anthropic,Raw HTTP,requests
+Realiserad/fish-ai,4c9fda27359022f85631c1bdc82f44906cc1a1bc,1,1,1,1,1,0,local_only,google,Provider SDK,google
+Rishabh-Bajpai/Personal-Guru,fba18102603281384a8418460a2d9ce3bd9c758a,2,1,1,1,0,2,has_non_local,openai,Provider SDK,openai
+Routstr/routstr-core,29cfeaed9adfac6f246e9751f64f7b8faa773601,1,1,1,1,1,0,local_only,openai,Raw HTTP,httpx
+SRInternet-Studio/Jianer_QQ_bot,52134b79aaa9437fbd07211d853a87c6c4c3f61b,5,2,1,2,1,4,has_non_local,google | openai,Provider SDK,google | openai
+SalesforceAIResearch/MCP-Universe,085f9174d6ceca29a8863706f7a31957187f1b8b,13,5,2,2,11,2,has_non_local,anthropic | google | openai | qwen | x-ai,Integration and orchestration framework | Provider SDK,agents | openai
+Scottcjn/bottube,8de5968e1c577919502f443ea76edf3aaab93307,5,2,2,2,5,0,local_only,google | openai,Provider SDK | Raw HTTP,google | requests
+ServiceNow/AgentLab,cbc35a9bc0facaf731bc858c5825edbe757c719f,5,2,1,2,2,3,has_non_local,anthropic | openai,Provider SDK,anthropic | openai
+SibNN/asr_eval,b2f15a5f2e04242d8650c02b9ee0f504bbe10ada,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+Social-AI-VU/social-interaction-cloud,645dc3836dbb5c2272b66d2e4c551a1bd83f1c05,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+SponsioLabs/Sponsio,54bf52dd87be75a161ad379bbfba95cd6e0da679,4,3,1,1,4,0,local_only,anthropic | google | openai,Provider SDK,openai
+Stanzin7/ExtensionShield,46f2355990dea1f86c24eb14843c5bbf5f7802fc,4,1,1,1,0,4,has_non_local,openai,Integration and orchestration framework,langchain_openai
+Steven-Low/gemini_cloud_stt,1859614f129793716a60b82ae9a617b7f787ef79,9,1,1,1,0,9,has_non_local,google,Provider SDK,google
+SuanmoSuanyangTechnology/MemoryBear,94bc188c5806197d062b3306f422e01ef370ae63,8,3,1,2,6,2,has_non_local,anthropic | openai | qwen,Provider SDK,anthropic | openai
+SuffolkLITLab/FormFyxer,b90728c84f13c7b24f0b47e0c368d4708a20db0e,16,1,1,1,3,13,has_non_local,openai,Provider SDK,openai
+SuperagenticAI/superoptix,41d63e892c926dade0ada622403fed8d58618bf4,2,1,1,1,1,1,has_non_local,openai,Integration and orchestration framework,litellm
+Sushegaad/Responsible-AI-Model-Evaluations,4bcba35f0a0b7dde800ec4f63745196c11005a42,2,2,1,2,1,1,has_non_local,anthropic | google,Provider SDK,anthropic | google
+Syslifters/reptor,44c1856a3ff081ac6ff51274d6e694448fb3d858,2,1,1,1,1,1,has_non_local,openai,Provider SDK,openai
+TARS-AI-Community/TARS-AI,7593f8c8b63c35e3c07cc98665970fe55cee2c23,13,2,2,2,13,0,local_only,openai | x-ai,Provider SDK | Raw HTTP,openai | requests
+TeleAI-UAGI/telemem,2fc8248929bf05e987e07caccfe247137e3c4f31,5,2,2,2,2,3,has_non_local,openai | qwen,Provider SDK | Raw HTTP,openai | requests
+TensorAuto/OpenTau,993adb1bbfd85516954c91264977be5afc3a6331,4,2,1,2,2,2,has_non_local,anthropic | openai,Provider SDK,anthropic | openai
+TeskaLabs/seacat-auth,6b2cc40c3be1e3cb221f848e8fed3ec32d833e38,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+TesslateAI/OpenSail,5fae1f17b627e9867d029da3400e19437b116c00,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+TheLucasSchwarz/zeroshotENGINE,8de3a2b7166d9ab8212c2aee9f7b6bc61aec3b4c,3,1,1,1,1,2,has_non_local,openai,Provider SDK,openai
+TutteInstitute/toponymy,c3f281501c6985b293ad996957de8151b6eae179,10,2,2,3,5,5,has_non_local,anthropic | openai,Integration and orchestration framework | Provider SDK,anthropic | litellm | openai
+VIDA-NYU/bdi-kit,23c2ed4f615e5b31c01834f16be5e0a5f7210071,5,1,1,1,5,0,local_only,openai,Integration and orchestration framework,litellm
+VRSEN/agency-swarm,32bca5e4d69c8781d6d3dbd697d4231863c9564b,18,1,2,2,17,1,has_non_local,openai,Integration and orchestration framework | Provider SDK,agents | openai
+Veta-one/ClipGen,13c5aa57af94216e7831bf10477bff0aaedd72dc,5,2,1,1,5,0,local_only,google | openai,Provider SDK,openai
+WEIFENG2333/VideoCaptioner,a3d3dbd76bdc8a6a63af2004e39ea6a20ba11d40,3,1,1,1,1,2,has_non_local,openai,Provider SDK,openai
+WaveAssist/WaveAssist,6ea4a440f03472933b0314306cf7b67a04130d85,3,3,1,1,0,3,has_non_local,anthropic | google | x-ai,Provider SDK,openai
+WhoIsMrSentry/SentryBOT,cd97afeae9b5066b28febff8dca158288d9e72d8,1,1,1,1,0,1,has_non_local,google,Raw HTTP,requests
+XLPRUtils/pyxllib,9f9407541647d9b7026e4452e5de6370b14d718a,1,1,1,1,0,1,has_non_local,openai,Integration and orchestration framework,litellm
+YongchengYAO/MedVision,8644f91026c3974d11c18c4e864b43bb34e4f770,2,1,1,1,2,0,local_only,google,Provider SDK,google
+ZhiweiWei-NAMI/AeroAgentSim,525a66589c6eac938e5a3401a561da2dfe5f3f47,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+ZimoLiao/scholaraio,da5de5ade7944c965656e58102fb9c5ec6c7e8d0,1,1,1,1,1,0,local_only,openai,Raw HTTP,requests
+Zzj-klwgxdz/UnipusAI,ef90677e0b21bf10d875cd5401196341b73f7541,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+aaronsb/knowledge-graph-system,3767dea0301a074b6e1d60dbf8e170a1ca9ef34e,5,2,1,2,5,0,local_only,anthropic | openai,Provider SDK,anthropic | openai
+abundant-ai/SWE-gen,279efaa7e71e5ccebe1879c25cc1bbcf67350803,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+acasto/iptic-memex,d834b833804d1de1d016f970ef949855486b75cc,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+adamkarvonen/SAEBench,8042bb3828c6340da8d12062324e92b2077c571c,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+adanalvarez/TrailDiscover,6ef0e9901c59d5659617b63bf965440ccc3b4618,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+adefemi171/ai-rganize,eee15903dc16184c1f8dca9afcaab75e2efdeac8,4,1,1,1,4,0,local_only,openai,Provider SDK,openai
+ag2ai/ag2,f50307aa62c499f51675895828631062e51c5269,19,2,2,3,14,5,has_non_local,google | openai,Integration and orchestration framework | Provider SDK,google | llama_index | openai
+agentbay-ai/wuying-agentbay-sdk,8a4d0e85d4f7663ed88c0b30e3bf716b6c5f5f75,10,1,2,2,10,0,local_only,qwen,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+agenticloops-ai/agentic-ai-engineering,15cbe9b81c237034b82d67d5e6cf69e361f6c3b7,47,2,2,3,11,36,has_non_local,anthropic | openai,Integration and orchestration framework | Provider SDK,anthropic | litellm | openai
+agentscope-ai/OpenJudge,0851304f41f9c918654ad0d70bf51d4d2d7d604e,3,2,2,2,1,2,has_non_local,openai | qwen,Integration and orchestration framework | Provider SDK,dashscope | litellm
+agentscope-ai/agentscope,d6c0c89743a328dfad5b0404f957a64eac069108,10,2,1,2,8,2,has_non_local,openai | qwen,Provider SDK,dashscope | openai
+agentscope-ai/agentscope-runtime,723f61e835132ac820e03e7661228c9a1b7edaab,5,1,2,2,5,0,local_only,qwen,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+agiresearch/AIOS,5de61c9ad9c94ff6db7879e3a5f3d787f73b4726,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+agntcy/observe,7552ae8f269bce742806fd3dd652408cb484e3b7,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+aigc-apps/PAI-RAG,006073169a7776bf402407659d41aec6a15235af,1,1,1,1,0,1,has_non_local,qwen,Provider SDK,openai
+aiming-lab/SimpleMem,74174a1c0c95d487144a74a77addb2c23f27f783,13,1,2,3,9,4,has_non_local,openai,Provider SDK | Raw HTTP,httpx | openai | requests
+aiqualitylab/ai-natural-language-tests,41ab2ffa3bf75ec261be8dfc910fe46371e68f55,2,1,1,1,2,0,local_only,openai,Integration and orchestration framework,langchain_openai
+ajitpattar708/Spring2Naut-RAG,d62ecbc8924c5abcd8a303a8dfe31a07f9a17740,1,1,1,1,1,0,local_only,openai,Raw HTTP,requests
+alea-institute/folio-enrich,71b5e9b8cbf49dd9b62ea97319c720820ff676e9,2,2,1,2,2,0,local_only,anthropic | openai,Provider SDK,anthropic | openai
+alexandreborges/malwoverview,1dd24cb4873428f76e75ffa7850e6bcc1875d78e,2,2,1,1,2,0,local_only,anthropic | openai,Raw HTTP,requests
+alexeygrigorev/toyaikit,a3afa683283c46d3b107997da3501bf7b550058c,12,1,1,1,0,12,has_non_local,openai,Provider SDK,openai
+alexzhang13/rlm,8467a580e70f92ee061432e3525d7bfb2657fca1,4,1,1,1,1,3,has_non_local,google,Provider SDK,google
+alibaba/loongsuite-python-agent,49f501b4fba6ba37718f8a2718d9c1c041a0f91d,56,4,3,7,54,2,has_non_local,anthropic | google | openai | qwen,Cloud-platform SDK | Integration and orchestration framework | Provider SDK,anthropic | dashscope | langchain_google_genai | langchain_openai | litellm | openai | vertexai
+allenai/open-instruct,54440244d4f64b1fc001786e9eadd52ed1166293,7,1,2,2,1,6,has_non_local,openai,Integration and orchestration framework | Provider SDK,litellm | openai
+amchii/tg-signer,95a98572dcef5e0b96fc17e6a2331c8f4dc9d886,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+amd/gaia,74c14122e557452889011a7245d7c29e6e10edb6,4,2,1,2,3,1,has_non_local,anthropic | openai,Provider SDK,anthropic | openai
+amir-zeldes/gum,22fdf87f9c71c96bcc771461d06e689b1f90020d,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+andremoreira73/fuzzyclaw,c537c19c131c5fae4149ef8d75fb82c7f4385524,1,1,1,1,0,1,has_non_local,google,Integration and orchestration framework,langchain_openai
+antojunimaia-ui/MoltyClaw,a9e6527fceb3da491961910cf00ca40ef0d3c4c6,2,1,1,1,2,0,local_only,google,Provider SDK,openai
+apache/airflow,2e9cbc25ebbe317f7c6ccb6d92f1b7462335ce29,8,2,3,4,2,6,has_non_local,google | openai,Cloud-platform SDK | Integration and orchestration framework | Provider SDK,google | llama_index | openai | vertexai
+apenab/pyrlm-runtime,d4d34d3bd3e9935f4de6b8e8b0caaec2d4145d3a,1,1,1,1,1,0,local_only,google,Cloud-platform SDK,vertexai
+arcprize/ARC-AGI-3-Agents,f30a2e7ba8b1b8099ef23269454713a721286ec4,4,1,2,2,4,0,local_only,openai,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+argusssec-cloud/gws-auditor,e4d72ab3485569c6d2a1a0dba328c128165e03bc,2,2,1,2,2,0,local_only,anthropic | openai,Provider SDK,anthropic | openai
+arn-c0de/Crawllama,7e3dca4e9c4d41b01b4ad23ba381dc0624d36c6d,2,2,1,2,2,0,local_only,anthropic | openai,Provider SDK,anthropic | openai
+arun1729/cog,8b09a184dd355b3b8db3b38e07de5a4f151b5c58,1,1,1,1,1,0,local_only,openai,Raw HTTP,urllib
+aspose-cells-cloud/Aspose.Cells-Cloud-SDK-for-Python,bafb85cc97e4e9f857a00e0f8a747e610ff4bf23,5,3,1,3,5,0,local_only,anthropic | google | openai,Provider SDK,anthropic | google | openai
+asqi-engineer/asqi-engineer,c3a0261dd62e09123f063500018cd267561f86c3,4,1,2,2,3,1,has_non_local,openai,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+assafelovic/gpt-researcher,92bfc0388c5f7a03b6cb34eaf6ae14298a4b458e,2,1,1,1,1,1,has_non_local,openai,Integration and orchestration framework,langchain_openai
+asukaneko/nekobot,eebcbbed236c692f621c2daddd83bc62812d3b2d,3,1,1,1,1,2,has_non_local,openai,Raw HTTP,requests
+auto-use/Auto-Use,eded47d49a9f54f291b827e8c923e0f8d299d6da,6,3,1,3,6,0,local_only,anthropic | google | openai,Provider SDK,anthropic | google | openai
+autogluon/autogluon-assistant,b6218e86824383a0baf81a30adff1738a9abfa11,1,1,1,1,1,0,local_only,anthropic,Provider SDK,anthropic
+aws-observability/aws-otel-python-instrumentation,e1dd25446a82fd7475b855e5c3b609cf5325202c,43,3,1,2,40,3,has_non_local,anthropic | google | openai,Integration and orchestration framework,crewai | llama_index
+bcgov/EPIC.conditions,91d2c119e44b94303148c2858ad54b93c60d59f9,12,1,1,1,12,0,local_only,openai,Provider SDK,openai
+bdambrosio/Cognitive_workbench,b4228f10c002c46cdfcd4ec3dbee6d35e0c1f0ea,7,2,2,2,3,4,has_non_local,anthropic | openai,Provider SDK | Raw HTTP,openai | requests
+benchflow-ai/benchflow,9d600d2ab1068a3c743cbfdf72c3188e6a9a70eb,5,2,1,1,1,4,has_non_local,anthropic | google,Provider SDK,google
+bettersg/SchemesSG_v3,e19c56495d5221054f0e3f1cf43d992c47408bfc,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,litellm
+bigsk1/voice-chat-ai,349aae9fdde4525517e6851a36360e80ffd95025,10,3,2,2,9,1,has_non_local,anthropic | openai | x-ai,Provider SDK | Raw HTTP,anthropic | requests
+blue-pen5805/dify-plugin-gemini,8cdcdbfd1c249ac11a6a7b541906b68086b3501d,4,1,1,1,2,2,has_non_local,google,Provider SDK,google
+bnbong/FastAPI-fastkit,34033768ff992abbdd8beecaecc8b8881ac54718,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+brightio/penelope,d95246e268d2667cc5f0fa0e93757c712f7e941e,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+cafferychen777/mLLMCelltype,200e4dc37c249b60df558424b373e8f54c902a6d,6,1,1,1,0,6,has_non_local,google,Provider SDK,google
+catgirl3d/WhisperBridge,2ff6b93bc6329b0dd970dde15ff76ee739e4bbd8,4,1,1,1,0,4,has_non_local,openai,Provider SDK,openai
+chenyuan99/swelist,360cb14a15f7605fae59f7c787603d2f97b30c9b,8,1,1,1,5,3,has_non_local,openai,Provider SDK,openai
+chonkie-inc/chonkie,fbd4804b594f122df08b8447f2aa8ebfe0e82291,15,2,2,3,3,12,has_non_local,google | openai,Integration and orchestration framework | Provider SDK,google | litellm | openai
+cjz-wr/DesktopPetByAi,347ed6655cc7a9671e1f721df678021d6cb9fe9a,4,1,1,1,4,0,local_only,openai,Provider SDK,openai
+codecov/umbrella,1e5678c133f9056deaccbf656a9ed407acdd6327,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+codeforpdx/tenantfirstaid,0e4967c2d1a2f92903bbc9b2969dcd0b4a136d55,1,1,1,1,1,0,local_only,google,Integration and orchestration framework,langchain_google_genai
+cognizant-ai-lab/neuro-san-studio,5e497e58fa9a6ad802aae1279bcdfdd046d02808,9,3,2,5,8,1,has_non_local,anthropic | google | openai,Integration and orchestration framework | Provider SDK,anthropic | crewai | google | langchain_openai | openai
+compfly-ai/crosswind,05367eeab0903dafffdaf15d77809bb42651e4f0,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+confident-ai/deepeval,17e676f3b2576b05a9fe10c68713f9fed64bac38,92,3,2,5,77,15,has_non_local,anthropic | openai | x-ai,Integration and orchestration framework | Provider SDK,anthropic | crewai | langchain_openai | llama_index | openai
+couchbaselabs/agent-catalog,765cfacf73cd23c34b6f78dbee627add14af81e4,5,1,2,3,5,0,local_only,openai,Integration and orchestration framework | Raw HTTP,langchain_openai | llama_index | requests
+cuga-project/cuga-agent,69b7e40a03dd39bf446cbd023b64b8c0cfb5df9d,7,2,1,1,3,4,has_non_local,anthropic | openai,Integration and orchestration framework,langchain_openai
+d3fq0n1/maestro-orchestrator,753c694acc5bb017980f840289879f3e1cfbd89e,2,2,2,2,2,0,local_only,anthropic | openai,Provider SDK | Raw HTTP,openai | requests
+dandye/agentic_soc_gemini_enterprise,06879e60617d22ac8e4fa4dc04f51bd8f1736562,1,1,1,1,1,0,local_only,google,Provider SDK,google
+danny-avila/rag_api,6233a4d991c051033ada4ce35b43023591c5e08b,4,2,1,1,0,4,has_non_local,google | openai,Integration and orchestration framework,langchain_openai
+data-infra/cube-studio,aeb9c0dcaee90a70d819dff34ba96eb5a63f6d55,1,1,1,1,1,0,local_only,openai,Raw HTTP,requests
+datenoio/iterabledata,9a1b2fb7049a46eca1276c1c3b48819ced137b84,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+davidjurgens/potato,8371d1fe0c596e96c781529a3b0a8c45a331667f,4,2,2,3,4,0,local_only,anthropic | openai,Provider SDK | Raw HTTP,anthropic | openai | requests
+derisk-ai/OpenDerisk,3194987c1f42c9227d21d4578ee3c98408908dfe,4,2,1,2,2,2,has_non_local,anthropic | openai,Provider SDK,anthropic | openai
+digitalmethodsinitiative/4cat,9f53c6a63676404016217efdfa3fc2f2f60c4009,6,1,1,1,2,4,has_non_local,openai,Provider SDK,openai
+digitalpalidictionary/dpd-db,1ef5beff4bf14f1f0c887e67455a93fbeaf77b3a,3,3,1,2,2,1,has_non_local,google | openai | x-ai,Provider SDK,google | openai
+digiteinfotech/kairon,085c3f172a188711257ff019bde8c196b240e529,3,1,2,2,2,1,has_non_local,openai,Integration and orchestration framework | Provider SDK,litellm | openai
+dimensionalOS/dimos,1f544d05efca5e9695a09a657dcaf5fb1cd47389,5,2,2,3,5,0,local_only,anthropic | openai,Integration and orchestration framework | Provider SDK,anthropic | langchain_openai | openai
+diverHansun/newbee-notebook,5e0a28674cf5726dc34ecde377a35598eed4e63d,1,1,1,1,0,1,has_non_local,openai,Integration and orchestration framework,llama_index
+dividor/evidencelab,25eda2073a75e973d14343fe480956803fa72ae6,1,1,1,1,0,1,has_non_local,google,Integration and orchestration framework,langchain_openai
+dlp3d-ai/orchestrator,38a0a5bca6e42ab54ce8290cf7e7b6202c58e61f,3,3,1,1,3,0,local_only,google | openai | x-ai,Provider SDK,openai
+dlt-hub/dlt,ead29e3159724ae1f12440bf32386ac0ef713faf,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+duriantaco/sago,680a561e4bfd1ab216b6e6a8abdc41e5c74a3e82,3,1,1,1,0,3,has_non_local,openai,Integration and orchestration framework,litellm
+dvershinin/lastversion,38c74bc82fb6935276a48f082f16715b249fddd0,1,1,1,1,0,1,has_non_local,openai,Raw HTTP,requests
+edly-io/sparkth,e99ca608f23f50d8dca3f56370be913a164f2eb5,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+eee555/Metasweeper,55ed5af6c06622dddbaab8e77530f7a591d9ec6b,1,1,1,1,0,1,has_non_local,openai,Raw HTTP,requests
+eight-atulya/atulya,4c72e5fd3a1d48a32233cb877866e5f764ce51fe,3,1,2,2,0,3,has_non_local,openai,Provider SDK | Raw HTTP,httpx | openai
+encord-team/encord-agents,50813ce62679731fe1f65707d272b1d128d938e3,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+engchina/No.1-RAG,fc32bf1f5b5b9326ed89991b69346a506d001f26,3,1,1,1,3,0,local_only,openai,Integration and orchestration framework,langchain_openai
+eosphoros-ai/DB-GPT,3a07e8dc33d0cd0491d5fef853cdb4f9d4d6d790,5,2,2,2,0,5,has_non_local,anthropic | openai,Integration and orchestration framework | Provider SDK,anthropic | litellm
+ersilia-os/ersilia,96d316ac33f466e87a585a5e3d2d5e425be7f6a5,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+ev-flow/quark-engine,5337c501eeabbd8aad6b1e75b5306ce96267e867,2,1,1,1,2,0,local_only,openai,Integration and orchestration framework,langchain_openai
+extractumio/ag3ntum,64b60a1b067fcf7007e1fa5bac5f8c5751ea2ca5,4,3,2,3,4,0,local_only,anthropic | google | openai,Provider SDK | Raw HTTP,google | httpx | openai
+fat7/KLinePlayground,4ce55a91edc05d31fecc8e5c5f39a724cd6b0590,2,1,1,1,2,0,local_only,openai,Raw HTTP,requests
+fetchai/uAgents,9f6a18bd1e8356be834d6d6e78533c47c609e8d1,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+filipnaudot/llmSHAP,dcf1221c21dc933849db1590b427915c0a1bafef,10,1,1,1,1,9,has_non_local,openai,Provider SDK,openai
+functime-org/functime,71e11992ed843b8b08cad5c64a318aa827207392,3,1,1,1,1,2,has_non_local,openai,Provider SDK,openai
+fuzzingbrain/afc-crs-all-you-need-is-a-fuzzing-brain,948fe2843688bdd70fdd4de30b617de970305c16,137,3,2,2,19,118,has_non_local,anthropic | google | openai,Integration and orchestration framework | Provider SDK,anthropic | litellm
+gaiin-platform/amplify-genai-backend,3e2cd145fb3e58c9c1d90c44ecd5962a386a5250,4,1,2,2,2,2,has_non_local,openai,Integration and orchestration framework | Raw HTTP,litellm | requests
+galaar-org/AgentARC,6bbfe0f1c3e6e21bca040493c3eb6cf0b83f882b,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+gee-community/geemap,0777496d8e59e0cf131881e0b3f783363f6dcc0b,2,1,2,2,2,0,local_only,google,Cloud-platform SDK | Integration and orchestration framework,langchain_google_genai | vertexai
+generative-computing/mellea,ee45bc4fd3b802c27f5df8b2e7a6755673f1d385,4,1,1,1,0,4,has_non_local,openai,Provider SDK,openai
+getagentseal/agentseal,b2b4c742d634e533a489c29fb18c36eee39e0b23,12,2,1,1,0,12,has_non_local,anthropic | openai,Provider SDK,anthropic
+gleanwork/glean-agent-toolkit,93ffc53714773ca13dfa26f7ed22dbdc93d31111,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+gongahkia/yuho,fa2b689a21c700a719f05fbd1d2661aadbcc0c35,2,2,1,2,1,1,has_non_local,anthropic | openai,Provider SDK,anthropic | openai
+google-deepmind/concordia,53773ebb377f5ded2682c011e8eafdc40de62d7d,4,2,1,2,4,0,local_only,google | openai,Provider SDK,google | openai
+google-deepmind/onetwo,1d4a94451b7b1a014cb25fc39517d8307710b60d,3,2,2,2,3,0,local_only,google | openai,Cloud-platform SDK | Provider SDK,openai | vertexai
+google/langextract,fef3e7db723e87d9cdd11dfeda219bf4fa269350,3,2,1,2,1,2,has_non_local,google | openai,Provider SDK,google | openai
+groq/groq-python,a4ee1e0d26347d6c3bfc8b708264767be47ba69c,4,1,1,1,4,0,local_only,openai,Provider SDK,groq
+gso-bench/gso,c89aecd83977e40ee4ebfc7b3cca609dc2b19be8,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+guaardvark/guaardvark,dab67a5fc2b375843ebd1d0482a85dc86fb0d58a,1,1,1,1,1,0,local_only,anthropic,Provider SDK,anthropic
+guardrails-ai/guardrails,28d74af02215f3d09e6527238f783c561218d539,12,1,2,2,2,10,has_non_local,openai,Integration and orchestration framework | Provider SDK,litellm | openai
+guyernest/step-functions-agent,ffef93d60de228f70bd8c5b4030ae3bd1ed49139,8,4,1,3,6,2,has_non_local,anthropic | google | openai | x-ai,Provider SDK,anthropic | google | openai
+h2oai/h2o-sonar,5fe68e2e62133a7ed0a1725e1c9e6fb22df5291e,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+harry0703/MoneyPrinterTurbo,c1a871a9a4b653c77a1e6c327d8d2227cfc404dd,2,2,1,1,2,0,local_only,google | openai,Provider SDK,dashscope
+haseeb-heaven/code-interpreter,2a47494c108593f285e526f823262556a551130c,7,3,1,1,0,7,has_non_local,anthropic | google | openai,Integration and orchestration framework,litellm
+he-yufeng/CoreCoder,0cdebf91a614885147908dbd4fc8f89e36e5a1c9,7,2,1,1,0,7,has_non_local,anthropic | openai,Integration and orchestration framework,litellm
+healthchainai/HealthChain,e4b1373af33197ad4609ff58aca6fb79eea8304a,1,1,1,1,1,0,local_only,anthropic,Integration and orchestration framework,langchain_openai
+healthonrails/annolid,26046309d4ae898477b2294f2a90d8c80945a429,5,2,1,1,0,5,has_non_local,google | openai,Provider SDK,google
+hermes-labs-ai/little-canary,b5ffc77d5881a8cad28f1edb2f0f186ca71b8328,2,1,1,1,2,0,local_only,openai,Raw HTTP,requests
+hhyo/Archery,855c3f5333efffb41f7a278d68d92c654a26175f,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+horw/issue-title-ai,4b160babdc514fb5c70637fae8bc15aa919f5294,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+hugohe3/ppt-master,2f007e3c4da621dc1d4496723a442dbd83bd01db,2,2,1,2,2,0,local_only,google | openai,Provider SDK,google | openai
+humanbound/humanbound-firewall,ab0390b67baec963a74cc9aa06a003c6b9640e2d,5,2,1,1,0,5,has_non_local,google | openai,Provider SDK,openai
+hyscale-lab/LLM-Benchmarking,e696f53f9ea226456f3d3c442e4c715b92f5677c,4,1,1,1,0,4,has_non_local,anthropic,Provider SDK,anthropic
+i-am-bee/agentstack,79c786049d39684841d77fef9abfd8457a58b0bf,2,1,1,1,2,0,local_only,google,Provider SDK,google
+idtlab/AIDRIN,67e5d2dbe642ac1ddf4fc8f904470e4514689b84,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+idwts/Crayotter,75635ed167f696fc9dd305b7c30ddcffd7997229,2,2,2,2,2,0,local_only,openai | qwen,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+ifixai-ai/iFixAi,3b06fcabc86efe764f613df3418587c571012680,4,2,2,3,4,0,local_only,anthropic | openai,Integration and orchestration framework | Provider SDK,anthropic | litellm | openai
+incf-nidash/PyNIDM,2bdc06eb868229e3f6dddd35c92587222ca3bc16,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+infiniflow/ragflow,57ddd791832f652d6ef673ee3cc2b233820b654c,7,3,1,2,4,3,has_non_local,google | openai | x-ai,Provider SDK,google | openai
+intent-solutions-io/perception-with-intent,089f9e34e2ab1ea820ab1a6fa03227ed7aa9ee58,2,1,1,1,2,0,local_only,google,Cloud-platform SDK,vertexai
+iottrends/UAV-AI,4f95f05c99bc329ea7a75ddfd9b87fd6bb03d468,1,1,1,1,1,0,local_only,anthropic,Provider SDK,anthropic
+iqmo-org/magic_duckdb,5e069c031187a4ec7946b46c953f19f6ad7567e3,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+jataware/archytas,310e50f965e11c8c20c94c441402b2ad7db6d20c,3,2,1,2,0,3,has_non_local,google | openai,Integration and orchestration framework,langchain_google_genai | langchain_openai
+jeffstric/ZJT,b0236a1488295cc5b4ab13e28e4da9e5a6dfd90a,1,1,1,1,1,0,local_only,qwen,Provider SDK,openai
+jingtao-lbl/A2MC-elm,4ad85a1becae3a70b22ca467860e053cf2824a42,7,2,1,1,7,0,local_only,anthropic | openai,Provider SDK,openai
+jkitchin/discopt,5ecaf91f9411b46254c27f912a6c2d08a780814a,2,1,1,1,0,2,has_non_local,anthropic,Integration and orchestration framework,litellm
+joselcaguilar/azure-openai-ha,b8302c86e277e6b5eef020b323b1b03fa4c4b726,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+kafein-technology/KAI-Flow,6ea117992490d167d737e9d151e68586ac7187f2,2,1,1,1,2,0,local_only,openai,Integration and orchestration framework,langchain_openai
+kagenti/kagenti,775f9729d662809e829a7401bf7799f8258168ec,3,2,3,3,3,0,local_only,anthropic | openai,Integration and orchestration framework | Provider SDK | Raw HTTP,anthropic | httpx | litellm
+kantan-kanto/ComfyUI-MultiModal-Prompt-Nodes,f664dd0a0b6a82c8ef26fe127e15c70db3701a7b,4,1,1,1,1,3,has_non_local,qwen,Provider SDK,dashscope
+kdunee/intentguard,73d6cbb74bc893e3e05dc5355e00cc2e1fdfe664,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+kellylford/Image-Description-Toolkit,5476aaf894b2dbd7529c560b7490c14408b4cf42,35,2,2,3,5,30,has_non_local,anthropic | openai,Provider SDK | Raw HTTP,anthropic | openai | requests
+keras-team/keras-hub,f83a7fe5eb8c19739504c50bf361df51b7433961,2,2,1,1,2,0,local_only,anthropic | openai,Raw HTTP,requests
+kubebuddy/kubebuddy,920814febdb7ddc4fbe4a8a4a7cbb9ccd0d6fac5,2,1,1,1,2,0,local_only,google,Provider SDK,google
+langchain-ai/langchain-community,3ade247a075de8a20b95bb48d897a067ee1fecb5,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+langchain-ai/langchain-experimental,ddd4ea4245f870c3090fa6c2ca5df32e75b27201,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+langchain-ai/langchain-mongodb,60540adf5b85c05b1e4c085f7b182a3d3bc86087,6,1,1,1,6,0,local_only,openai,Integration and orchestration framework,langchain_openai
+latchfield/vulcan-core,dd830dad3ba9c8c55cf1729f3274b00e1710f57d,3,1,1,1,3,0,local_only,openai,Integration and orchestration framework,langchain_openai
+lemony-ai/cascadeflow,f61a1ebd8d07a722a0fc4753db7767473f4fecc8,5,2,2,2,4,1,has_non_local,anthropic | openai,Integration and orchestration framework | Raw HTTP,agents | httpx
+leockl/sklearn-diagnose,7952dc304dec53337331a300582463d10d62685a,5,2,1,1,0,5,has_non_local,anthropic | openai,Integration and orchestration framework,langchain_openai
+lifemate-ai/familiar-ai,efdc9cd93aeb79fbdd6897fa37e0f0fcef62fca2,29,3,1,1,2,27,has_non_local,anthropic | google | openai,Provider SDK,anthropic
+lightspeed-core/lightspeed-evaluation,53f91bc6f180610ddca3c16dbf24436a3adb4cf0,12,1,1,1,6,6,has_non_local,openai,Integration and orchestration framework,litellm
+linyqh/NarratoAI,c0b72ec603f35cf488b9e85b66bccf37db5af8c0,2,2,2,2,1,1,has_non_local,google | openai,Provider SDK | Raw HTTP,dashscope | requests
+lipku/LiveTalking,ca043b83df652403970c732ed92a7b5bbc66f099,1,1,1,1,1,0,local_only,qwen,Provider SDK,openai
+litmusautomation/litmus-mcp-server,614c39e40e51931c1a2b99e828c54b3b3b397635,3,3,1,1,0,3,has_non_local,anthropic | google | openai,Provider SDK,anthropic
+lksnext-ai-lab/ai-core-tools,0ab7e369806d653e41bc9e8b480097ed1e6080a0,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+lnbits/lnbits,30e0522419ec7e42ed4e182e3767dfb4cb4bdb96,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+lncrawl/lightnovel-crawler,0427222ff69c65255ca504d339fc678be63d562f,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+ludwig-ai/ludwig,39cbef043d9f99c55ee766278f301ee0e178cc1f,2,2,1,1,2,0,local_only,anthropic | openai,Provider SDK,openai
+machinelearningZH/hybrid-search-eval,06a58a0a0587df2c8b1240f931be58c85023f379,1,1,1,1,1,0,local_only,openai,Raw HTTP,requests
+machinelearningZH/semantic-search-eval,af44870de631330c0b86740361b442f9332df4df,2,1,1,1,1,1,has_non_local,openai,Provider SDK,openai
+mage-ai/mage-ai,604b91f0caee5b027f61792599aeb20156cf71bb,3,2,1,2,3,0,local_only,anthropic | openai,Provider SDK,anthropic | openai
+malue-ai/dazee-small,7aa03f577fc5a4f0017b7d516d16903ea7934ff2,4,2,1,2,4,0,local_only,google | openai,Provider SDK,google | openai
+materialsproject/pymatgen,2934bc2b5470b5a0d3672ef72b872d5f0289251f,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+mattyopon/faultray,edfd3fe28730e5872a404e6fe199da6ee5588e24,2,1,1,1,2,0,local_only,anthropic,Provider SDK,anthropic
+memgraph/ai-toolkit,f017df575af7121d7d56e1ad084d93911b2eec81,11,3,1,3,9,2,has_non_local,anthropic | google | openai,Integration and orchestration framework,langchain_google_genai | langchain_openai | litellm
+mesa/mesa-llm,c69db5ccafc9654c1e8b5e3fe9602d2482b33dd3,15,1,1,1,0,15,has_non_local,openai,Integration and orchestration framework,litellm
+mia-platform/ai-rag-template,41663868f98363cc01a10932482a54717b5622b8,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+michelle-avery/custom-conversation,8d2a8eba918414e51e600311ea6bc8bbc2467727,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,litellm
+microsoft/PyRIT,6eeb6f96d5650d263156c43151fb7ded650f65db,3,1,1,1,0,3,has_non_local,openai,Provider SDK,openai
+microsoft/customer-chatbot-solution-accelerator,86d51e48e7a10b902637deaffcf5c58ab0b7f835,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+microsoft/lisa,8132e13ebc107232c655a27a96f2d8acdf5234d0,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+microsoft/magentic-ui,f705b0ee29af5ddc03953e6d3be4c0a880a78b09,5,1,2,2,5,0,local_only,openai,Integration and orchestration framework | Provider SDK,autogen_core | openai
+microsoft/microbots,11f8ba368e342de6fa1c6de946146121c1c78cea,1,1,1,1,0,1,has_non_local,anthropic,Provider SDK,anthropic
+mikahama/uralicNLP,74ff438f79682de5fe546f0fe5b75c0de5e9b5af,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+mindsdb/aipdf,19020c7fb6f45437a7f334cb2134350cfa52208c,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+mlco2/ecologits,97a571820128f89cf6e963bdc10f64291a8d7cdb,28,3,1,3,28,0,local_only,anthropic | google | openai,Provider SDK,anthropic | google | openai
+mlflow/mlflow,9a2cc63c9f7f278ac5f78f5841efc00639bcecbe,6,1,2,3,6,0,local_only,openai,Integration and orchestration framework | Provider SDK,crewai | langchain_openai | openai
+mochow13/pydantic-ai-litellm,355d210eaae3f250263671cb0566546c2f0b8e72,1,1,1,1,0,1,has_non_local,openai,Integration and orchestration framework,litellm
+modelscope/evalscope,05649760fafd71d27fabc0c5e58559aedfd89202,1,1,1,1,1,0,local_only,qwen,Provider SDK,openai
+mr-tbot/mesh-api,ee6465d38266f9c1f23fae6a84a6a119845a79ec,4,3,1,1,2,2,has_non_local,anthropic | openai | x-ai,Raw HTTP,requests
+msu-denver/bili-core,f282fb9bceab915276d5e172c2583eebfed2f090,2,1,1,1,1,1,has_non_local,openai,Integration and orchestration framework,langchain_openai
+mta-tech/KAI,37b1e11f8deed8035bd19f5a2f3ef767986f55e5,7,2,2,3,7,0,local_only,google | openai,Integration and orchestration framework | Provider SDK,google | langchain_google_genai | langchain_openai
+nadeemis/contelligence,4b46f64839cdc7a438bb761341521bddae4eecef,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+nalamap/nalamap,b457c986a2ba163eea7b4f03964ebdc4f398cd17,8,1,2,2,2,6,has_non_local,openai,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+naoto-iwase/IgakuQA119,4481671e828c2ec9d59c06bb51cb7bd48e5e38a0,4,2,1,1,0,4,has_non_local,anthropic | openai,Provider SDK,openai
+neo4j-labs/neo4j-maf-provider,b1aadb6d5316665b32b635f481fc749bf0eaf5d7,1,1,1,1,1,0,local_only,openai,Cloud-platform SDK,azure
+neo4j/neo4j-graphrag-python,804b6b6490be86133d573b1b9cf6fc67329290ed,2,1,1,1,2,0,local_only,google,Cloud-platform SDK,vertexai
+neuralis-in/aiobs,68c402d39362c54222e7945325e5180ad15c886b,4,1,1,1,4,0,local_only,google,Provider SDK,google
+nex-agi/NexAU,f3ec89178033ef9163db30d7eba1a75986b3a198,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+nex-agi/NexRL,53dcdec1c06272ada9985f842f7063553897db3c,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+nfons/Paperless-Scanner,9b42826e2e134c44d47a52a8cf564f6d49585a24,2,2,1,2,2,0,local_only,google | openai,Provider SDK,google | openai
+notoriouslab/doc-cleaner,e57e2c636ebf93ceef0591e5faa62d722b76ad85,2,1,1,1,1,1,has_non_local,google,Provider SDK,google
+oceanbase/powermem,824e7ec26aea753cfea4d4f6f78defa91188084a,3,3,1,3,3,0,local_only,google | openai | qwen,Provider SDK,dashscope | google | openai
+oceanbase/powerrag,15573ef283aca0f75e7011b6e106a99503cd63b4,5,3,2,3,4,1,has_non_local,google | openai | x-ai,Provider SDK | Raw HTTP,google | openai | requests
+ogx-ai/ogx,e2e82edcd925f444f6ba46abd744f265de9bc260,3,1,1,1,0,3,has_non_local,google,Provider SDK,google
+oop7/OrChat,a768973b6457a9293f466aa378f33e5163a1827d,1,1,1,1,0,1,has_non_local,openai,Raw HTTP,requests
+open-bias/open-bias,771253f013dc87a48090a2273fef69df5da35270,5,1,1,1,1,4,has_non_local,openai,Integration and orchestration framework,litellm
+open-compass/opencompass,83e4110d7514744e88e23463024d5d8319afb6ee,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+open-jarvis/OpenJarvis,07b6cba6df2d67afc3c19629ac439af3ccc69bdc,10,2,2,2,4,6,has_non_local,anthropic | openai,Provider SDK | Raw HTTP,httpx | openai
+open-telemetry/opentelemetry-python-contrib,98913a9b26185423451d48bdf2c125c8f0177c82,19,3,3,5,17,2,has_non_local,anthropic | google | openai,Cloud-platform SDK | Integration and orchestration framework | Provider SDK,anthropic | langchain_google_genai | langchain_openai | openai | vertexai
+openwisp/openwisp-utils,864bd5fae3d71966952d5c1a8fb90256294b5360,3,1,1,1,1,2,has_non_local,google,Provider SDK,google
+ottogroup/pixaris,0f254c8ee6079d83634b2d2d4c6558896b058b4d,2,1,2,2,2,0,local_only,google,Cloud-platform SDK | Provider SDK,google | vertexai
+outhsics/openfang-auto-clip,9124d1d56a192d929902f71b2a22cfae116c88ef,5,1,1,2,5,0,local_only,openai,Provider SDK,groq | openai
+pachterlab/gget,a1911540715638994908fcd141b6be5e36ad28ef,2,1,1,1,2,0,local_only,anthropic,Provider SDK,anthropic
+parameterlab/MASEval,1c52f237378ec6de32b607dcdb52984792d12463,9,1,1,1,0,9,has_non_local,openai,Integration and orchestration framework,litellm
+pathwaycom/pathway,9699a16da2acf3c0f2501349940b2afc0d3e713a,5,1,2,2,3,2,has_non_local,openai,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+peng-gao-lab/ctinexus,0c688536d85eae72f6055723492b573b0a1ff865,1,1,1,1,0,1,has_non_local,openai,Integration and orchestration framework,litellm
+petrobras/GeoSlicer,dd6c5b5d5c8fb70150080db303d9ee4ac6be695c,1,1,1,1,1,0,local_only,google,Provider SDK,google
+piratheon/rika-agent,cc9048ebabbb1478a0d8083fe4af1d0489814cb1,1,1,1,1,0,1,has_non_local,google,Provider SDK,google
+plugboard-dev/plugboard,06fbfab393128117d62b1e1cf99c94a4c04f9613,3,1,1,1,0,3,has_non_local,openai,Integration and orchestration framework,llama_index
+polyuiislab/infiAgent,ac97e4661597720d94d03a6c93e4cd2299bf29c0,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+posit-dev/py-shiny,f98966ef35054047f1f4786f760a95b024e45963,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+preloop/preloop,d860b6401ae994fe94c6713c6174559daf08bc9a,1,1,1,1,0,1,has_non_local,openai,Provider SDK,anthropic
+promptise-com/Foundry,279c3d28d6c50e5e54cd16aedc237f335c5def9f,4,1,1,1,4,0,local_only,openai,Integration and orchestration framework,langchain_openai
+psifx/psifx,f9d85f12f3828431d02d196db7624521a9e94560,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+pulinairc/kummitus,c9f68addddefc88530e92f484ed6535a84b5325f,3,1,1,1,2,1,has_non_local,google,Raw HTTP,requests
+pyarchinit/pyarchinit,a6bf1d31b61bd1f0551582ff571dea8127dd22e8,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+queelius/ctk,8154c03dc8035c1f1cb6c30de9ec7ae2e2060593,2,1,1,1,1,1,has_non_local,openai,Provider SDK,openai
+rahulanand1103/rag-citation,fba1a081fea99b6cfe9e4a7b8da977aba9c0ac63,1,1,1,1,0,1,has_non_local,openai,Integration and orchestration framework,litellm
+redactedmeme/swarm,15195c47c20dc4be4f56d2d7ef13bdea8b810a27,5,2,2,2,5,0,local_only,anthropic | openai,Integration and orchestration framework | Raw HTTP,langchain_openai | requests
+redis-developer/langgraph-redis,5ab2fa3d88e3dd0b1fe1df62e464140f7d0b4e26,11,1,1,1,11,0,local_only,openai,Integration and orchestration framework,langchain_openai
+reflex-dev/templates,e56a1a065208924dada4d23c769d15114381c6b5,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+remete618/widemem-ai,30b28ac753b84e4479edf00e53145f3d0e0c7ab5,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+rexdivakar/HippocampAI,203e4d913a6f0e368f84dc92851ac0c38b745765,4,2,1,2,3,1,has_non_local,anthropic | openai,Provider SDK,anthropic | openai
+rithulkamesh/docproc,671c57879332c949e8cace4fb5c1138bdb40166b,16,2,2,3,7,9,has_non_local,anthropic | openai,Integration and orchestration framework | Provider SDK,anthropic | litellm | openai
+rivian/ai-sast,d3982caaae722d7b0dafee9672e851489bcea27c,5,1,1,1,4,1,has_non_local,google,Provider SDK,google
+rllm-org/rllm,da9959a691b9f8ba1927e92339750df959e483a7,6,1,2,2,6,0,local_only,openai,Integration and orchestration framework | Provider SDK,litellm | openai
+rootflo/wavefront,aaa79e96046e6b715e6a8e2c2076ec0b467e42e3,12,1,1,1,1,11,has_non_local,openai,Provider SDK,openai
+runesleo/x-reader,2947ac97c1da9021097247b135918478970aa751,1,1,1,1,1,0,local_only,openai,Raw HTTP,requests
+ryanhuge/voicetype,b71950df745590c52ce7fc2661353b94ec55da1d,2,1,1,1,1,1,has_non_local,openai,Provider SDK,openai
+sachinsharma9780/memweave,2ff82df7148274ee7d465273e2c401be18625238,2,1,1,1,0,2,has_non_local,openai,Integration and orchestration framework,litellm
+samuelclay/NewsBlur,e999aee710da5ade38773cefe2408d65d5c44e08,17,2,1,2,16,1,has_non_local,anthropic | openai,Provider SDK,anthropic | openai
+samugit83/redamon,6a75ce19c0b5849b556a9a5422bf9e1e435b3076,15,2,2,2,1,14,has_non_local,anthropic | openai,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+sartography/spiff-arena,409c105cbeba28bf611983d647fcacf3e9342957,1,1,1,1,1,0,local_only,openai,Raw HTTP,requests
+sashakolpakov/dire-rapids,f055d59230c0d2cfd5ab0f868512597069ef2f42,2,1,1,1,2,0,local_only,google,Provider SDK,google
+sbintuitions/JMTEB,526d5fc00b1682675405ae00fb3594843e53ae5d,3,1,1,1,1,2,has_non_local,openai,Provider SDK,openai
+schmitech/orbit,fc4f2249279ae863e0e6eef897973afa786874be,3,1,1,1,3,0,local_only,openai,Provider SDK,openai
+sciknoworg/OntoLearner,da7dd03c349ab8516518c5b0dee3bfed2deb8252,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+sciknoworg/YESciEval,054437faed5d9a7a2afdde0c68392f790b9a49c9,4,1,1,1,4,0,local_only,openai,Provider SDK,openai
+se2p/pynguin,cbe39eaad2791296ffd968fb48dd646656743df1,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+securityjoes/AskJOE,dd8b3317c8753780624b4630acd51a94840d140e,2,2,1,1,2,0,local_only,anthropic | openai,Provider SDK,openai
+seer-engg/seer,0377d17b609d505dbefd55bf21b6e52070376737,6,2,1,1,1,5,has_non_local,google | openai,Integration and orchestration framework,langchain_openai
+sequrity-ai/sequrity-api,5ed35d1cb8902456c3781a95521d5ffcbdc94ce7,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,agents
+sethkarten/continual-harness,bbab97ad73e460b7cd7c08527d10ced30cc03fbe,2,1,1,1,2,0,local_only,anthropic,Provider SDK,openai
+sgl-project/sglang,190488e9a84ba34661618aab5668239e2ce22f0e,2,2,1,2,1,1,has_non_local,anthropic | openai,Provider SDK,anthropic | openai
+shaoxing-xie/etf-options-ai-assistant,69d5c4675b313a3da4e39efaf87d81c88e233a35,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+shibing624/MedicalGPT,2f1008cfa49cbba69ff6f138c3b5e2fb0646bdc7,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+shibing624/agentica,54efc0639f1a5a53005bee929d9a9ed6cf8cba7c,9,2,2,3,9,0,local_only,google | openai,Integration and orchestration framework | Provider SDK,google | litellm | openai
+sidinsearch/superbrain,2f68fff228c1e74e4c481e27b709eb5fa7653a40,6,2,1,2,6,0,local_only,google | openai,Provider SDK,google | groq
+sierra-research/tau2-bench,5a8fce3d52ba27f526dc98ec593d9c42544314d2,14,3,3,4,2,12,has_non_local,anthropic | google | openai,Integration and orchestration framework | Provider SDK | Raw HTTP,google | litellm | openai | requests
+simonw/llm,be27b91aa83142ee080c467976dc47fa4b5fb7ec,6,1,1,1,0,6,has_non_local,openai,Provider SDK,openai
+sjtu-sai-agents/EvoMaster,069631b536eeb921ede1843ffb632e369c5a006f,3,1,1,1,1,2,has_non_local,openai,Provider SDK,openai
+sparckles/Robyn,d19b67f37de130963081479c96a27a66b514692d,2,1,1,1,1,1,has_non_local,openai,Provider SDK,openai
+stanford-crfm/helm,4d4dad14a78314f21ca92486ae2d6e292ed376a9,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+stevereiner/flexible-graphrag,4866d3d36d07d9a05e22a3944158b10436f6c614,14,3,1,2,14,0,local_only,anthropic | google | openai,Integration and orchestration framework,langchain_openai | llama_index
+sunbao/ah32,0cbda0a2e54e2a22eba38b112f7ab4c9a7102350,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,langchain_openai
+sunmh207/AI-Codereview-Gitlab,33893645124367ca8b4d1a0402be8c9195e5889c,2,2,1,2,2,0,local_only,anthropic | openai,Provider SDK,anthropic | openai
+tajas20006/neko2020,7d790375c2abcf6431d5c95351a6b28227c01ee3,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+taylorsatula/mira-OSS,29194c77436ca7b9ce2490fbb4300dcdb2dddad0,1,1,1,1,1,0,local_only,google,Provider SDK,google
+tdimino/claude-code-minoan,25d815407392c8630e24058899591e32774c2c9f,26,4,2,5,14,12,has_non_local,anthropic | google | openai | qwen,Provider SDK | Raw HTTP,anthropic | google | httpx | openai | urllib
+tech-kev/SharedMoments,6f7231d45192cf5729fc18546a8eb3ac548ba5d3,1,1,1,1,1,0,local_only,anthropic,Provider SDK,anthropic
+temporalio/sdk-python,ac6d4861902f0b47babffa93dfb5b7da396b2ff7,1,1,1,1,1,0,local_only,openai,Integration and orchestration framework,agents
+tenro-ai/tenro-python,d6c329e12dccdff1288feb1d396a60efc34a459e,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+theislab/paperbee,b1abaadb15488bbd19d30383c652195fc14bc1fd,3,1,1,1,1,2,has_non_local,openai,Provider SDK,openai
+thenvoi/thenvoi-sdk-python,9a1718d67f61a9e944aae8ff6173244ccbad0cc5,4,3,2,4,4,0,local_only,anthropic | google | openai,Integration and orchestration framework | Provider SDK,anthropic | crewai | google | langchain_openai
+thienzz/Kite,0e685d77d09adfd142d1be6df1de3041e1edaa31,5,2,1,2,4,1,has_non_local,anthropic | openai,Provider SDK,anthropic | openai
+thonny/thonny,c353751d66e44786b80f608d0bf2dd28a1a787a8,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+timescale/pg-aiguide,c61d613e7842096e9aaa7d9b8b6fddbdaa9ec5be,2,1,1,1,1,1,has_non_local,openai,Provider SDK,openai
+toluaina/pgsync,f9073049063cf94c8dac6db004235f7f185a39f9,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+tomkam1702/OCR-Translator,25ff6cb37d994f8ad2c428adb1347d96f507b3bc,1,1,1,1,1,0,local_only,google,Provider SDK,google
+truera/trulens,c853b362f5cd46f3f079ae22761f98fc3252f500,7,2,2,4,6,1,has_non_local,anthropic | openai,Integration and orchestration framework | Provider SDK,langchain_openai | litellm | llama_index | openai
+tyxben/AI_novel,afbf5f95ef1f7960a60292e9c878fc6c3166462e,4,2,2,4,4,0,local_only,google | openai,Integration and orchestration framework | Provider SDK,google | langchain_google_genai | langchain_openai | openai
+udaysidhu99/danki,6f2fa25384f735c3189ede783f12fbf72a2d13fb,3,1,1,1,3,0,local_only,openai,Raw HTTP,requests
+uezo/aiavatarkit,1abb43db5529294ece8a5eb633c2840b0946b021,16,3,3,4,8,8,has_non_local,anthropic | google | openai,Integration and orchestration framework | Provider SDK | Raw HTTP,google | httpx | litellm | openai
+unclecode/crawl4ai,1debe5f5fcc118ced10826a1040a81f9b77e9255,4,1,1,1,1,3,has_non_local,openai,Integration and orchestration framework,litellm
+unforkopensource-org/decibench,9d89c85e7e6fc079786c1f0fcda5714a36f20660,3,1,1,1,2,1,has_non_local,openai,Raw HTTP,httpx
+usestrix/strix,2380cf55cb101dda63bf43fe9122718de37d2ecc,5,2,1,1,0,5,has_non_local,anthropic | openai,Integration and orchestration framework,litellm
+vectara/vectara-ingest,8a6b3836ee5d601ecf305687c669868918746ded,4,2,2,2,4,0,local_only,anthropic | google,Cloud-platform SDK | Provider SDK,anthropic | vertexai
+vegu-ai/talemate,d4691de357ce083f975262214fa5424db1772ca8,5,2,1,2,4,1,has_non_local,google | openai,Provider SDK,google | openai
+verygoodplugins/automem,a742602f5d6ad2dea5a4d3c387d5b49d610afe2c,11,1,2,2,1,10,has_non_local,openai,Provider SDK | Raw HTTP,openai | requests
+vibrantlabsai/ragas,298b68274234c060deacab3cf5fb52aa3a20e885,16,2,2,2,16,0,local_only,google | openai,Cloud-platform SDK | Integration and orchestration framework,langchain_openai | vertexai
+victordibia/designing-multiagent-systems,1aebb3111c667238e31fe3c698af2dc49baf4f3f,18,1,1,1,8,10,has_non_local,openai,Provider SDK,openai
+vouch-protocol/vouch,1b37c3ef661bd1c4ed87c5349e51be7ce5038bcc,1,1,1,1,1,0,local_only,google,Provider SDK,google
+vstorm-co/memv,fe829e69c8192c71b73a63c451e290a1b4142590,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+vyruss/pg_statviz,fe3a3a045748d759059b787934d0660d437b76c0,2,2,1,2,2,0,local_only,anthropic | google,Provider SDK,anthropic | google
+wajid-nasser/12-Angry-Tokens,115da438ca5382e3d496bc2f94455f08bc49b798,1,1,1,1,1,0,local_only,x-ai,Provider SDK,openai
+walksoda/crawl-mcp,f0c65c7941d5c8d112a28457f70f85410eb99d97,3,1,1,2,1,2,has_non_local,openai,Provider SDK,anthropic | openai
+wangzhe3224/valueinvest,c6776c404e638bfdac939a83279e8e166efea303,2,1,1,1,1,1,has_non_local,openai,Provider SDK,openai
+wanxingai/LightAgent,897ac10c7bca56599aac46f9a5fb35857a7f455a,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+xai-org/xai-sdk-python,98381092b9f9bc3a5a4765462bf5d6c49c92b960,8,1,1,1,8,0,local_only,x-ai,Provider SDK,xai_sdk
+xerrors/Yuxi,87977bb927cd73ed12d1ade42f54b375687447d1,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+ybkim95/agent-scaling,b0b04256826e77c3fc09e5269adeb98e0efa9a65,1,1,1,1,1,0,local_only,openai,Provider SDK,openai
+yifanfeng97/Hyper-Extract,ca7125aa268746cf2eb8d8dfc32a59bd07843a64,5,1,2,2,5,0,local_only,openai,Integration and orchestration framework | Provider SDK,langchain_openai | openai
+yixin0829/push-to-talk,8d25037ba9e1d6610e85002bd66152c261665c1a,3,2,1,2,3,0,local_only,google | openai,Provider SDK,google | openai
+ylzz1997/crabcode,96404bfec087da20b1a5c5cff8ef4ed47d2bdfaa,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+yolo-hyl/medical-rag,4ec5871ad874344d228b19aeed7ab38c4ba0b940,1,1,1,1,1,0,local_only,qwen,Integration and orchestration framework,langchain_openai
+yzhao062/pyod,18362cd6f77e74976e9de9b0996b2e27fb706b79,2,1,1,1,2,0,local_only,openai,Provider SDK,openai
+zenml-io/zenml,62d7ca8639ce56bf9b00a4c3c7891b8dd6b0e148,3,1,1,1,1,2,has_non_local,openai,Provider SDK,openai
+zh-plus/openlrc,b0f6a658704f012ec14ec71a92f25ac4474e6d3d,5,3,1,3,3,2,has_non_local,anthropic | google | openai,Provider SDK,anthropic | google | openai
+zhayujie/CowAgent,ac9d0f18c5a19ff8c4c069e032efeb11eb3e7ecd,9,2,2,2,6,3,has_non_local,openai | qwen,Provider SDK | Raw HTTP,dashscope | requests
+zhudotexe/kani,699d023858941c9bf68b9d9d2606413039c815f4,4,2,1,2,2,2,has_non_local,google | openai,Provider SDK,google | openai
+ziatdinovmax/SciLink,9db112ebc4799b236cc67cbb430fa5bce9617135,41,2,2,2,0,41,has_non_local,anthropic | google,Integration and orchestration framework | Provider SDK,litellm | openai
+zijian-optics/SolaireEPDA,de9fc6672af08b3477d90ca2ecbd490f3610f57e,1,1,1,1,0,1,has_non_local,openai,Provider SDK,openai
+zvtvz/zvt,f971f00c2181bc7d7fb7987a7875d4ec5960881a,1,1,1,1,1,0,local_only,qwen,Provider SDK,openai

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mist-ptm"
+version = "0.1.0"
+description = "Repository-level tracing from PTM identifiers to model-use calls"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "jedi==0.20.0",
+    "parso==0.8.7",
+    "networkx==3.4.2",
+    "openpyxl==3.1.5",
+    "et_xmlfile==2.0.0",
+    "httpx==0.28.1",
+    "requests==2.34.0",
+]
+
+[project.scripts]
+mist = "mist.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mist = ["data/*.csv", "data/*.json", "data/*.xlsx"]

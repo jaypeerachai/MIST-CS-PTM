@@ -37,7 +37,6 @@ github_repo_id,repository,commit_sha,url,collected_file_versions,files_at_select
 331695781,AutomationSolutionz/Zeuz_Python_Node,01f97e7d8804db8c89cd81878651b3c0a1b1999d,https://github.com/AutomationSolutionz/Zeuz_Python_Node/tree/01f97e7d8804db8c89cd81878651b3c0a1b1999d,1,1,1
 1050108601,Azure-Samples/art-voice-agent-accelerator,3dda3db74e6cbcb50a1c6ed6f44730d3e5b9cf53,https://github.com/Azure-Samples/art-voice-agent-accelerator/tree/3dda3db74e6cbcb50a1c6ed6f44730d3e5b9cf53,16,16,1
 1157533147,Azure/az-prototype,afb8821da0bb88cfa433dbe3e475b8e4910403ea,https://github.com/Azure/az-prototype/tree/afb8821da0bb88cfa433dbe3e475b8e4910403ea,32,32,1
-51040886,Azure/azure-cli,28753312e6417ba1e337382e4da4143f41420b4d,https://github.com/Azure/azure-cli/tree/28753312e6417ba1e337382e4da4143f41420b4d,1,1,1
 167911661,Azure/azure-functions-durable-python,2fc1f1afc1fc2ad6269f935a34f28d93ebb25514,https://github.com/Azure/azure-functions-durable-python/tree/2fc1f1afc1fc2ad6269f935a34f28d93ebb25514,1,1,1
 136426082,Azure/azure-functions-python-library,2f7011ab2d7bfb5a17811ee89af1b238d1028460,https://github.com/Azure/azure-functions-python-library/tree/2f7011ab2d7bfb5a17811ee89af1b238d1028460,2,2,1
 859771176,Azure/co-op-translator,f3cb57db5c5c8c18726b2f90b5093406a2140492,https://github.com/Azure/co-op-translator/tree/f3cb57db5c5c8c18726b2f90b5093406a2140492,2,2,1
@@ -498,7 +497,6 @@ github_repo_id,repository,commit_sha,url,collected_file_versions,files_at_select
 80646423,catalyst-cooperative/pudl,7fcdd795139850b7bdd01bcb04a7a4c14ea7e12f,https://github.com/catalyst-cooperative/pudl/tree/7fcdd795139850b7bdd01bcb04a7a4c14ea7e12f,1,1,1
 1047525703,catgirl3d/WhisperBridge,2ff6b93bc6329b0dd970dde15ff76ee739e4bbd8,https://github.com/catgirl3d/WhisperBridge/tree/2ff6b93bc6329b0dd970dde15ff76ee739e4bbd8,9,9,1
 165788605,ccbogel/QualCoder,bdd25333eae353540477dcb12e97ccef140b1014,https://github.com/ccbogel/QualCoder/tree/bdd25333eae353540477dcb12e97ccef140b1014,1,1,1
-39508026,cctbx/cctbx_project,97325133a3b365342933413b61c2b4dd53746bec,https://github.com/cctbx/cctbx_project/tree/97325133a3b365342933413b61c2b4dd53746bec,5,2,2
 925904852,chaobrain/saiunit,94d1b2c27a0419da99657d6850e564c387fa7386,https://github.com/chaobrain/saiunit/tree/94d1b2c27a0419da99657d6850e564c387fa7386,1,1,1
 925617132,chattermate/chattermate.chat,7948b8b78432aa3beca0dd1d61d9e040df5e1e31,https://github.com/chattermate/chattermate.chat/tree/7948b8b78432aa3beca0dd1d61d9e040df5e1e31,10,10,1
 1127488348,chenjigang4167/testhub_platform,49669bd5a06b323a6472ea2746d8cd0c84d28cb6,https://github.com/chenjigang4167/testhub_platform/tree/49669bd5a06b323a6472ea2746d8cd0c84d28cb6,1,1,1
@@ -662,7 +660,6 @@ github_repo_id,repository,commit_sha,url,collected_file_versions,files_at_select
 1016323751,google/langextract,fef3e7db723e87d9cdd11dfeda219bf4fa269350,https://github.com/google/langextract/tree/fef3e7db723e87d9cdd11dfeda219bf4fa269350,8,8,1
 734517256,googleapis/langchain-google-alloydb-pg-python,61c3c45c8774fa8b16488c92f729142d99eeac9b,https://github.com/googleapis/langchain-google-alloydb-pg-python/tree/61c3c45c8774fa8b16488c92f729142d99eeac9b,2,2,1
 744209515,googleapis/langchain-google-cloud-sql-pg-python,c5991c5db2f5bf030c6f7171c511dc881d21d8d0,https://github.com/googleapis/langchain-google-cloud-sql-pg-python/tree/c5991c5db2f5bf030c6f7171c511dc881d21d8d0,2,2,1
-298017988,googleapis/python-aiplatform,027acc8dc6569bda74de16e753e224f9fd5dc7de,https://github.com/googleapis/python-aiplatform/tree/027acc8dc6569bda74de16e753e224f9fd5dc7de,17,17,1
 799049436,gpustack/gpustack,7c4694b9502e269d356520518b0cb0caa8971738,https://github.com/gpustack/gpustack/tree/7c4694b9502e269d356520518b0cb0caa8971738,1,1,1
 757753983,groq/groq-python,a4ee1e0d26347d6c3bfc8b708264767be47ba69c,https://github.com/groq/groq-python/tree/a4ee1e0d26347d6c3bfc8b708264767be47ba69c,1,1,1
 815303484,grounded-ai/grounded_ai,263dc6a2d023d25bfd2e37c7d83ad244fb4f4d8b,https://github.com/grounded-ai/grounded_ai/tree/263dc6a2d023d25bfd2e37c7d83ad244fb4f4d8b,1,1,1
@@ -709,7 +706,6 @@ github_repo_id,repository,commit_sha,url,collected_file_versions,files_at_select
 779478198,impredicative/podgenai,ac1baa68e7ac67864e99acaa03e421143d4a6c46,https://github.com/impredicative/podgenai/tree/ac1baa68e7ac67864e99acaa03e421143d4a6c46,1,1,1
 90911621,incf-nidash/PyNIDM,2bdc06eb868229e3f6dddd35c92587222ca3bc16,https://github.com/incf-nidash/PyNIDM/tree/2bdc06eb868229e3f6dddd35c92587222ca3bc16,1,1,1
 1117394737,inclusionAI/AEnvironment,6b13ca2faeb90321a83256c1b99c29564a27fd13,https://github.com/inclusionAI/AEnvironment/tree/6b13ca2faeb90321a83256c1b99c29564a27fd13,1,1,1
-948379879,inclusionAI/AWorld,202dee47099a7b7e08e6e789cd09160dbf68be5f,https://github.com/inclusionAI/AWorld/tree/202dee47099a7b7e08e6e789cd09160dbf68be5f,40,40,1
 730534580,infiniflow/ragflow,57ddd791832f652d6ef673ee3cc2b233820b654c,https://github.com/infiniflow/ragflow/tree/57ddd791832f652d6ef673ee3cc2b233820b654c,10,10,1
 959050247,iniwap/AIWriteX,589ee7e2d647d84b4794d93e0d78b69a84b57c58,https://github.com/iniwap/AIWriteX/tree/589ee7e2d647d84b4794d93e0d78b69a84b57c58,1,1,1
 1086107303,intent-solutions-io/perception-with-intent,089f9e34e2ab1ea820ab1a6fa03227ed7aa9ee58,https://github.com/intent-solutions-io/perception-with-intent/tree/089f9e34e2ab1ea820ab1a6fa03227ed7aa9ee58,2,2,1
@@ -751,7 +747,6 @@ github_repo_id,repository,commit_sha,url,collected_file_versions,files_at_select
 858200039,kilian-group/phantom-wiki,5542d6b2ba9a76cc62bd107b71934f68339ade34,https://github.com/kilian-group/phantom-wiki/tree/5542d6b2ba9a76cc62bd107b71934f68339ade34,3,3,1
 861145355,knoop7/ha_laohuangli,ec35fabe4c2d205d6f2cd8cac87f707c1d8de3ba,https://github.com/knoop7/ha_laohuangli/tree/ec35fabe4c2d205d6f2cd8cac87f707c1d8de3ba,1,1,1
 920891990,kokofixcomputers/1min-relay,79968daa373b961e223e5abfe1628ecb7ff2d43a,https://github.com/kokofixcomputers/1min-relay/tree/79968daa373b961e223e5abfe1628ecb7ff2d43a,1,1,1
-10332822,kovidgoyal/calibre,66501a6ae70e74294aa8fd0019112aaab72b6c2d,https://github.com/kovidgoyal/calibre/tree/66501a6ae70e74294aa8fd0019112aaab72b6c2d,3,3,1
 955493763,kubebuddy/kubebuddy,920814febdb7ddc4fbe4a8a4a7cbb9ccd0d6fac5,https://github.com/kubebuddy/kubebuddy/tree/920814febdb7ddc4fbe4a8a4a7cbb9ccd0d6fac5,1,1,1
 133100880,kubeflow/pipelines,289267879edc94c7a61ce91cb875ff2acbe28329,https://github.com/kubeflow/pipelines/tree/289267879edc94c7a61ce91cb875ff2acbe28329,1,1,1
 916860795,kubernetes-sigs/inference-perf,b8ffb805baa3ad8ee90681e142923349f27d3eac,https://github.com/kubernetes-sigs/inference-perf/tree/b8ffb805baa3ad8ee90681e142923349f27d3eac,2,2,1
@@ -912,7 +907,6 @@ github_repo_id,repository,commit_sha,url,collected_file_versions,files_at_select
 820145382,ogx-ai/ogx,e2e82edcd925f444f6ba46abd744f265de9bc260,https://github.com/ogx-ai/ogx/tree/e2e82edcd925f444f6ba46abd744f265de9bc260,19,19,1
 861456121,oidlabs-com/Lexoid,e40c9d07c994d42da8fc98bd690de6f8ae43f5d1,https://github.com/oidlabs-com/Lexoid/tree/e40c9d07c994d42da8fc98bd690de6f8ae43f5d1,7,7,1
 421538126,omar2535/GraphQLer,3b672c0eb3f17a203c1c95ec959290ed317f7677,https://github.com/omar2535/GraphQLer/tree/3b672c0eb3f17a203c1c95ec959290ed317f7677,4,4,1
-350399100,omicverse/omicverse,3983a009a43f5980eb3e61aae392a359f6e33a39,https://github.com/omicverse/omicverse/tree/3983a009a43f5980eb3e61aae392a359f6e33a39,46,46,1
 951237777,omnirexflora-labs/omnicoreagent,95a7efb64b02969222aacdcae8fcb05560d044ac,https://github.com/omnirexflora-labs/omnicoreagent/tree/95a7efb64b02969222aacdcae8fcb05560d044ac,7,7,1
 950580200,oop7/OrChat,a768973b6457a9293f466aa378f33e5163a1827d,https://github.com/oop7/OrChat/tree/a768973b6457a9293f466aa378f33e5163a1827d,1,1,1
 970490594,opea-project/Enterprise-Inference,ba5141de8e5abb768e82170bbbecc8cab364e005,https://github.com/opea-project/Enterprise-Inference/tree/ba5141de8e5abb768e82170bbbecc8cab364e005,1,1,1
@@ -958,7 +952,6 @@ github_repo_id,repository,commit_sha,url,collected_file_versions,files_at_select
 406959432,pinecone-io/python-sdk,523f5a8df3f4cba90941497799b342d0e33862d1,https://github.com/pinecone-io/python-sdk/tree/523f5a8df3f4cba90941497799b342d0e33862d1,4,4,1
 951077405,pingcap/pytidb,541868e6e2f060b6d13aaffc369d4e66565d5676,https://github.com/pingcap/pytidb/tree/541868e6e2f060b6d13aaffc369d4e66565d5676,9,9,1
 889641414,pipecat-ai/pipecat-flows,7dad355447f93e3e329b7847e493c76e2f73564f,https://github.com/pipecat-ai/pipecat-flows/tree/7dad355447f93e3e329b7847e493c76e2f73564f,1,1,1
-944080744,pipeshub-ai/pipeshub-ai,44dcd043a031fad5609084efcacbbbb8d13636b3,https://github.com/pipeshub-ai/pipeshub-ai/tree/44dcd043a031fad5609084efcacbbbb8d13636b3,26,26,1
 1163085524,pipixia-labs/openppx,d1d48321ddca309dfb960b80f4c1f84911889dc7,https://github.com/pipixia-labs/openppx/tree/d1d48321ddca309dfb960b80f4c1f84911889dc7,8,8,1
 1169401564,piratheon/rika-agent,cc9048ebabbb1478a0d8083fe4af1d0489814cb1,https://github.com/piratheon/rika-agent/tree/cc9048ebabbb1478a0d8083fe4af1d0489814cb1,3,3,1
 1110057956,pjdoland/jf-sebastian,cc15aa6b95c878e2b5e3639525881490f3ba11b1,https://github.com/pjdoland/jf-sebastian/tree/cc15aa6b95c878e2b5e3639525881490f3ba11b1,5,5,1
@@ -993,7 +986,6 @@ github_repo_id,repository,commit_sha,url,collected_file_versions,files_at_select
 561311177,pymc-devs/pytensor,eb73f6279d7dbc3a6d2571e7219028e5c49e8640,https://github.com/pymc-devs/pytensor/tree/eb73f6279d7dbc3a6d2571e7219028e5c49e8640,2,2,1
 38696925,python-telegram-bot/python-telegram-bot,6fdab3a58d438cf998e0bde6b77f44d37bfef058,https://github.com/python-telegram-bot/python-telegram-bot/tree/6fdab3a58d438cf998e0bde6b77f44d37bfef058,1,1,1
 970899748,pytorch/helion,f0f53033436b29d725e3eb076fffd5fa7cb4464d,https://github.com/pytorch/helion/tree/f0f53033436b29d725e3eb076fffd5fa7cb4464d,3,3,1
-65600975,pytorch/pytorch,e191644a5b08e8bb5ff983ab67fb2a2ed622f4ac,https://github.com/pytorch/pytorch/tree/e191644a5b08e8bb5ff983ab67fb2a2ed622f4ac,1,1,1
 1117412203,queelius/crier,d1ed884acea2abd8a1b7eed17346ebb7a804b4f8,https://github.com/queelius/crier/tree/d1ed884acea2abd8a1b7eed17346ebb7a804b4f8,5,5,1
 976255641,queelius/ctk,8154c03dc8035c1f1cb6c30de9ec7ae2e2060593,https://github.com/queelius/ctk/tree/8154c03dc8035c1f1cb6c30de9ec7ae2e2060593,16,2,2
 652134847,qwersyk/Newelle,d2c20184d5dd342457831f74201826ebdcacf9bc,https://github.com/qwersyk/Newelle/tree/d2c20184d5dd342457831f74201826ebdcacf9bc,7,7,1
@@ -1198,7 +1190,6 @@ github_repo_id,repository,commit_sha,url,collected_file_versions,files_at_select
 1085708704,xiaohu2206/superAIAutoCutVideo,74d2be06484ac6be39eb8ede414dfc9aa9134e84,https://github.com/xiaohu2206/superAIAutoCutVideo/tree/74d2be06484ac6be39eb8ede414dfc9aa9134e84,7,7,1
 696791815,xorq-labs/xorq,27a966b43ec9855121df210849db6fa803480afa,https://github.com/xorq-labs/xorq/tree/27a966b43ec9855121df210849db6fa803480afa,2,2,1
 1024537085,xoxruns/deadend-cli,8d01bfd03b80b3d38c8b9821663969385233d0f2,https://github.com/xoxruns/deadend-cli/tree/8d01bfd03b80b3d38c8b9821663969385233d0f2,3,3,1
-4246006,xraypy/xraylarch,6a68e776c3b10625bcda556432f45a4ddb6b18d1,https://github.com/xraypy/xraylarch/tree/6a68e776c3b10625bcda556432f45a4ddb6b18d1,1,1,1
 896080204,xu62u4u6/pymaftools,f56094d4ca4f6ec9463676d7ca2a7a9e9d03d6d8,https://github.com/xu62u4u6/pymaftools/tree/f56094d4ca4f6ec9463676d7ca2a7a9e9d03d6d8,1,1,1
 1159163813,xyskywalker/Ripple,9d24ea5556960c92fa4a4bddbe3b65389a970929,https://github.com/xyskywalker/Ripple/tree/9d24ea5556960c92fa4a4bddbe3b65389a970929,5,5,1
 941629252,yamanahlawat/llm-registry,1ab9233e13c2a784fd796eeb4a601bb114feda80,https://github.com/yamanahlawat/llm-registry/tree/1ab9233e13c2a784fd796eeb4a601bb114feda80,5,5,1

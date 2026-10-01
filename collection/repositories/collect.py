@@ -13,14 +13,35 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
 
-from collect_snapshots import collect_checks, repo_name
+from collect_occurrences import FIELDS as OCCURRENCE_FIELDS, collect_occurrences
+from collect_snapshots import FIELDS as SNAPSHOT_FIELDS, checkout_snapshots, collect_checks, repo_name
 from filter_rules import preliminary_filter, release_filter
 from github_api import GitHub
 from reproduce import HERE, OUTPUT_FIELDS, calculate, original_queries, query_text, read_csv, sha256, write_csv
 
 STAGES = ['search', 'metadata', 'releases', 'files', 'snapshots']
-FIELDS = {Path(item['file']).name: item['columns']
-          for item in json.loads((HERE / 'sources.json').read_text())['inputs']}
+FIELDS = {
+    'query_splits.csv.gz': ['query_row_id', 'model_id', 'search_seed', 'search_seed_type',
+                            'quote_style', 'query_text', 'size_min', 'size_max', 'total_count',
+                            'incomplete_results', 'collection_status', 'item_count_fetched',
+                            'checked_at_utc'],
+    'search_matches.csv.gz': ['query_row_id', 'github_repo_id', 'repository_full_name',
+                              'file_path', 'file_sha', 'match_url'],
+    'repositories.csv.gz': ['github_repo_id', 'metadata_repo_id', 'input_full_name', 'full_name',
+                            'metadata_collection_status', 'fork', 'size', 'stargazers_count',
+                            'forks_count', 'language', 'pushed_at', 'topics', 'description',
+                            'collected_at_utc'],
+    'release_status.csv.gz': ['release_collection_id', 'github_repo_id', 'full_name',
+                              'release_collection_status', 'collected_at_utc'],
+    'releases.csv.gz': ['release_collection_id', 'github_repo_id', 'full_name', 'tag_name',
+                        'draft', 'prerelease', 'published_at'],
+    'literal_checks.csv.gz': ['github_repo_id', 'repository_full_name', 'file_path', 'file_sha',
+                              'model_id', 'occurrence_count', 'occurrence_extraction_status'],
+    'snapshot_checks.csv.gz': ['repository_full_name', 'file_path', 'source_snapshot_commit_sha',
+                               'latest_snapshot_commit_sha', 'stored_file_sha', 'source_snapshot_file_sha',
+                               'latest_snapshot_file_sha', 'source_snapshot_status',
+                               'latest_snapshot_status', 'models'],
+}
 
 
 def save_csv(path, rows, fields):
@@ -233,6 +254,7 @@ def collect_files(api, inputs, settings):
                 print(f'Candidate file downloads {index}/{len(files)}', flush=True)
 
     save_csv(inputs / 'literal_checks.csv.gz', rows(), FIELDS['literal_checks.csv.gz'])
+    save_csv(inputs.parent / 'occurrences.csv.gz', collect_occurrences(inputs), OCCURRENCE_FIELDS)
 
 
 def collect_snapshots(inputs):
@@ -251,12 +273,8 @@ def export_selection(directory, settings):
                        ('filter_decisions.csv.gz', decisions)]:
         save_csv(directory / name, rows, OUTPUT_FIELDS[name])
     save_json(directory / 'summary.json', counts)
-    manifest = {'description': 'New GitHub collection, not the historical study dataset.', 'inputs': []}
-    for name, fields in FIELDS.items():
-        path = directory / 'inputs' / name
-        manifest['inputs'].append({'file': 'inputs/' + name, 'sha256': sha256(path), 'columns': fields})
-    save_json(directory / 'sources.json', manifest)
     print(json.dumps(counts, indent=2))
+    return repositories, files
 
 
 def prepare_run(directory, ids, settings, resume):
@@ -264,7 +282,8 @@ def prepare_run(directory, ids, settings, resume):
     if directory == package or package in directory.parents:
         raise ValueError('Use an output directory outside the replication package.')
     code = {name: sha256(HERE / name) for name in
-            ['collect.py', 'github_api.py', 'collect_snapshots.py', 'reproduce.py', 'filter_rules.py', 'sources.json']}
+            ['collect.py', 'github_api.py', 'collect_occurrences.py', 'collect_snapshots.py',
+             'reproduce.py', 'filter_rules.py']}
     config = {'model_ids': ids, 'settings': settings, 'code_sha256': code}
     if resume:
         state = json.loads((directory / 'run.json').read_text())
@@ -326,11 +345,17 @@ def main():
                 state['completed_files'] = {str(path.relative_to(directory)): sha256(path)
                                              for path in sorted(inputs.glob('*.csv.gz'))
                                              if not path.name.startswith('pending_')}
+                if (directory / 'occurrences.csv.gz').exists():
+                    state['completed_files']['occurrences.csv.gz'] = sha256(directory / 'occurrences.csv.gz')
                 save_json(directory / 'run.json', state)
             if stage == args.stop_after:
                 break
         if 'snapshots' in state['completed_stages']:
-            export_selection(directory, settings)
+            repositories, files = export_selection(directory, settings)
+            save_csv(directory / 'snapshots.csv', checkout_snapshots(directory, repositories, files),
+                     SNAPSHOT_FIELDS)
+            state['completed_files']['snapshots.csv'] = sha256(directory / 'snapshots.csv')
+            save_json(directory / 'run.json', state)
         else:
             print(f'Stopped after {args.stop_after}. Resume without --stop-after to continue.', flush=True)
     finally:

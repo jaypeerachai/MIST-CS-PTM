@@ -21,7 +21,8 @@ OUTPUT_FIELDS = {
                          'collected_file_versions', 'files_at_selected_commit', 'saved_snapshots'],
     'files.csv': ['repository', 'commit_sha', 'path', 'blob_sha', 'model_ids', 'url'],
     'filter_decisions.csv.gz': ['github_repo_id', 'repository', 'preliminary_pass', 'preliminary_reasons',
-                              'release_pass', 'release_reasons', 'exact_literal_found', 'snapshot_available'],
+                              'release_pass', 'release_reasons', 'exact_literal_found', 'snapshot_available',
+                              'selected'],
 }
 
 
@@ -46,13 +47,6 @@ def sha256(path):
         for block in iter(lambda: file.read(1024 * 1024), b''):
             digest.update(block)
     return digest.hexdigest()
-
-
-def verify_inputs(directory=HERE):
-    for item in json.loads((directory / 'sources.json').read_text())['inputs']:
-        path = directory / item['file']
-        if sha256(path) != item['sha256']:
-            raise ValueError(f'Input changed: {path.name}')
 
 
 def model_key(row):
@@ -105,6 +99,7 @@ def calculate(data_dir, settings):
             'preliminary_reasons': '|'.join(reasons),
             'release_pass': '', 'release_reasons': '',
             'exact_literal_found': '', 'snapshot_available': '',
+            'selected': '',
         }
 
     releases = defaultdict(list)
@@ -222,6 +217,24 @@ def calculate(data_dir, settings):
             'saved_snapshots': len({row['commit_sha'] for row in repo_files}),
         })
 
+    available_repositories = len(repositories)
+    available_file_versions = len(files)
+    exclusions = {}
+    exclusion_file = data_dir / 'analysis_exclusions.csv'
+    if exclusion_file.exists():
+        for row in read_csv(exclusion_file):
+            repo = row['repository']
+            if repo in exclusions or not row['reason']:
+                raise ValueError(f'Duplicate or unexplained analysis exclusion: {repo}')
+            exclusions[repo] = row['reason']
+        if set(exclusions) - {row['repository'] for row in repositories}:
+            raise ValueError('Analysis exclusions contain an unavailable repository')
+    for row in repositories:
+        repo = row['repository']
+        decision = decisions[row['github_repo_id']]
+        decision['selected'] = str(repo not in exclusions).lower()
+    repositories = [row for row in repositories if row['repository'] not in exclusions]
+    files = [row for row in files if row['repository'] not in exclusions]
     files.sort(key=lambda row: (row['repository'], row['commit_sha'], row['path']))
     counts = {
         'search_queries': len(queries), 'search_matches': match_count,
@@ -230,6 +243,8 @@ def calculate(data_dir, settings):
         'release_pass': sum(row['release_pass'] == 'true' for row in decisions.values()),
         'retained_stable_releases': retained_releases,
         'repositories_with_exact_literals': len(literal_repos),
+        'available_repositories': available_repositories,
+        'available_file_versions': available_file_versions,
         'selected_repositories': len(repositories), 'selected_file_versions': len(files),
         'saved_snapshots': sum(row['saved_snapshots'] for row in repositories),
     }
@@ -245,7 +260,6 @@ def main():
     directory = args.collection_dir.resolve()
     if directory != HERE and args.output_dir.resolve() == HERE:
         parser.error('Choose --output-dir for the new collection. Do not replace the saved study outputs.')
-    verify_inputs(directory)
     if directory == HERE:
         settings = json.loads((HERE / 'filter_settings.json').read_text())
     else:

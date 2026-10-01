@@ -1,0 +1,25 @@
+{
+  "hardware": {
+    "platform": "Linux-5.15.0-185-generic-x86_64-with-glibc2.35",
+    "kernel": "5.15.0-185-generic",
+    "architecture": "x86_64",
+    "python": "3.10.12",
+    "allocated_logical_cpus": 16,
+    "cpu_model": "AMD EPYC 9474F 48-Core Processor",
+    "physical_memory_bytes": 67420581888,
+    "physical_memory_gib": 62.79030990600586
+  },
+  "workers_per_method": 2,
+  "repository_timeout_seconds": 43200.0,
+  "repository_memory_limit_bytes": 12884901888,
+  "execution_order": [
+    "drosos",
+    "yasmin",
+    "mist"
+  ],
+  "method_wall_seconds": {
+    "drosos": 173954.1619,
+    "yasmin": 1238.5367,
+    "mist": 772.1265
+  }
+}

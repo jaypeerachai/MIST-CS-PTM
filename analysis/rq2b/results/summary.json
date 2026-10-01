@@ -1,0 +1,39 @@
+{
+  "scope": {
+    "repositories": 411,
+    "releases": 6433,
+    "release_lines": 575,
+    "release_pairs": 5858
+  },
+  "changes": 3154,
+  "visibility": {
+    "fully_visible": {
+      "changes": 309,
+      "share": 0.0979708306911858
+    },
+    "partly_visible": {
+      "changes": 2,
+      "share": 0.0006341154090044388
+    },
+    "not_visible": {
+      "changes": 2843,
+      "share": 0.9013950538998098
+    }
+  },
+  "replacements": {
+    "changes": 463,
+    "fully_visible": 22,
+    "partly_visible": 2,
+    "not_visible": 439,
+    "fully_visible_share": 0.047516198704103674
+  },
+  "release_pairs": {
+    "total": 5858,
+    "mist_changed": 706,
+    "existing_changed": 143,
+    "overlap": 124,
+    "mist_only": 582,
+    "existing_only": 19,
+    "with_fully_visible_change": 110
+  }
+}

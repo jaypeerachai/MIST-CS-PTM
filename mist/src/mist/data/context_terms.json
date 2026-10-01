@@ -1,0 +1,89 @@
+{
+  "call": {
+    "fallback_model_args": [
+      "model",
+      "model_name",
+      "deployment_name",
+      "embedding_model",
+      "small_model"
+    ],
+    "generic_terminals": [
+      "call",
+      "complete",
+      "create",
+      "generate",
+      "open",
+      "post",
+      "request",
+      "send"
+    ]
+  },
+  "context": {
+    "model_carrier_terms": [
+      "model",
+      "models",
+      "model_id",
+      "model_name",
+      "model_type",
+      "deployment",
+      "deployment_id",
+      "deployment_name",
+      "engine",
+      "llm",
+      "chat_model",
+      "embedding_model"
+    ],
+    "metadata_terms": [
+      "token",
+      "tokens",
+      "tokenizer",
+      "counter",
+      "count",
+      "price",
+      "pricing",
+      "cost",
+      "schema",
+      "context",
+      "context_window",
+      "limit",
+      "max",
+      "encoding"
+    ],
+    "descriptive_terms": [
+      "description",
+      "desc",
+      "doc",
+      "docs",
+      "example",
+      "examples",
+      "sample",
+      "samples",
+      "tutorial",
+      "readme",
+      "comment",
+      "message"
+    ],
+    "model_id_validation_calls": [
+      "any",
+      "all"
+    ],
+    "model_id_validation_methods": [
+      "startswith",
+      "endswith"
+    ],
+    "function_default_extra_model_terms": [
+      "orchestrator"
+    ],
+    "cli_command_target_terms": [
+      "args",
+      "argv",
+      "cmd",
+      "command",
+      "commands"
+    ],
+    "short_ambiguous_openai_model_ids": [
+      "o1",
+      "o3"
+    ]
+  }
+}

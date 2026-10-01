@@ -1,0 +1,29 @@
+{
+  "population": {
+    "binding_pairs": 9603,
+    "release_pairs": 1852
+  },
+  "screening": {
+    "no_edit_found": 8129,
+    "unresolved": 773,
+    "edited": 701
+  },
+  "review_outcomes": {
+    "unresolved": 40,
+    "change": 134,
+    "invalid": 203,
+    "unchanged": 324
+  },
+  "reviewed_binding_pairs": 458,
+  "changing_binding_pairs": 134,
+  "changing_binding_share": 0.2925764192139738,
+  "changed_release_pairs": 74,
+  "changed_repositories": 49,
+  "path_surface": {
+    "reduced": 1,
+    "unchanged": 67,
+    "expanded": 5,
+    "moved": 1
+  },
+  "frequency_scope": "Valid reviewed binding pairs with code edits and unchanged repository-wide PTM-ID counts."
+}

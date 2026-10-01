@@ -1,0 +1,19 @@
+interface_origin,family_id,family_name
+openai,F01,Provider SDK
+anthropic,F01,Provider SDK
+google,F01,Provider SDK
+xai_sdk,F01,Provider SDK
+dashscope,F01,Provider SDK
+groq,F01,Provider SDK
+vertexai,F02,Cloud-platform SDK
+azure,F02,Cloud-platform SDK
+litellm,F03,Integration and orchestration framework
+langchain_openai,F03,Integration and orchestration framework
+langchain_google_genai,F03,Integration and orchestration framework
+llama_index,F03,Integration and orchestration framework
+crewai,F03,Integration and orchestration framework
+agents,F03,Integration and orchestration framework
+autogen_core,F03,Integration and orchestration framework
+requests,F04,Raw HTTP
+httpx,F04,Raw HTTP
+urllib,F04,Raw HTTP

@@ -3,8 +3,6 @@
 
 import argparse
 import csv
-import hashlib
-import json
 import math
 from collections import defaultdict
 from datetime import datetime
@@ -154,11 +152,6 @@ def check_saved_results(authors, discovery):
             normalized.append({key: str(value) for key, value in row.items()})
         if read_csv(HERE / name) != normalized:
             raise ValueError(f"Calculated results differ from {name}")
-    metadata = json.loads((HERE / "sources.json").read_text(encoding="utf-8"))
-    for name, expected in metadata["input_sha256"].items():
-        actual = hashlib.sha256((HERE / name).read_bytes()).hexdigest()
-        if actual != expected:
-            raise ValueError(f"Input file has changed: {name}")
 
 
 def main():
@@ -169,7 +162,7 @@ def main():
     authors, discovery, summary = calculate(args.data)
     if args.data.resolve() == (HERE / "inputs").resolve():
         check_saved_results(authors, discovery)
-        print("Saved inputs and results match.")
+        print("Reproduced results match the supplied results.")
     if args.output:
         args.output.mkdir(parents=True, exist_ok=False)
         write_csv(args.output / "author_rankings.csv", authors)

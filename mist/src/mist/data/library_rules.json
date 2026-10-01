@@ -1,0 +1,69 @@
+{
+  "service_clients": {
+    "openai.OpenAI": {
+      "endpoint_arguments": ["base_url"],
+      "allowed_options": ["base_url", "api_key", "organization", "project", "timeout", "max_retries"]
+    },
+    "openai.AsyncOpenAI": {
+      "endpoint_arguments": ["base_url"],
+      "allowed_options": ["base_url", "api_key", "organization", "project", "timeout", "max_retries"]
+    },
+    "crewai.LLM": {
+      "endpoint_arguments": ["base_url"],
+      "allowed_options": ["base_url", "model", "api_key", "temperature", "timeout", "max_tokens"]
+    },
+    "langchain_openai.ChatOpenAI": {
+      "endpoint_arguments": ["base_url", "openai_api_base"],
+      "allowed_options": ["base_url", "openai_api_base", "model", "model_name", "api_key", "openai_api_key", "temperature", "timeout", "max_retries", "max_tokens"]
+    }
+  },
+  "fixture_clients": {
+    "openai.OpenAI": "base_url",
+    "openai.AsyncOpenAI": "base_url"
+  },
+  "fixture_routes": {
+    "chat.completions.create": "/chat/completions",
+    "completions.create": "/completions",
+    "responses.create": "/responses",
+    "embeddings.create": "/embeddings",
+    "images.generate": "/images/generations"
+  },
+  "fixture_environment": ["OPENAI_API_KEY", "OPENAI_API_BASE", "OPENAI_BASE_URL", "OPENAI_ORG_ID", "OPENAI_PROJECT_ID"],
+  "http_calls": {
+    "requests.post": 0,
+    "requests.request": 1,
+    "httpx.post": 0,
+    "httpx.request": 1
+  },
+  "http_options": ["url", "method", "json", "data", "headers", "params", "timeout", "verify", "cert", "follow_redirects", "allow_redirects"],
+  "endpoint_aliases": {
+    "openai.resources.chat.completions.Completions.create": [
+      "openai.OpenAI.chat.completions.create",
+      "openai.AzureOpenAI.chat.completions.create"
+    ],
+    "openai.resources.chat.completions.AsyncCompletions.create": [
+      "openai.AsyncOpenAI.chat.completions.create",
+      "openai.AsyncAzureOpenAI.chat.completions.create"
+    ]
+  },
+  "uncertainty_checks": {
+    "endpoint_environment": {
+      "openai": ["OPENAI_API_BASE", "OPENAI_BASE_URL"],
+      "litellm": ["OPENAI_API_BASE", "OPENAI_BASE_URL"]
+    },
+    "transport_methods": {
+      "httpx.Client.send": ["openai", "litellm", "httpx"],
+      "httpx.AsyncClient.send": ["openai", "litellm", "httpx"],
+      "requests.sessions.Session.send": ["litellm", "requests"],
+      "requests.Session.send": ["litellm", "requests"]
+    },
+    "explicit_endpoint_clients": {
+      "openai.OpenAI": ["base_url"],
+      "openai.AsyncOpenAI": ["base_url"]
+    },
+    "protected_fixture_symbols": [
+      "openai", "fastapi", "uvicorn", "subprocess", "json", "pydantic", "starlette.responses",
+      "sys.path", "sys.executable", "socket", "contextlib", "argparse", "pathlib", "requests", "time"
+    ]
+  }
+}
