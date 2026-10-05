@@ -8,7 +8,7 @@ Use Python 3.10 or later. From this directory:
 
 ```bash
 python3 -m pip install -r requirements.txt
-python3 analyze.py --database /path/to/ptm_reuse.sqlite --output reproduced
+python3 analyze.py --database /path/to/ptm_database/ptm_reuse.sqlite --output reproduced
 ```
 
 > [!IMPORTANT]
@@ -16,7 +16,7 @@ python3 analyze.py --database /path/to/ptm_reuse.sqlite --output reproduced
 
 ## Results
 
-`results/` contains the summaries and plots for 2,457 bindings in 450 repositories.
+The script selects confirmed snapshot bindings from the population database. `results/` contains the summaries and plots for 2,457 bindings in 450 repositories.
 
 | File | Contents |
 | --- | --- |

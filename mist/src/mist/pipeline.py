@@ -88,10 +88,9 @@ def analyze(repo, commit, repository, output, full=False, model_ids=None, sink_m
                 decisions.append({"occurrence_id": row["model_id_occurrence_id"],
                                   "ptm_id": row["canonical_model_id"], "path": row["file_path"],
                                   "line": row["line_number"], "column": row["column_start"],
-                                  "confirmed_reuse": status == "confirmed_real_reuse", "status": status,
-                                  "reason": trace["reason"] if trace else row["reason"]})
+                                  "confirmed_reuse": status == "confirmed_real_reuse", "status": status})
             write_rows(output / "decisions.csv", decisions,
-                       ["occurrence_id", "ptm_id", "path", "line", "column", "confirmed_reuse", "status", "reason"])
+                       ["occurrence_id", "ptm_id", "path", "line", "column", "confirmed_reuse", "status"])
             shutil.copyfile(traces / "binding_source_sink_traces.csv", output / "traces.csv")
             shutil.copyfile(traces / "binding_trace_steps.csv", output / "trace_steps.csv")
             for source, target in (
@@ -104,9 +103,13 @@ def analyze(repo, commit, repository, output, full=False, model_ids=None, sink_m
             checks = json.loads(audit.read_text())["checks"] if audit.exists() else []
             (output / "mock_checks.json").write_text(json.dumps({"checks": checks}, indent=2) + "\n")
             if full:
+                shutil.copyfile(seeds / "model_id_occurrences.csv", output / "model_id_occurrences.csv")
+                shutil.copyfile(seeds / "import_origin_occurrences.csv", output / "import_origin_occurrences.csv")
                 shutil.copyfile(traces / "binding_trace_graph_edges.csv", output / "binding_graph.csv")
+                shutil.copyfile(loaders / "call_graph_edges.csv", output / "call_graph_edges.csv")
                 shutil.copyfile(loaders / "loader_candidates.csv", output / "candidate_calls.csv")
                 shutil.copyfile(contexts / "model_id_contexts.csv", output / "source_contexts.csv")
+            binding_summary = json.loads((traces / "binding_summary.json").read_text())
             summary = {"engine": "MIST", "repository": repository, "commit": commit,
                        "confirmed_reuse": any(row["confirmed_reuse"] for row in decisions),
                        "occurrences": len(decisions),
@@ -117,11 +120,11 @@ def analyze(repo, commit, repository, output, full=False, model_ids=None, sink_m
                                     ["jedi", "parso", "networkx", "openpyxl", "httpx", "requests"]},
                        "inputs_sha256": {path.name: file_hash(path) for path in sorted(DATA_DIR.iterdir()) if path.is_file()},
                        "lookup": json.loads((loaders / "call_summary.json").read_text())["jedi_origin_edges"],
-                       "tracing": json.loads((traces / "binding_summary.json").read_text())["jedi_graph_evidence"]}
+                       "tracing": binding_summary["jedi_graph_evidence"],
+                       "jedi_diagnostics": binding_summary["analysis_status"]}
             summary["parse_errors"] = {row["file_path"]: row["parse_error"]
                                        for row in read_csv(facts / "files.csv") if row["parse_error"]}
-            summary["parse_errors"].update(
-                json.loads((traces / "binding_summary.json").read_text())["repo_parse_error_files"])
+            summary["parse_errors"].update(binding_summary["repo_parse_error_files"])
             summary['sink_mode'] = sink_mode
             summary['checked_bindings'] = len(read_csv(output / 'sink_checks.csv'))
             summary['confirmed_bindings'] = len(read_csv(output / 'bindings.csv'))

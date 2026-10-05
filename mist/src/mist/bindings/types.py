@@ -107,15 +107,9 @@ class TraceResult:
     loader_call: str
     loader_origin: str
     trace_status: str
-    trace_confidence: str
-    trace_kind: str
     path_length: str
-    used_source_sink_graph: bool
     used_interprocedural_edges: bool
     used_interfile_edges: bool
-    used_ui_flow_edges: bool
-    jedi_status: str
-    reason: str
     binding_locality: str = "unresolved"
 
 
@@ -128,10 +122,6 @@ class TraceStep:
     line_number: str
     node_id: str
     evidence: str
-    procedure: str = ""
-    end_line_number: str = ""
-    scope: str = ""
-    record_kind: str = "graph_node"
 
 
 @dataclass(frozen=True)

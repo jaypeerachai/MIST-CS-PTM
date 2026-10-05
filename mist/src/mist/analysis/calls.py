@@ -165,7 +165,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     )
     dynamic_loader_resolutions = propagate_dynamic_loaders(files, rules, graph)
     # Candidate matching happens after propagation so wrapper calls get a fair chance.
-    candidates, evidence_rows = find_loader_candidates(
+    candidates = find_loader_candidates(
         files=files,
         rules=rules,
         symbol_origins=symbol_origins,
@@ -177,7 +177,6 @@ def main(argv: Sequence[str] | None = None) -> int:
     )
 
     write_csv(output_dir / "loader_candidates.csv", candidates)
-    write_csv(output_dir / "loader_candidate_evidence_steps.csv", evidence_rows)
     write_graph_edges(output_dir / "call_graph_edges.csv", graph)
 
     summary = {
@@ -200,12 +199,9 @@ def main(argv: Sequence[str] | None = None) -> int:
             "error": jedi_origin_stats.error,
         },
         "loader_candidates": len(candidates),
-        "confidence_counts": count_values(candidates, "confidence"),
+        "binding_eligible_counts": count_values(candidates, "binding_eligible"),
         "outputs": {
             "loader_candidates": display_output_path(output_dir / "loader_candidates.csv", resolve=True),
-            "loader_candidate_evidence_steps": display_output_path(
-                output_dir / "loader_candidate_evidence_steps.csv", resolve=True
-            ),
             "call_graph_edges": display_output_path(output_dir / "call_graph_edges.csv", resolve=True),
             "summary": display_output_path(output_dir / "call_summary.json", resolve=True),
         },
@@ -1385,7 +1381,7 @@ def find_loader_candidates(
     graph: nx.DiGraph,
     repo_full_name: str,
     commit: str,
-) -> tuple[list[dict[str, object]], list[dict[str, object]]]:
+) -> list[dict[str, object]]:
     suffix_rules: dict[str, list[LoaderRule]] = {}
     terminal_rules: dict[str, list[LoaderRule]] = {}
     all_model_args = set(DEFAULT_MODEL_ARGS)
@@ -1397,7 +1393,6 @@ def find_loader_candidates(
         all_model_args.update(rule.model_args)
 
     candidates = []
-    evidence = []
     candidate_index = 0
     for file in files.values():
         env = file_env(file, symbol_origins)
@@ -1437,10 +1432,9 @@ def find_loader_candidates(
             if not matched_rules:
                 continue
             if dynamic_resolution:
-                confidence = "high"
-                reason = "dynamic loader callable resolved from codebook loader string and called"
+                binding_eligible = True
             else:
-                confidence, reason = score_call_candidate(
+                binding_eligible = classify_call_candidate(
                     call=call,
                     matched_suffix_rules=matched_suffix_rules,
                     matched_rules=matched_rules,
@@ -1448,7 +1442,7 @@ def find_loader_candidates(
                     has_model_arg=has_model_arg,
                     has_model_payload=has_model_payload,
                 )
-            if not confidence:
+            if binding_eligible is None:
                 continue
             matched_rule_origins = unique(rule.import_origin for rule in matched_rules)
             candidate_index += 1
@@ -1471,33 +1465,14 @@ def find_loader_candidates(
                 "receiver_origin": receiver_origin,
                 "origin_resolution_method": receiver_resolution.method,
                 "origin_resolution_evidence": receiver_resolution.evidence,
-                "keyword_args": "|".join(call.keyword_args),
                 "has_model_arg": has_model_arg,
                 "has_model_payload": has_model_payload,
-                "confidence": confidence,
-                "reason": reason,
-                "call_decision": "include",
-                "call_sink_eligible": True,
-                "call_anchor": (
-                    "dynamic_loader_string"
-                    if receiver_resolution.method == "dynamic_loader_string_resolver"
-                    else "resolved_import_origin"
-                ),
+                "binding_eligible": binding_eligible,
                 "line_text": call.line_text,
             }
             candidates.append(row)
-            add_call_graph_nodes(graph, candidate_id, call, receiver_origin, matched_loader_values, confidence)
-            evidence.extend(
-                evidence_steps(
-                    candidate_id,
-                    call,
-                    receiver_symbol,
-                    receiver_resolution,
-                    matched_rules,
-                    location_url,
-                )
-            )
-    return candidates, evidence
+            add_call_graph_nodes(graph, candidate_id, call, receiver_origin, matched_loader_values, binding_eligible)
+    return candidates
 
 
 def origin_compatible_rules(rules: list[LoaderRule], receiver_origin: str) -> list[LoaderRule]:
@@ -1507,14 +1482,15 @@ def origin_compatible_rules(rules: list[LoaderRule], receiver_origin: str) -> li
     return [rule for rule in rules if rule.import_origin == receiver_origin]
 
 
-def score_call_candidate(
+def classify_call_candidate(
     call: CallRecord,
     matched_suffix_rules: list[LoaderRule],
     matched_rules: list[LoaderRule],
     receiver_origin: str,
     has_model_arg: bool,
     has_model_payload: bool,
-) -> tuple[str, str]:
+) -> bool | None:
+    """Return sink eligibility, or None when the call is not a candidate."""
     terminal = call.chain_parts[-1]
     has_model_evidence = has_model_arg or has_model_payload
     matched_origins = {rule.import_origin for rule in matched_rules}
@@ -1527,18 +1503,18 @@ def score_call_candidate(
     )
 
     if http_like_only and not has_model_payload:
-        return "", ""
+        return None
     if single_token_suffix_only and not receiver_matches_rule:
-        return "", ""
+        return None
     if not receiver_matches_rule:
-        return "", ""
+        return None
     if matched_suffix_rules and receiver_matches_rule:
-        return "high", "receiver origin propagated to codebook import origin and call chain matches chain_suffix"
+        return True
     if receiver_matches_rule and has_model_evidence and terminal not in GENERIC_TERMINALS:
-        return "high", "receiver origin propagated to codebook import origin and terminal_call has model evidence"
+        return True
     if terminal in GENERIC_TERMINALS and has_model_evidence and receiver_matches_rule:
-        return "low", "generic terminal has model evidence and receiver origin match"
-    return "", ""
+        return False
+    return None
 
 
 def call_has_positional_model_arg(call: CallRecord, matched_rules: list[LoaderRule]) -> bool:
@@ -1631,65 +1607,6 @@ def resolve_dynamic_loader_for_call(
     return None
 
 
-def evidence_steps(
-    candidate_id: str,
-    call: CallRecord,
-    receiver_symbol: str,
-    receiver_resolution: OriginResolution,
-    matched_rules: list[LoaderRule],
-    location_url: str,
-) -> list[dict[str, object]]:
-    rows = []
-    step = 1
-    if receiver_resolution.origin:
-        rows.append(
-            {
-                "loader_candidate_id": candidate_id,
-                "step_number": step,
-                "step_role": "receiver_origin",
-                "file_path": call.file_path,
-                "line_number": call.node.lineno,
-                "location_url": location_url,
-                "symbol_or_fragment": receiver_symbol,
-                "explanation": (
-                    f"receiver is propagated from import origin {receiver_resolution.origin}"
-                    f" using {receiver_resolution.method}"
-                ),
-            }
-        )
-        step += 1
-    rows.append(
-        {
-            "loader_candidate_id": candidate_id,
-            "step_number": step,
-            "step_role": "call_chain",
-            "file_path": call.file_path,
-            "line_number": call.node.lineno,
-            "location_url": location_url,
-            "symbol_or_fragment": call.visible_chain,
-            "explanation": (
-                "dynamic loader callable resolved from codebook loader string"
-                if receiver_resolution.method == "dynamic_loader_string_resolver"
-                else "visible call chain matched loader codebook"
-            ),
-        }
-    )
-    step += 1
-    rows.append(
-        {
-            "loader_candidate_id": candidate_id,
-            "step_number": step,
-            "step_role": "matched_loader",
-            "file_path": call.file_path,
-            "line_number": call.node.lineno,
-            "location_url": location_url,
-            "symbol_or_fragment": "|".join(unique(rule.model_loader for rule in matched_rules)),
-            "explanation": "matched canonical loader signature(s)",
-        }
-    )
-    return rows
-
-
 def add_origin_edge(graph: nx.DiGraph, origin: str, symbol: str, edge_kind: str, line_number: int) -> None:
     origin_node = f"origin:{origin}"
     symbol_node = f"symbol:{symbol}"
@@ -1704,12 +1621,12 @@ def add_call_graph_nodes(
     call: CallRecord,
     receiver_origin: str,
     matched_loaders: list[str],
-    confidence: str,
+    binding_eligible: bool,
 ) -> None:
     call_node = f"call:{call.file_path}:{call.node.lineno}:{call.node.col_offset}"
     candidate_node = f"loader_candidate:{candidate_id}"
     graph.add_node(call_node, kind="call", label=call.visible_chain)
-    graph.add_node(candidate_node, kind="loader_candidate", label=candidate_id, confidence=confidence)
+    graph.add_node(candidate_node, kind="loader_candidate", label=candidate_id, binding_eligible=binding_eligible)
     graph.add_edge(call_node, candidate_node, kind="is_loader_candidate")
     for loader in matched_loaders:
         loader_node = f"loader:{loader}"

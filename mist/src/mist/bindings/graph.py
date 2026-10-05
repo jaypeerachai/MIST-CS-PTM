@@ -929,11 +929,9 @@ class SourceSinkBuilder:
                     "receiver_origin": matched_origin,
                     "origin_resolution_method": "jedi_resolved_internal_provider_origin",
                     "origin_resolution_evidence": "resolved implementation file imports provider and assigns provider client",
-                    "keyword_args": "|".join(sorted(keyword.arg for keyword in node.keywords if keyword.arg)),
                     "has_model_arg": "True",
                     "has_model_payload": "False",
-                    "confidence": "high",
-                    "reason": "Jedi-resolved implementation contains codebook-matched provider sink",
+                    "binding_eligible": True,
                     "line_text": line_at(facts.lines, node.lineno),
                 }
                 self._add_node(sink, kind="loader_sink", file_path=rel_path, line_number=node.lineno, label=visible_chain)

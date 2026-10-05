@@ -110,7 +110,6 @@ def write_binding_summary(
         "syntax_cache": str(args.syntax_cache) if args.syntax_cache else "",
         "binding_allowed_model_rows": len(model_rows),
         "eligible_loader_candidates": len(loader_rows),
-        "eligible_loader_confidence_counts": count_values(loader_rows, "confidence"),
         "skipped_reason": skipped_reason,
         "jedi_graph_evidence": jedi_summary,
         "framework_config_graph_evidence": framework_config_summary(args, graph),
@@ -124,8 +123,6 @@ def write_binding_summary(
         "source_sink_graph_edges": graph.number_of_edges(),
         "trace_rows": len(traces),
         "trace_status_counts": count_values(traces, "trace_status"),
-        "trace_confidence_counts": count_values(traces, "trace_confidence"),
-        "trace_kind_counts": count_values(traces, "trace_kind"),
         "analysis_status": asdict(analysis_status),
         "identity_vocabulary": identity_vocab.summary(),
         "outputs": {

@@ -24,11 +24,11 @@ The diagram shows data collection, annotation, and MIST evaluation on the left, 
 | Folder | Contents |
 | --- | --- |
 | [collection/](collection/README.md) | PTM catalogue selection, GitHub collection, and saved inputs |
-| [mist/](mist/README.md) | The tool, 427 PTM IDs, detection rules, and a fixed example |
+| [mist/](mist/README.md) | The tool, 427 PTM IDs, and detection rules |
 | [analysis/rq1/](analysis/rq1/evaluation/README.md) | Annotation codebooks, classification, reachability, and baseline evaluation |
 | [analysis/rq2a/](analysis/rq2a/README.md) | Access interfaces, interface mixing, and binding locality |
 | [analysis/rq2b/](analysis/rq2b/README.md) | PTM change detection, count visibility, integration annotations, and change breadth |
-| [database/](database/README.md) | SQLite schema, database checks, and access to saved code evidence |
+| [database/](database/README.md) | SQLite schema and access to saved code evidence |
 
 ## ⚙️ Reproducing the study
 
@@ -54,12 +54,14 @@ To reproduce the remaining steps:
 
 ## 🗄️ Database and evidence
 
-**Zenodo archive: still preparing.** The DOI and download link will be added here.
+**Dataset and validation evidence:** [Figshare (private review link)](https://figshare.com/s/7cc2423e7aae7520888d).
 
-The archive will contain SQLite databases, record exports, and available source, graph, and validation evidence. Keep the database and its evidence folders together as described in the [database guide](database/README.md).
+The archive contains one SQLite database in `ptm_database/`, a summary, and available source, graph, and validation evidence. It retains the 1,219-repository population, confirmed snapshot bindings from 450 repositories for RQ2a, and the 411 repository histories analyzed in RQ2b. Keep the database and its evidence folders together as described in the [database guide](database/README.md).
+
+It also includes `rq1_validation_evidence/`, with nine MIST output files per repository for the 86 benchmark and 100 unseen holdout repositories. The [RQ1 guide](analysis/rq1/evaluation/README.md#recalculate-reachability) explains how to recalculate reachability from the graphs in its `benchmark/` folder.
 
 > [!IMPORTANT]
-> RQ2b requires the full `ptm_validation_population` database to reproduce study-wide release-pair comparisons. The `ptm_database` export contains confirmed downstream repositories and supports RQ2a, but has a smaller historical scope. RQ1 scoring and offline collection replay do not need either database.
+> RQ2a and RQ2b use the same database. The scripts select snapshot bindings or release histories as needed. Keep all 5,858 release pairs for RQ2b. RQ1 scoring and offline collection replay do not need the database.
 
 ## Notes on reproducibility
 
@@ -70,4 +72,4 @@ Keep MIST's pinned library versions, as import resolution can depend on the inst
 
 ## Citation
 
-Paper citation details will be added when available. Please cite the paper and the Zenodo archive when using this package.
+Paper citation details will be added when available. Please cite the paper and the Figshare dataset when using this package.

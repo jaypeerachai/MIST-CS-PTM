@@ -13,7 +13,7 @@ import io
 import json
 import re
 import tokenize
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, fields
 from datetime import datetime
 from pathlib import Path
 from typing import Iterable, Sequence
@@ -27,7 +27,6 @@ from mist.rules.path_terms import EXAMPLE_DEMO_TOKENS, FILENAME_EXAMPLE_DEMO_TOK
 
 @dataclass(frozen=True)
 class ModelIdOccurrence:
-    node_kind: str
     canonical_model_id: str
     matched_text: str
     variant: str
@@ -41,12 +40,10 @@ class ModelIdOccurrence:
     fp_signal: str
     excluded_from_main_queue: bool
     occurrence_decision: str
-    occurrence_exclusion_reason: str
 
 
 @dataclass(frozen=True)
 class ImportOriginOccurrence:
-    node_kind: str
     import_origin: str
     import_style: str
     imported_name: str
@@ -54,9 +51,6 @@ class ImportOriginOccurrence:
     file_path: str
     line_number: int
     line_text: str
-    path_signal: str
-    occurrence_decision: str
-    occurrence_exclusion_reason: str
 
 
 def main(argv: Sequence[str] | None = None) -> int:
@@ -86,8 +80,15 @@ def main(argv: Sequence[str] | None = None) -> int:
             import_origins,
         )
 
-    write_csv(output_dir / "model_id_occurrences.csv", [asdict(row) for row in model_rows])
-    write_csv(output_dir / "import_origin_occurrences.csv", [asdict(row) for row in import_rows])
+    for name, rows, record_type in (
+        ("model_id_occurrences.csv", model_rows, ModelIdOccurrence),
+        ("import_origin_occurrences.csv", import_rows, ImportOriginOccurrence),
+    ):
+        with (output_dir / name).open("w", newline="", encoding="utf-8", errors="backslashreplace") as handle:
+            writer = csv.DictWriter(handle, fieldnames=[field.name for field in fields(record_type)],
+                                    escapechar="\\")
+            writer.writeheader()
+            writer.writerows(asdict(row) for row in rows)
     write_csv(
         output_dir / "occurrence_seed_nodes.csv",
         normalize_combined_rows(model_rows, import_rows),
@@ -224,7 +225,7 @@ def scan_live_repo(
         if tree is None:
             continue
         # Imports are AST-based so aliases and from-imports are captured consistently.
-        import_rows.extend(scan_import_origins(rel_path, lines, tree, import_origins, path_signal))
+        import_rows.extend(scan_import_origins(rel_path, lines, tree, import_origins))
 
     return python_files, parse_errors, model_rows, import_rows
 
@@ -271,7 +272,6 @@ def scan_from_syntax_cache(
                 rel_path,
                 imports_by_file.get(rel_path, []),
                 import_origins,
-                path_signal,
             )
         )
         if row.get("parse_error", ""):
@@ -311,7 +311,6 @@ def import_origin_rows_from_cache(
     rel_path: str,
     cached_imports: list[dict[str, str]],
     import_origins: set[str],
-    path_signal: str,
 ) -> list[ImportOriginOccurrence]:
     rows: list[ImportOriginOccurrence] = []
     for cached in cached_imports:
@@ -320,7 +319,6 @@ def import_origin_rows_from_cache(
             continue
         rows.append(
             ImportOriginOccurrence(
-                node_kind="import_origin_occurrence",
                 import_origin=root,
                 import_style=cached.get("import_style", ""),
                 imported_name=cached.get("imported_name", ""),
@@ -328,9 +326,6 @@ def import_origin_rows_from_cache(
                 file_path=rel_path,
                 line_number=int(cached.get("line_number") or 0),
                 line_text=cached.get("line_text", ""),
-                path_signal=path_signal,
-                occurrence_decision="include",
-                occurrence_exclusion_reason="",
             )
         )
     return rows
@@ -358,10 +353,8 @@ def scan_model_ids(
                     path_signal in {"example_or_demo_code", "third_party_or_vendored_code"}
                     or fp_signal == "docstring_comment"
                 )
-                exclusion_reason = occurrence_exclusion_reason(fp_signal, path_signal)
                 rows.append(
                     ModelIdOccurrence(
-                        node_kind="model_id_occurrence",
                         canonical_model_id=canonical_model_id,
                         matched_text=needle,
                         variant=variant,
@@ -375,20 +368,10 @@ def scan_model_ids(
                         fp_signal=fp_signal,
                         excluded_from_main_queue=excluded,
                         occurrence_decision="exclude" if excluded else "include",
-                        occurrence_exclusion_reason=exclusion_reason if excluded else "",
                     )
                 )
                 start = end
     return rows
-
-
-def occurrence_exclusion_reason(fp_signal: str, path_signal: str) -> str:
-    """Return the review-friendly reason for excluding a model-ID seed."""
-    if fp_signal:
-        return fp_signal
-    if path_signal in {"example_or_demo_code", "third_party_or_vendored_code"}:
-        return path_signal
-    return ""
 
 
 def collect_source_context_spans(
@@ -463,7 +446,6 @@ def scan_import_origins(
     lines: list[str],
     tree: ast.AST,
     import_origins: set[str],
-    path_signal: str,
 ) -> list[ImportOriginOccurrence]:
     rows = []
     for node in ast.walk(tree):
@@ -473,7 +455,6 @@ def scan_import_origins(
                 if root in import_origins:
                     rows.append(
                         ImportOriginOccurrence(
-                            node_kind="import_origin_occurrence",
                             import_origin=root,
                             import_style="import",
                             imported_name=alias.name,
@@ -481,9 +462,6 @@ def scan_import_origins(
                             file_path=rel_path,
                             line_number=node.lineno,
                             line_text=line_at(lines, node.lineno),
-                            path_signal=path_signal,
-                            occurrence_decision="include",
-                            occurrence_exclusion_reason="",
                         )
                     )
         elif isinstance(node, ast.ImportFrom) and node.module:
@@ -492,7 +470,6 @@ def scan_import_origins(
                 for alias in node.names:
                     rows.append(
                         ImportOriginOccurrence(
-                            node_kind="import_origin_occurrence",
                             import_origin=root,
                             import_style="from",
                             imported_name=f"{node.module}.{alias.name}",
@@ -500,9 +477,6 @@ def scan_import_origins(
                             file_path=rel_path,
                             line_number=node.lineno,
                             line_text=line_at(lines, node.lineno),
-                            path_signal=path_signal,
-                            occurrence_decision="include",
-                            occurrence_exclusion_reason="",
                         )
                     )
     return rows
@@ -556,7 +530,7 @@ def normalize_combined_rows(
         data = asdict(row)
         rows.append(
             {
-                "node_kind": data.pop("node_kind"),
+                "node_kind": "model_id_occurrence",
                 "file_path": data.pop("file_path"),
                 "line_number": data.pop("line_number"),
                 "primary_value": data.pop("canonical_model_id"),
@@ -568,7 +542,7 @@ def normalize_combined_rows(
         data = asdict(row)
         rows.append(
             {
-                "node_kind": data.pop("node_kind"),
+                "node_kind": "import_origin_occurrence",
                 "file_path": data.pop("file_path"),
                 "line_number": data.pop("line_number"),
                 "primary_value": data.pop("import_origin"),

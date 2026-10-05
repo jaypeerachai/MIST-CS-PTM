@@ -1,6 +1,7 @@
 test_*
 sources.json
 source.json
+/mist/examples/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

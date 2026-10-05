@@ -42,14 +42,20 @@ This option works in both output modes. `summary.json` records the selected file
 
 Outputs:
 
-- `decisions.csv`: one decision per PTM ID occurrence.
-- `traces.csv`: source, selected sink, locality, and decision reason.
+- `decisions.csv`: one decision per PTM ID occurrence, with `confirmed_reuse` and `status`.
+- `traces.csv`: source, selected sink, locality, and trace status.
 - `trace_steps.csv`: ordered steps and locations on the recovered paths.
-- `mock_checks.json`: evidence used to check mocked calls.
+- `mock_checks.json`: detailed evidence used to check mocked calls.
 - `summary.json`: counts, commit, environment, and input hashes.
 
+`summary.json` also keeps `jedi_diagnostics` once for the run, including the diagnostic status, file counts, and any error. This does not indicate whether Jedi resolved an individual binding.
+
 > [!TIP]
-> Add `--full` to retain the graph, candidate calls, and source context. Temporary parsing files are removed after the run.
+> Add `--full` to retain discovered ids (`model_id_occurrences.csv`), import records (`import_origin_occurrences.csv`), both graphs, candidate calls, and source context. Temporary parsing files are removed after the run.
+
+`call_graph_edges.csv` records import-origin propagation and candidate-call matching. `binding_graph.csv` records the connections used to trace PTM IDs to calls.
+
+In `candidate_calls.csv`, `binding_eligible=True` means the call can be used as a sink for tracing. It does not confirm reuse. MIST still needs a path from the id and must check for mocked calls. `False` means there is not enough evidence to accept the call as a sink.
 
 ## 🔀 Sink modes
 
@@ -78,17 +84,7 @@ See [graph_reference.xlsx](graph_reference.xlsx) for the graph's node and edge t
 
 `confirmed_reuse=True` means that MIST confirmed an eligible path under the selected mode. Other statuses are not confirmed reuse. An unresolved trace is not proof that a PTM is unused. This command analyzes one snapshot, not changes between releases.
 
-## ✅ Check the example
-
-This small example uses a fixed AudioTTo commit. No API key or target-project installation is needed.
-
-```bash
-git clone https://github.com/Manumarzo/AudioTTo.git /tmp/mist-audiotto
-git -C /tmp/mist-audiotto checkout --detach 73a92c363759ff996d28c21e1ba24a82e444d7cb
-python examples/check_example.py --repo /tmp/mist-audiotto
-```
-
-The check runs MIST and compares all trace rows, ordered path steps, and graph edges against hashes derived from the saved result. Expected outcome: one confirmed occurrence and matching evidence.
+FP statuses use `fp_<category>` from the [non-reuse codebook](../analysis/rq1/codebooks/fp_codebook.xlsx). Unresolved statuses remain separate.
 
 ## 🛠️ Design and implementation
 

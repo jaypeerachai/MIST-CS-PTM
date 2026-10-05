@@ -49,7 +49,13 @@ The included predictions used 199 IDs for the benchmark and the first 50 holdout
 
 ## Recalculate reachability
 
-Run the benchmark with `--full`, then provide those graphs to the reachability script:
+The [Figshare dataset (private review link)](https://figshare.com/s/7cc2423e7aae7520888d) includes `rq1_validation_evidence/`, with saved decisions, paths, and graphs for the 86 benchmark and 100 holdout repositories. `snapshots.csv` lists their commits and output folders, and `cases.csv` links annotated cases to their evidence. To recalculate MIST's benchmark reachability without rerunning the tool:
+
+```bash
+python reachability/evaluate.py --graphs /path/to/rq1_validation_evidence/benchmark
+```
+
+The reader accepts `binding_graph.csv` and `binding_graph.csv.gz` in each repository folder. To generate graphs again, run the benchmark with `--full`:
 
 ```bash
 python run_mist.py --dataset benchmark --full --model-ids /path/to/ptm_ids.csv \

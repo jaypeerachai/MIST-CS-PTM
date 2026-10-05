@@ -32,7 +32,8 @@ class Graph:
     def __init__(self, path, modules):
         self.predecessors = defaultdict(set)
         nodes = set()
-        with path.open(newline='', encoding='utf-8') as handle:
+        opener = gzip.open if path.suffix == '.gz' else open
+        with opener(path, 'rt', newline='', encoding='utf-8') as handle:
             for row in csv.DictReader(handle):
                 self.predecessors[row['target']].add(row['source'])
                 nodes.update((row['source'],row['target']))
@@ -123,7 +124,10 @@ def from_graphs(cases, graphs):
     for (repository,commit), selected in sorted(grouped.items()):
         name = repository.replace('/','__')+'_'+commit[:12]
         print(f'Reading {repository}',flush=True)
-        graph = Graph(graphs/name/'binding_graph.csv',
+        path = graphs/name/'binding_graph.csv'
+        if not path.is_file():
+            path = path.with_suffix('.csv.gz')
+        graph = Graph(path,
                       [r for r in modules if r['repository']==repository and r['commit']==commit])
         for case in selected:
             files = graph.files_from_sinks(json.loads(case['sink_locations']))

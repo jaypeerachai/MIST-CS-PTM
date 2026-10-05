@@ -146,8 +146,6 @@ from .tracing import (
     path_edge_types,
     steps_for_path,
     shortest_path_to_any_sink,
-    confidence_for_path,
-    kind_for_path,
     path_uses_interfile,
 )
 from .types import (

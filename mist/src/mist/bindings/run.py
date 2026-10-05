@@ -65,7 +65,6 @@ def main(argv: Sequence[str] | None = None) -> int:
         traces, steps = make_pregraph_traces(
             repo_snapshot=args.repo_snapshot or infer_repo_snapshot(args.output_dir),
             model_rows=model_rows,
-            analysis_status=analysis_status,
         )
         write_binding_outputs(
             args=args,
@@ -113,7 +112,6 @@ def main(argv: Sequence[str] | None = None) -> int:
     traces, steps, checks, binding_steps = trace_sources_to_sinks(
         repo_snapshot=args.repo_snapshot or infer_repo_snapshot(args.output_dir),
         builder=builder,
-        analysis_status=analysis_status,
         sink_mode=args.sink_mode,
     )
     write_sink_outputs(output_dir, checks, binding_steps)

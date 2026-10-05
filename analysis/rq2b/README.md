@@ -8,13 +8,13 @@ Use Python 3.10 or later. From this directory:
 
 ```bash
 python3 -m pip install -r requirements.txt
-python3 change_detection/detect.py --database /path/to/ptm_validation_population/ptm_reuse.sqlite --output reproduced_changes --verify
-python3 analyze.py --database /path/to/ptm_validation_population/ptm_reuse.sqlite --changes reproduced_changes/ptm_changes.csv --output reproduced
-python3 integration.py --database /path/to/ptm_validation_population/ptm_reuse.sqlite --output reproduced
+python3 change_detection/detect.py --database /path/to/ptm_database/ptm_reuse.sqlite --output reproduced_changes --verify
+python3 analyze.py --database /path/to/ptm_database/ptm_reuse.sqlite --changes reproduced_changes/ptm_changes.csv --output reproduced
+python3 integration.py --database /path/to/ptm_database/ptm_reuse.sqlite --output reproduced
 ```
 
 > [!IMPORTANT]
-> Use the full `ptm_validation_population` database. Start with new or empty output directories; the integration command then adds its files alongside the comparison results without overwriting them. The confirmed-downstream database has a smaller scope. Source archives and graphs are not needed for these commands.
+> Use `ptm_database/ptm_reuse.sqlite`, which retains the 411 analyzed repository histories and all 5,858 release pairs. Do not filter it to the 450 snapshot-positive repositories. Start with new or empty output directories. The integration command then adds its files alongside the comparison results without overwriting them. Source archives and graphs are not needed for these commands.
 
 The scripts repeat matching and analysis, but do not rerun MIST, integration screening, or manual review. Omit `--changes` to analyze the database's stored changes directly. Use `--counts path/to/counts.csv` to supply another existing-method count file.
 

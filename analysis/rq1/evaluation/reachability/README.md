@@ -22,13 +22,13 @@ python evaluate.py
 
 Failures, timeouts, and unmatched sinks count as misses with zero files for scoring. Partial outputs remain in `results.csv` for reference. These misses explain Drosos/PyCG's zero median.
 
-To recalculate MIST from newly generated `--full` results:
+To recalculate MIST from the benchmark graphs in the [Figshare dataset (private review link)](https://figshare.com/s/7cc2423e7aae7520888d):
 
 ```bash
-python evaluate.py --graphs /path/to/results --output /path/to/new-reachability.csv
+python evaluate.py --graphs /path/to/rq1_validation_evidence/benchmark --output /path/to/new-reachability.csv
 ```
 
-This recalculates only MIST; baseline results remain unchanged. To rerun the baselines, see [../baselines/README.md](../baselines/README.md), then score the new file with `python evaluate.py --results /path/to/results.csv`.
+The reader also accepts newly generated `--full` results and plain or compressed graph CSVs. This recalculates only MIST; baseline results remain unchanged. To rerun the baselines, see [../baselines/README.md](../baselines/README.md), then score the new file with `python evaluate.py --results /path/to/results.csv`.
 
 ## Operational metrics
 

@@ -50,7 +50,6 @@ class ModelIdContext:
     source_context: str
     path_signal: str
     occurrence_fp_signal: str
-    occurrence_excluded_from_main_queue: bool
     ast_context: str
     direct_carrier_kind: str
     direct_carrier_name: str
@@ -64,9 +63,7 @@ class ModelIdContext:
     nearest_loader_call: str
     nearest_loader_distance: str
     preliminary_label: str
-    trace_priority: str
     binding_allowed: bool
-    reason: str
 
 
 @dataclass(frozen=True)
@@ -78,7 +75,6 @@ class AstContext:
     function_context: str = ""
     class_context: str = ""
     surrounding_context_terms: str = ""
-    reason: str = ""
 
 
 def main(argv: Sequence[str] | None = None) -> int:
@@ -90,9 +86,10 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     occurrence_rows = read_csv(args.model_occurrences)
     loader_rows = read_csv(args.loader_candidates, missing_ok=True) if args.loader_candidates else []
-    eligible_loader_rows = [row for row in loader_rows if call_loader_is_eligible(row)]
-    loader_contexts = load_loader_contexts(eligible_loader_rows)
-    eligible_loader_count = len(eligible_loader_rows)
+    # Calls with a known origin provide context even when they are not eligible sinks.
+    origin_loader_rows = [row for row in loader_rows if call_loader_has_origin(row)]
+    loader_contexts = load_loader_contexts(origin_loader_rows)
+    origin_loader_count = len(origin_loader_rows)
     contexts: list[ModelIdContext] = []
     parse_cache: dict[
         str,
@@ -108,7 +105,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     for index, row in enumerate(occurrence_rows, start=1):
         rel_path = row["file_path"]
         source_context = row.get("source_context", "code")
-        ast_context = AstContext(ast_context=source_context, reason=f"source_context={source_context}")
+        ast_context = AstContext(ast_context=source_context)
         if source_context == "code":
             # Parse each file once; many model IDs can live in the same file.
             tree, parents, nodes = parse_cache.get(rel_path, (None, {}, ()))
@@ -120,11 +117,11 @@ def main(argv: Sequence[str] | None = None) -> int:
                 ast_context = classify_ast_context(row, tree, parents, nodes)
         # Same-file loader distance is only context here, not proof of reuse.
         loader_context = nearest_loader_context(row, loader_contexts.get(rel_path, []))
-        label, priority, binding_allowed, label_reason = classify_label(
+        label, binding_allowed = classify_label(
             row,
             ast_context,
             loader_context,
-            eligible_loader_count,
+            origin_loader_count,
         )
         contexts.append(
             ModelIdContext(
@@ -140,7 +137,6 @@ def main(argv: Sequence[str] | None = None) -> int:
                 source_context=source_context,
                 path_signal=row.get("path_signal", ""),
                 occurrence_fp_signal=row.get("fp_signal", ""),
-                occurrence_excluded_from_main_queue=parse_bool(row.get("excluded_from_main_queue", "")),
                 ast_context=ast_context.ast_context,
                 direct_carrier_kind=ast_context.direct_carrier_kind,
                 direct_carrier_name=ast_context.direct_carrier_name,
@@ -154,9 +150,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 nearest_loader_call=loader_context.nearest_call,
                 nearest_loader_distance=loader_context.nearest_distance,
                 preliminary_label=label,
-                trace_priority=priority,
                 binding_allowed=binding_allowed,
-                reason="; ".join(part for part in [ast_context.reason, label_reason] if part),
             )
         )
 
@@ -166,13 +160,12 @@ def main(argv: Sequence[str] | None = None) -> int:
         "repo": str(repo),
         "model_occurrences": str(args.model_occurrences),
         "loader_candidates": str(args.loader_candidates) if args.loader_candidates else "",
-        "eligible_loader_candidates": eligible_loader_count,
+        "origin_backed_loader_candidates": origin_loader_count,
         "syntax_cache": str(args.syntax_cache) if args.syntax_cache else "",
         "model_id_occurrences_loaded": len(occurrence_rows),
         "python_files_parsed": len(parse_cache),
         "python_parse_errors": parse_errors,
         "label_counts": count_values(contexts, "preliminary_label"),
-        "trace_priority_counts": count_values(contexts, "trace_priority"),
         "binding_allowed_counts": count_values(contexts, "binding_allowed"),
         "ast_context_counts": count_values(contexts, "ast_context"),
         "direct_carrier_kind_counts": count_values(contexts, "direct_carrier_kind"),
@@ -248,7 +241,6 @@ def classify_ast_context(
             function_context=function_context,
             class_context=class_context,
             surrounding_context_terms=context_terms(row, "", "", function_context, class_context),
-            reason="no AST string node overlaps exact occurrence discovery span",
         )
 
     dict_info = nearest_dict_value(node, parents)
@@ -262,7 +254,6 @@ def classify_ast_context(
             container_name=container,
             function_context=function_context,
             class_context=class_context,
-            reason=f"string literal is a value for dict key {key_name or '<unknown>'}",
         )
 
     keyword = nearest_keyword(node, parents)
@@ -276,7 +267,6 @@ def classify_ast_context(
             container_name=nearest_call_name(node, parents),
             function_context=function_context,
             class_context=class_context,
-            reason=f"string literal is assigned to call keyword {name}",
         )
 
     default_name = nearest_function_default(node, parents)
@@ -288,7 +278,6 @@ def classify_ast_context(
             default_name,
             function_context=function_context,
             class_context=class_context,
-            reason=f"string literal is a default value for parameter {default_name}",
         )
 
     collection_container = nearest_collection_assignment(node, parents)
@@ -300,7 +289,6 @@ def classify_ast_context(
             collection_container,
             function_context=function_context,
             class_context=class_context,
-            reason=f"string literal is an item in collection assigned to {collection_container}",
         )
 
     compare_name = nearest_compare_context(node, parents)
@@ -312,7 +300,6 @@ def classify_ast_context(
             compare_name,
             function_context=function_context,
             class_context=class_context,
-            reason=f"string literal is used in a comparison against {compare_name}",
         )
 
     assignment_name = nearest_assignment_target(node, parents)
@@ -326,17 +313,11 @@ def classify_ast_context(
             assignment_name,
             function_context=function_context,
             class_context=class_context,
-            reason=f"string literal is assigned to {assignment_name}",
         )
 
     call_name, positional_param, helper_feeds_model = nearest_positional_call_info(node, parents)
     if call_name:
         carrier_kind = "call_positional_arg_model_param" if helper_feeds_model else "call_positional_arg"
-        reason = f"string literal is a positional argument to {call_name}"
-        if positional_param:
-            reason += f" parameter {positional_param}"
-        if helper_feeds_model:
-            reason += " that feeds a model keyword in the local helper"
         return make_context(
             row,
             "call_positional_arg",
@@ -345,7 +326,6 @@ def classify_ast_context(
             container_name=positional_param,
             function_context=function_context,
             class_context=class_context,
-            reason=reason,
         )
 
     if nearest_node(node, parents, ast.Return):
@@ -356,7 +336,6 @@ def classify_ast_context(
             "return",
             function_context=function_context,
             class_context=class_context,
-            reason="string literal is returned by a function",
         )
 
     return make_context(
@@ -366,7 +345,6 @@ def classify_ast_context(
         "",
         function_context=function_context,
         class_context=class_context,
-        reason="string literal resolved but no direct carrier was recognized",
     )
 
 
@@ -379,7 +357,6 @@ def make_context(
     container_name: str = "",
     function_context: str = "",
     class_context: str = "",
-    reason: str = "",
 ) -> AstContext:
     return AstContext(
         ast_context=ast_context,
@@ -395,7 +372,6 @@ def make_context(
             function_context,
             class_context,
         ),
-        reason=reason,
     )
 
 
@@ -663,7 +639,7 @@ def classify_label(
     ast_context: AstContext,
     loader_context: LoaderContext,
     eligible_loader_count: int,
-) -> tuple[str, str, bool, str]:
+) -> tuple[str, bool]:
     source_context = row.get("source_context", "")
     path_signal = row.get("path_signal", "")
     occurrence_fp_signal = row.get("fp_signal", "")
@@ -674,115 +650,45 @@ def classify_label(
     model_like = bool((carrier_terms | container_terms) & MODEL_CARRIER_TERMS)
 
     if occurrence_fp_signal == "docstring_comment" or source_context in {"comment", "docstring"}:
-        return "fp_docstring_comment", "excluded", False, "occurrence discovery source context is comment/docstring"
+        return "fp_docstring_comment", False
     if path_signal == "example_or_demo_code":
-        return "fp_path_example_or_demo", "excluded", False, "occurrence discovery path signal marks example/demo code"
+        return "fp_example_or_demo_code", False
     if path_signal == "third_party_or_vendored_code":
-        return "fp_path_third_party_or_vendored", "excluded", False, "occurrence discovery path signal marks third-party/vendored code"
+        return "fp_third_party_or_vendored_code", False
     if is_model_id_validation_context(ast_context):
-        return (
-            "fp_model_id_validation_signal",
-            "excluded",
-            False,
-            "direct carrier indicates model-ID validation/checking rather than model loading",
-        )
+        return "fp_model_id_validation_logic", False
     if is_helper_model_positional_context(ast_context):
-        return (
-            "trace_candidate_medium",
-            "medium",
-            True,
-            "local helper positional argument maps to a parameter that feeds a model keyword",
-        )
+        return "trace_candidate", True
     if is_test_assertion_context(row, ast_context):
-        return (
-            "fp_test_fixture_assertion_signal",
-            "excluded",
-            False,
-            "test fixture/assertion line checks the model-ID value",
-        )
+        return "fp_test_fixture", False
     if is_agent_loading_from_cli_context(row, ast_context):
-        return (
-            "fp_agent_loading_from_cli_signal",
-            "excluded",
-            False,
-            "model ID appears in a CLI command list with a model flag",
-        )
+        return "fp_agent_loading_from_cli", False
     if is_short_ambiguous_wrong_string_match(row, ast_context, loader_context, model_like):
-        return (
-            "fp_wrong_string_matching_signal",
-            "excluded",
-            False,
-            "short ambiguous model ID appears in non-model code context without loader evidence",
-        )
+        return "fp_wrong_string_matching", False
     if eligible_loader_count == 0:
-        return (
-            "excluded_no_loader_sink",
-            "excluded",
-            False,
-            "call analysis found no eligible loader sinks in this repo snapshot",
-        )
+        return "excluded_no_loader_sink", False
     if all_terms & METADATA_TERMS:
-        return (
-            "metadata_context_signal",
-            "low",
-            True,
-            f"metadata-like carrier/context terms: {sorted(all_terms & METADATA_TERMS)}",
-        )
+        return "metadata_context_signal", True
     if all_terms & DESCRIPTIVE_TERMS:
-        return (
-            "descriptive_context_signal",
-            "low",
-            True,
-            f"descriptive carrier/context terms: {sorted(all_terms & DESCRIPTIVE_TERMS)}",
-        )
+        return "descriptive_context_signal", True
 
     if is_plausible_function_default_model_context(ast_context, loader_context, carrier_terms):
-        return (
-            "trace_candidate_medium",
-            "medium",
-            True,
-            "function default is a plausible model carrier and same-file loader evidence exists",
-        )
+        return "trace_candidate", True
     if model_like and loader_context.count:
-        return (
-            "trace_candidate_high",
-            "high",
-            True,
-            "model-like direct carrier and call analysis loader candidate exists in same file",
-        )
+        return "trace_candidate", True
     if ast_context.ast_context in {"call_keyword_arg", "dict_value"} and model_like:
-        return "trace_candidate_high", "high", True, "model-like direct carrier in call keyword or dict value"
+        return "trace_candidate", True
     if ast_context.ast_context == "collection_item" and model_like:
-        return (
-            "trace_candidate_low",
-            "low",
-            True,
-            "model-like collection/registry item; defer loader connectivity to binding tracing",
-        )
+        return "trace_candidate", True
     if model_like:
-        return "trace_candidate_medium", "medium", True, "model-like direct carrier without same-file loader evidence"
+        return "trace_candidate", True
     if ast_context.ast_context in {"call_keyword_arg", "dict_value", "assignment_value", "class_attribute"}:
-        return (
-            "trace_candidate_medium",
-            "medium",
-            True,
-            f"usable AST context {ast_context.ast_context} but carrier is not clearly model-like",
-        )
+        return "trace_candidate", True
     if ast_context.ast_context == "return_value":
-        return (
-            "trace_candidate_low",
-            "low",
-            True,
-            "returned string value; defer source-to-sink proof to binding tracing",
-        )
+        return "trace_candidate", True
     if ast_context.ast_context == "call_positional_arg":
-        return (
-            "trace_candidate_low",
-            "low",
-            True,
-            "positional string argument; defer source-to-sink proof to binding tracing",
-        )
-    return "needs_manual_context", "manual", False, "no decisive local context rule matched"
+        return "trace_candidate", True
+    return "needs_manual_context", False
 
 
 def is_model_id_validation_context(ast_context: AstContext) -> bool:
@@ -916,11 +822,8 @@ def load_loader_contexts(rows: list[dict[str, str]]) -> dict[str, list[dict[str,
     return by_file
 
 
-def call_loader_is_eligible(row: dict[str, str]) -> bool:
-    """Mirror binding tracing sink eligibility enough for source context analysis routing."""
-    sink_flag = row.get("call_sink_eligible", "")
-    if sink_flag and not parse_bool(sink_flag):
-        return False
+def call_loader_has_origin(row: dict[str, str]) -> bool:
+    """Check the candidate's import origin for source context analysis."""
     receiver_origin = row.get("receiver_origin", "")
     if not receiver_origin:
         return False
