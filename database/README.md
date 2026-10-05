@@ -2,7 +2,7 @@
 
 The database links saved reuse decisions and PTM changes to repository commits and code. It is an input for the RQ2 analysis. Integration-change annotations and breadth measurements are kept separately.
 
-The database contains the saved study results.
+Download `ptm_database.zip` from [Figshare (private review link)](https://figshare.com/s/7cc2423e7aae7520888d) for the database and saved evidence.
 
 The single `ptm_database` export contains three study scopes:
 
